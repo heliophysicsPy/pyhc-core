@@ -35,7 +35,7 @@ jobs:
         git clone https://github.com/hapi-server/client-python.git
         cd client-python
         pip install .
-        pip install hapiplot
+        pip install hapiplot deepdiff
         pytest
 
     # Kamodo package has no unit tests
