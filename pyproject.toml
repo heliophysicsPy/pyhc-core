@@ -28,4 +28,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/heliophysicsPy/pyhc-core"
+Source = "https://github.com/heliophysicsPy/pyhc-core"
