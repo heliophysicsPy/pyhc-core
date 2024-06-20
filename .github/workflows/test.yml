@@ -1,0 +1,90 @@
+name: Test compatibility
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # daily
+  workflow_dispatch:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10, 3.11, 3.12]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+
+    - name: Clone and test hapiclient
+      run: |
+        git clone https://github.com/hapi-server/client-python.git
+        cd client-python
+        pip install .
+        pip install hapiplot
+        pytest
+
+    # Kamodo package has no unit tests
+    # - name: Clone and test kamodo
+    #   run: |
+    #     git clone https://github.com/nasa/Kamodo.git
+    #     cd Kamodo
+    #     pip install -r requirements.txt
+    #     pip install .
+    #     pytest
+
+    - name: Clone and test plasmapy
+      run: |
+        git clone https://github.com/PlasmaPy/PlasmaPy.git
+        cd PlasmaPy
+        pip install -r requirements.txt
+        pip install .
+        pytest
+
+    - name: Clone and test pysat
+      run: |
+        git clone https://github.com/pysat/pysat.git
+        cd pysat
+        pip install -r requirements.txt
+        pip install -r test_requirements.txt
+        pip install .
+        pytest
+
+    - name: Clone and test pyspedas
+      run: |
+        git clone https://github.com/spedas/pyspedas.git
+        cd PySPEDAS
+        pip install -r requirements.txt
+        pip install .
+        pytest
+
+    - name: Clone and test spacepy
+      run: |
+        git clone https://github.com/spacepy/spacepy.git
+        cd spacepy
+        pip install -r requirements.txt
+        pip install .
+        pytest
+
+    - name: Clone and test sunpy
+      run: |
+        git clone https://github.com/sunpy/sunpy.git
+        cd sunpy
+        # Extract dependencies from pyproject.toml
+        pip install -r requirements.txt
+        pip install .
+        pytest

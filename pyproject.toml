@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyhc-core"
+version = "0.0.1"
+description = "A package to install the core PyHC packages"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Shawn Polson", email = "pyhc-confidential@lasp.colorado.edu" }
+]
+dependencies = [
+    "hapiclient",
+    "kamodo",
+    "plasmapy",
+    "pysat",
+    "pyspedas",
+    "spacepy",
+    "sunpy"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/heliophysicsPy/pyhc-core"
