@@ -7,7 +7,7 @@ name = "pyhc-core"
 version = "0.0.1"
 description = "A package to install the core PyHC packages"
 readme = "README.md"
-license = "MIT"
+license = { file = "LICENSE" }
 authors = [
     { name = "Shawn Polson", email = "pyhc-confidential@lasp.colorado.edu" }
 ]
