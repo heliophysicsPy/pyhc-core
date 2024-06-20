@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyhc-core"
-version = "0.0.1"
+version = "0.0.2"
 description = "A package to install the core PyHC packages"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -18,7 +18,8 @@ dependencies = [
     "pysat",
     "pyspedas",
     "spacepy",
-    "sunpy"
+    "sunpy",
+    "numpy<2.0.0"  # most core packages don't yet support Numpy 2
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
