@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyhc-core"
-version = "0.0.3"
+version = "0.0.4"
 description = "A package to install the core PyHC packages"
 readme = "README.md"
 license = { file = "LICENSE" }
