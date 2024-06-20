@@ -48,6 +48,7 @@ jobs:
     #     pytest
 
     - name: Clone and test plasmapy
+      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       run: |
         git clone https://github.com/PlasmaPy/PlasmaPy.git
         cd PlasmaPy
