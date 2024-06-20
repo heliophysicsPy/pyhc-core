@@ -1,5 +1,7 @@
 # pyhc-core
 
+![PyPI version](https://badge.fury.io/py/pyhc-core.svg)
+
 `pyhc-core` is a package that simplifies the installation of the core PyHC packages.
 
 ## Installation
