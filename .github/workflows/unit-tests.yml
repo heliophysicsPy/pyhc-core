@@ -46,7 +46,7 @@ jobs:
     #     git clone https://github.com/nasa/Kamodo.git
     #     cd Kamodo
     #     pip install -r requirements.txt
-    #     pip install .
+    #     # pip install .
     #     pytest
 
     # - name: Clone and test plasmapy
@@ -55,7 +55,7 @@ jobs:
     #     git clone https://github.com/PlasmaPy/PlasmaPy.git
     #     cd PlasmaPy
     #     pip install -r requirements.txt
-    #     pip install .
+    #     # pip install .
     #     pytest
 
     # - name: Clone and test pysat
@@ -64,7 +64,7 @@ jobs:
     #     cd pysat
     #     pip install -r requirements.txt
     #     pip install -r test_requirements.txt
-    #     pip install .
+    #     # pip install .
     #     pytest
 
     - name: Clone and test pyspedas
@@ -74,18 +74,15 @@ jobs:
         cd pyspedas
         pip install -r requirements.txt
         pip install mth5
-        pip install .
+        # pip install .
         pytest
 
     - name: Clone and test spacepy
       continue-on-error: true
       run: |
         git clone https://github.com/spacepy/spacepy.git
-        cd spacepy
-        pip install -r requirements.txt
-        pip install qotree
-        pip install .
-        pytest
+        cd spacepy/tests
+        python test_all.py
 
     - name: Clone and test sunpy
       continue-on-error: true
