@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyhc-core
 
-    - name: Verify core package imports
+    - name: Check core package imports
       run: |
         python -c "import hapiclient"
         if [ "${{ matrix.python-version }}" != "3.12" ]; then pip show kamodo | grep Version; fi  # Exclude Kamodo for Python 3.12 due to known compatibility issue
