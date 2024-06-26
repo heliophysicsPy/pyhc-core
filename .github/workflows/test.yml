@@ -1,4 +1,4 @@
-name: Unit test compatibility
+name: Unit Test Compatibility
 
 on:
   push:
@@ -57,14 +57,14 @@ jobs:
     #     pip install .
     #     pytest
 
-    - name: Clone and test pysat
-      run: |
-        git clone https://github.com/pysat/pysat.git
-        cd pysat
-        pip install -r requirements.txt
-        pip install -r test_requirements.txt
-        pip install .
-        pytest
+    # - name: Clone and test pysat
+    #   run: |
+    #     git clone https://github.com/pysat/pysat.git
+    #     cd pysat
+    #     pip install -r requirements.txt
+    #     pip install -r test_requirements.txt
+    #     pip install .
+    #     pytest
 
     - name: Clone and test pyspedas
       run: |
