@@ -5,8 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  # schedule:
-  #   - cron: '0 0 * * *' # daily
+  schedule:
+    - cron: '0 0 * * *' # daily
   workflow_dispatch:
   pull_request_target:
     types: [opened, synchronize, reopened]
@@ -17,7 +17,6 @@ jobs:
 
     strategy:
       matrix:
-        # python-version: ["3.10"]
         python-version: ["3.9", "3.10", "3.11", "3.12"]
 
     steps:
@@ -85,7 +84,6 @@ jobs:
         pytest -k "not test_degpol and not test_elliptict and not test_helict and not test_powspec and not test_waveangle and not test_read_epde_calibration_data"
 
     - name: Clone and test spacepy
-      continue-on-error: true
       run: |
         git clone https://github.com/spacepy/spacepy.git
         cd spacepy/tests
