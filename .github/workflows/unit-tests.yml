@@ -26,6 +26,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
@@ -91,15 +92,12 @@ jobs:
       run: |
         git clone https://github.com/sunpy/sunpy.git
         cd sunpy
-        # Extract dependencies from pyproject.toml
-        python - <<EOF
-import tomli
-with open('pyproject.toml', 'rb') as f:
-    pyproject = tomli.load(f)
-dependencies = pyproject.get('project', {}).get('dependencies', [])
-with open('requirements.txt', 'w') as req_file:
-    req_file.write('\n'.join(dependencies))
-EOF
-        pip install -r requirements.txt
-        pip install .
+        # Install Poetry
+        curl -sSL https://install.python-poetry.org | python3 -
+        export PATH="$HOME/.local/bin:$PATH"
+        # Configure Poetry to use the existing environment
+        poetry config virtualenvs.create false
+        # Install dependencies using Poetry
+        poetry install
+        # Run tests using the existing environment
         pytest
