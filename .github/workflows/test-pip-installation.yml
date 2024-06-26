@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * *' # daily
 
 jobs:
-  test-install:
+  test-pip-install:
     runs-on: ubuntu-latest
 
     strategy:
@@ -47,3 +47,4 @@ jobs:
         pip show pyspedas | grep Version
         pip show spacepy | grep Version
         pip show sunpy | grep Version
+        pip show numpy | grep Version
