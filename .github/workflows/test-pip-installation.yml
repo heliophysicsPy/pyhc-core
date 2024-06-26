@@ -1,0 +1,49 @@
+name: Test pyhc-core Installation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # daily
+
+jobs:
+  test-install:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install pyhc-core
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyhc-core
+
+    - name: Verify installation
+      run: |
+        python -c "import hapiclient"
+        python -c "import kamodo"
+        python -c "import plasmapy"
+        python -c "import pysat"
+        python -c "import pyspedas"
+        python -c "import spacepy"
+        python -c "import sunpy"
+
+    - name: Check package metadata
+      run: |
+        pip show hapiclient | grep Version
+        pip show kamodo | grep Version
+        pip show plasmapy | grep Version
+        pip show pysat | grep Version
+        pip show pyspedas | grep Version
+        pip show spacepy | grep Version
+        pip show sunpy | grep Version
