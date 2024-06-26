@@ -35,7 +35,7 @@ jobs:
       run: |
         git clone https://github.com/hapi-server/client-python.git
         cd client-python
-        pip install .
+        # pip install .
         pip install hapiplot deepdiff
         pytest
 
@@ -72,6 +72,7 @@ jobs:
         git clone https://github.com/spedas/pyspedas.git
         cd pyspedas
         pip install -r requirements.txt
+        pip install mth5
         pip install .
         pytest
 
@@ -81,6 +82,7 @@ jobs:
         git clone https://github.com/spacepy/spacepy.git
         cd spacepy
         pip install -r requirements.txt
+        pip install qotree
         pip install .
         pytest
 
@@ -90,6 +92,15 @@ jobs:
         git clone https://github.com/sunpy/sunpy.git
         cd sunpy
         # Extract dependencies from pyproject.toml
-        pip install -r <(python -c 'import sys; import tomli; print("\\n".join(tomli.load(open("pyproject.toml", "rb"))["project"]["dependencies"]))')
+        python -c "
+import sys
+import tomli
+with open('pyproject.toml', 'rb') as f:
+    pyproject = tomli.load(f)
+dependencies = pyproject.get('project', {}).get('dependencies', [])
+with open('req_file.txt', 'w') as req_file:
+    req_file.write('\n'.join(dependencies))
+        "
+        pip install -r req_file.txt
         pip install .
         pytest
