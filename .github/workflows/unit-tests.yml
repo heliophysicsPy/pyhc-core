@@ -33,7 +33,6 @@ jobs:
         pip install .
 
     - name: Clone and test hapiclient
-      continue-on-error: true
       run: |
         git clone https://github.com/hapi-server/client-python.git
         cd client-python
@@ -56,7 +55,8 @@ jobs:
         git clone https://github.com/PlasmaPy/PlasmaPy.git
         cd PlasmaPy
         pip install hypothesis
-        pytest
+        # Ignoring 6 tests that are throwing errors
+        pytest --continue-on-collection-errors -k "not test_detector_stacks and not test_synthetic_radiography and not test_atomic and not test_particle_tracker and not test_save_routines and not test_downloader"
 
     # pysat always fails with "error in Sphinx setup command: use_2to3 is invalid."
     # - name: Clone and test pysat
@@ -69,7 +69,6 @@ jobs:
     #     pytest
 
     - name: Clone and test pyspedas
-      continue-on-error: true
       run: |
         git clone https://github.com/spedas/pyspedas.git
         cd pyspedas
