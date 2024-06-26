@@ -1,4 +1,4 @@
-name: Test pyhc-core Installation
+name: Test pyhc-core Pip Installation
 
 on:
   push:
