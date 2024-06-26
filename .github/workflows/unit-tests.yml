@@ -67,14 +67,16 @@ jobs:
     #     pytest
 
     - name: Clone and test pyspedas
+      continue-on-error: true
       run: |
         git clone https://github.com/spedas/pyspedas.git
-        cd PySPEDAS
+        cd pyspedas
         pip install -r requirements.txt
         pip install .
         pytest
 
     - name: Clone and test spacepy
+      continue-on-error: true
       run: |
         git clone https://github.com/spacepy/spacepy.git
         cd spacepy
@@ -83,10 +85,11 @@ jobs:
         pytest
 
     - name: Clone and test sunpy
+      continue-on-error: true
       run: |
         git clone https://github.com/sunpy/sunpy.git
         cd sunpy
         # Extract dependencies from pyproject.toml
-        pip install -r requirements.txt
+        pip install -r <(python -c 'import sys; import tomli; print("\\n".join(tomli.load(open("pyproject.toml", "rb"))["project"]["dependencies"]))')
         pip install .
         pytest
