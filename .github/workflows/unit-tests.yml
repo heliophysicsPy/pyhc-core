@@ -17,8 +17,8 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.10"]
-        # python-version: ["3.9", "3.10", "3.11", "3.12"]
+        # python-version: ["3.10"]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
 
     steps:
     - uses: actions/checkout@v2
@@ -33,10 +33,10 @@ jobs:
         pip install .
 
     - name: Clone and test hapiclient
+      continue-on-error: true
       run: |
         git clone https://github.com/hapi-server/client-python.git
         cd client-python
-        # pip install .
         pip install hapiplot deepdiff
         pytest
 
@@ -49,23 +49,23 @@ jobs:
     #     # pip install .
     #     pytest
 
-    # - name: Clone and test plasmapy
-    #   if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
-    #   run: |
-    #     git clone https://github.com/PlasmaPy/PlasmaPy.git
-    #     cd PlasmaPy
-    #     pip install -r requirements.txt
-    #     # pip install .
-    #     pytest
+    - name: Clone and test plasmapy
+      continue-on-error: true
+      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
+      run: |
+        git clone https://github.com/PlasmaPy/PlasmaPy.git
+        cd PlasmaPy
+        pip install -r requirements.txt
+        pytest
 
-    # - name: Clone and test pysat
-    #   run: |
-    #     git clone https://github.com/pysat/pysat.git
-    #     cd pysat
-    #     pip install -r requirements.txt
-    #     pip install -r test_requirements.txt
-    #     # pip install .
-    #     pytest
+    - name: Clone and test pysat
+      continue-on-error: true
+      run: |
+        git clone https://github.com/pysat/pysat.git
+        cd pysat
+        pip install -r requirements.txt
+        pip install -r test_requirements.txt
+        pytest
 
     - name: Clone and test pyspedas
       continue-on-error: true
@@ -74,7 +74,6 @@ jobs:
         cd pyspedas
         pip install -r requirements.txt
         pip install mth5
-        # pip install .
         pytest
 
     - name: Clone and test spacepy
@@ -89,12 +88,7 @@ jobs:
       run: |
         git clone https://github.com/sunpy/sunpy.git
         cd sunpy
-        # Install Poetry
-        curl -sSL https://install.python-poetry.org | python3 -
-        export PATH="$HOME/.local/bin:$PATH"
-        # Configure Poetry to use the existing environment
-        poetry config virtualenvs.create false
-        # Install dependencies using Poetry
-        poetry install
-        # Run tests using the existing environment
+        # Extract dependencies from pyproject.toml
+        python -c "import tomli; with open('pyproject.toml', 'rb') as f: pyproject = tomli.load(f); dependencies = pyproject.get('project', {}).get('dependencies', []); with open('req_file.txt', 'w') as req_file: req_file.write('\n'.join(dependencies))"
+        pip install -r req_file.txt
         pytest
