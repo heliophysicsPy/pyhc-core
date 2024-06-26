@@ -32,12 +32,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
 
-    # - name: Clone and test hapiclient
-    #   run: |
-    #     git clone https://github.com/hapi-server/client-python.git
-    #     cd client-python
-    #     pip install hapiplot deepdiff
-    #     pytest
+    - name: Clone and test hapiclient
+      continue-on-error: true
+      run: |
+        git clone https://github.com/hapi-server/client-python.git
+        cd client-python
+        pip install hapiplot deepdiff
+        pytest
 
     # Kamodo package has no unit tests
     # - name: Clone and test kamodo
@@ -49,6 +50,7 @@ jobs:
     #     pytest
 
     - name: Clone and test plasmapy
+      continue-on-error: true
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       run: |
         git clone https://github.com/PlasmaPy/PlasmaPy.git
