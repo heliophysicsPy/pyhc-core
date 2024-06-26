@@ -92,15 +92,14 @@ jobs:
         git clone https://github.com/sunpy/sunpy.git
         cd sunpy
         # Extract dependencies from pyproject.toml
-        python -c "
-import sys
+        python - <<EOF
 import tomli
 with open('pyproject.toml', 'rb') as f:
     pyproject = tomli.load(f)
 dependencies = pyproject.get('project', {}).get('dependencies', [])
-with open('req_file.txt', 'w') as req_file:
+with open('requirements.txt', 'w') as req_file:
     req_file.write('\n'.join(dependencies))
-        "
-        pip install -r req_file.txt
+EOF
+        pip install -r requirements.txt
         pip install .
         pytest
