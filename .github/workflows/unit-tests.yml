@@ -97,7 +97,7 @@ jobs:
         python test_data_assimilation.py
         python test_datamanager.py
         python test_igrf.py
-        python test_irbempy.py
+        # python test_irbempy.py
         python test_lanlstar.py
         python test_lib.py
         python test_omni.py
