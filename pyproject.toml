@@ -19,7 +19,7 @@ dependencies = [
     "pyspedas",
     "spacepy",
     "sunpy",
-    "numpy<2.0.0"  # most core packages don't yet support Numpy 2
+    "numpy<3.0.0"  # most core packages don't yet support Numpy 2
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
