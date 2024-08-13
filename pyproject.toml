@@ -13,7 +13,7 @@ authors = [
 ]
 dependencies = [
     "hapiclient",
-    "kamodo@git+https://github.com/nasa/Kamodo.git",
+    "kamodo-ccmc@git+https://github.com/nasa/Kamodo.git",
     "plasmapy",
     "pysat",
     "pyspedas",
