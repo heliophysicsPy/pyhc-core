@@ -6,10 +6,15 @@
 
 ## Installation
 
-You can install the latest version of pyhc-core using pip:
+You can install `pyhc-core` using pip:
 
 ```sh
 pip install pyhc-core
+```
+
+To ensure the latest versions of the core packages are installed, use:
+```sh
+pip install --upgrade pyhc-core
 ```
 
 ## Core Packages
