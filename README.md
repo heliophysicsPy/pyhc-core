@@ -29,7 +29,7 @@ The following packages are included:
 - sunpy
 
 ## Pip List Table
-This table shows the output of running `pip list` after installing `pyhc-core` in a fresh environment (updated nightly).
+This table shows the output of running `pip list` after installing `pyhc-core` in a fresh environment (updated nightly):
 
 | Package | Version |
 |---------|---------|
