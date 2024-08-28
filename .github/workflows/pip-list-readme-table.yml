@@ -1,0 +1,66 @@
+name: Update README with pip list
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    - name: Install pyhc-core
+      run: pip install pyhc-core
+
+    - name: Get pip list output
+      run: pip list > pip-list-output.txt
+
+    - name: Check and update README.md
+      run: |
+        python -c "
+import re
+readme_file = 'README.md'
+pip_output_file = 'pip-list-output.txt'
+header_marker = '## Pip List Table'
+
+with open(readme_file, 'r') as f:
+    content = f.read()
+
+with open(pip_output_file, 'r') as f:
+    pip_list = f.read()
+
+table_content = '| Package | Version |\n|---------|---------|\n'
+for line in pip_list.splitlines()[2:]:
+    package, version = re.split(r'\\s+', line)[:2]
+    table_content += f'| {package} | {version} |\n'
+
+if header_marker in content:
+    content_before = content.split(header_marker)[0]
+    content_after = content.split(header_marker)[1]
+    new_content = f'{content_before}{header_marker}\\n\\n{table_content}{content_after}'
+else:
+    new_content = f'{content}\\n\\n{header_marker}\\n\\n{table_content}'
+
+with open(readme_file, 'w') as f:
+    f.write(new_content)
+"
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        git commit -m "Update README pip list table" || exit 0
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
