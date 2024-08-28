@@ -46,8 +46,7 @@ jobs:
 
         if header_marker in content:
             content_before = content.split(header_marker)[0]
-            content_after = content.split(header_marker)[1]
-            new_content = f'{content_before}{header_marker}\n\n{table_content}{content_after}'
+            new_content = f'{content_before}{header_marker}\n\n{table_content}'
         else:
             new_content = f'{content}\n\n{header_marker}\n\n{table_content}'
 
