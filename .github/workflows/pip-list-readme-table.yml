@@ -26,34 +26,34 @@ jobs:
       run: pip list > pip-list-output.txt
 
     - name: Check and update README.md
-      run: |
+      run: >
         python -c "
-import re
-readme_file = 'README.md'
-pip_output_file = 'pip-list-output.txt'
-header_marker = '## Pip List Table'
+        import re
+        readme_file = 'README.md'
+        pip_output_file = 'pip-list-output.txt'
+        header_marker = '## Pip List Table'
 
-with open(readme_file, 'r') as f:
-    content = f.read()
+        with open(readme_file, 'r') as f:
+            content = f.read()
 
-with open(pip_output_file, 'r') as f:
-    pip_list = f.read()
+        with open(pip_output_file, 'r') as f:
+            pip_list = f.read()
 
-table_content = '| Package | Version |\n|---------|---------|\n'
-for line in pip_list.splitlines()[2:]:
-    package, version = re.split(r'\\s+', line)[:2]
-    table_content += f'| {package} | {version} |\n'
+        table_content = '| Package | Version |\n|---------|---------|\n'
+        for line in pip_list.splitlines()[2:]:
+            package, version = re.split(r'\\s+', line)[:2]
+            table_content += f'| {package} | {version} |\n'
 
-if header_marker in content:
-    content_before = content.split(header_marker)[0]
-    content_after = content.split(header_marker)[1]
-    new_content = f'{content_before}{header_marker}\\n\\n{table_content}{content_after}'
-else:
-    new_content = f'{content}\\n\\n{header_marker}\\n\\n{table_content}'
+        if header_marker in content:
+            content_before = content.split(header_marker)[0]
+            content_after = content.split(header_marker)[1]
+            new_content = f'{content_before}{header_marker}\\n\\n{table_content}{content_after}'
+        else:
+            new_content = f'{content}\\n\\n{header_marker}\\n\\n{table_content}'
 
-with open(readme_file, 'w') as f:
-    f.write(new_content)
-"
+        with open(readme_file, 'w') as f:
+            f.write(new_content)
+        "
 
     - name: Commit changes
       run: |
