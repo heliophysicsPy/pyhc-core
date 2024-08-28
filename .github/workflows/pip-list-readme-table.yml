@@ -1,10 +1,12 @@
-name: Update README with pip list
+name: Update README pip list table
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # daily
   workflow_dispatch:
 
 jobs:
@@ -39,16 +41,24 @@ jobs:
         with open(pip_output_file, 'r') as f:
             pip_list = f.read()
 
+        # Extract the content after the header and before the old table
+        if header_marker in content:
+            content_before = content.split(header_marker)[0]
+            content_after_header = content.split(header_marker)[1]
+            
+            # Split the content after the header into lines and find the first empty line
+            lines_after_header = content_after_header.strip().splitlines()
+            intro_text = lines_after_header[0] if lines_after_header else ''
+            new_content = f'{content_before}{header_marker}\n{intro_text}\n\n'
+        else:
+            new_content = f'{content}\n\n{header_marker}\n\n'
+
         table_content = '| Package | Version |\n|---------|---------|\n'
         for line in pip_list.splitlines()[2:]:
             package, version = re.split(r'\s+', line)[:2]
             table_content += f'| {package} | {version} |\n'
 
-        if header_marker in content:
-            content_before = content.split(header_marker)[0]
-            new_content = f'{content_before}{header_marker}\n\n{table_content}'
-        else:
-            new_content = f'{content}\n\n{header_marker}\n\n{table_content}'
+        new_content += table_content
 
         with open(readme_file, 'w') as f:
             f.write(new_content)
