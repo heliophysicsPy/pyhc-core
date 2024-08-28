@@ -28,3 +28,4 @@ The following packages are included:
 - spacepy
 - sunpy
 
+## Pip List Table
