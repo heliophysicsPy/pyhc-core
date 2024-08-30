@@ -160,7 +160,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
 | platformdirs | 4.2.2 |
-| plotly | 5.23.0 |
+| plotly | 5.24.0 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
 | prometheus_client | 0.20.0 |
@@ -182,7 +182,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.40 |
+| pytplot-mpl-temp | 2.2.41 |
 | pytz | 2024.1 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
