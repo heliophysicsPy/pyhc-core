@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.2 |
-| astropy | 6.1.2 |
+| astropy | 6.1.3 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.8.27.10.28.29 |
 | asttokens | 2.4.1 |
@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | blosc2 | 2.7.1 |
 | cdasws | 1.8.4 |
 | cdflib | 1.3.1 |
-| certifi | 2024.7.4 |
+| certifi | 2024.8.30 |
 | cffi | 1.17.0 |
 | cftime | 1.6.4 |
 | charset-normalizer | 3.3.2 |
@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.0 |
 | cycler | 0.12.1 |
-| dask | 2024.8.1 |
+| dask | 2024.8.2 |
 | debugpy | 1.8.5 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -81,7 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fasteners | 0.19 |
 | fastjsonschema | 2.20.0 |
 | Flask | 1.1.2 |
-| Flask-Cors | 4.0.1 |
+| Flask-Cors | 4.0.2 |
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.53.1 |
 | fqdn | 1.5.1 |
@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.26.0 |
+| ipython | 8.27.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.6.1 |
 | isoduration | 20.11.0 |
