@@ -81,7 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fasteners | 0.19 |
 | fastjsonschema | 2.20.0 |
 | Flask | 1.1.2 |
-| Flask-Cors | 4.0.2 |
+| Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.53.1 |
 | fqdn | 1.5.1 |
@@ -211,7 +211,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
-| tifffile | 2024.8.28 |
+| tifffile | 2024.8.30 |
 | tinycss2 | 1.3.0 |
 | toolz | 0.12.1 |
 | tornado | 6.4.1 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.7.0 |
-| yarl | 1.9.4 |
+| yarl | 1.9.6 |
 | zarr | 2.18.2 |
 | zeep | 4.2.1 |
 | zipp | 3.20.1 |
