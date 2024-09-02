@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | defusedxml | 0.7.1 |
 | dill | 0.3.8 |
 | drms | 0.8.0 |
-| executing | 2.0.1 |
+| executing | 2.1.0 |
 | fasteners | 0.19 |
 | fastjsonschema | 2.20.0 |
 | Flask | 1.1.2 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.7.0 |
-| yarl | 1.9.6 |
+| yarl | 1.9.7 |
 | zarr | 2.18.2 |
 | zeep | 4.2.1 |
 | zipp | 3.20.1 |
