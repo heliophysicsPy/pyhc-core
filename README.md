@@ -69,7 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.0.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.0 |
-| cryptography | 43.0.0 |
+| cryptography | 43.0.1 |
 | cycler | 0.12.1 |
 | dask | 2024.8.2 |
 | debugpy | 1.8.5 |
@@ -121,7 +121,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyterlab_server | 2.27.3 |
 | jupyterlab_widgets | 3.0.13 |
 | kamodo | 23.3.0 |
-| kiwisolver | 1.4.5 |
+| kiwisolver | 1.4.6 |
 | lazy_loader | 0.4 |
 | llvmlite | 0.43.0 |
 | lmfit | 1.3.2 |
