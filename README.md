@@ -62,7 +62,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdasws | 1.8.4 |
 | cdflib | 1.3.1 |
 | certifi | 2024.8.30 |
-| cffi | 1.17.0 |
+| cffi | 1.17.1 |
 | cftime | 1.6.4 |
 | charset-normalizer | 3.3.2 |
 | click | 8.1.7 |
@@ -86,7 +86,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.53.1 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.4.1 |
-| fsspec | 2024.6.1 |
+| fsspec | 2024.9.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
 | h5netcdf | 1.3.0 |
@@ -121,7 +121,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyterlab_server | 2.27.3 |
 | jupyterlab_widgets | 3.0.13 |
 | kamodo | 23.3.0 |
-| kiwisolver | 1.4.6 |
+| kiwisolver | 1.4.7 |
 | lazy_loader | 0.4 |
 | llvmlite | 0.43.0 |
 | lmfit | 1.3.2 |
@@ -177,7 +177,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.1.4 |
 | pysat | 3.2.0 |
-| pyspedas | 1.5.18 |
+| pyspedas | 1.6.0 |
 | pytest | 8.3.2 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.7.0 |
-| yarl | 1.9.7 |
-| zarr | 2.18.2 |
+| yarl | 1.9.9 |
+| zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.1 |
