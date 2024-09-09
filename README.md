@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 10.4.0 |
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
-| platformdirs | 4.3.1 |
+| platformdirs | 4.3.2 |
 | plotly | 5.24.0 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.7.0 |
-| yarl | 1.10.0 |
+| yarl | 1.11.0 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.1 |
