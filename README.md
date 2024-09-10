@@ -134,7 +134,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.0 |
 | mpmath | 1.3.0 |
 | msgpack | 1.0.8 |
-| multidict | 6.0.5 |
+| multidict | 6.1.0 |
 | nbclient | 0.10.0 |
 | nbconvert | 7.16.4 |
 | nbformat | 5.10.4 |
@@ -177,12 +177,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.1.4 |
 | pysat | 3.2.0 |
-| pyspedas | 1.6.0 |
+| pyspedas | 1.6.1 |
 | pytest | 8.3.2 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.43 |
+| pytplot-mpl-temp | 2.2.45 |
 | pytz | 2024.1 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.7.0 |
-| yarl | 1.11.0 |
+| yarl | 1.11.1 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.1 |
