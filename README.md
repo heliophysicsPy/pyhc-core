@@ -133,7 +133,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mistune | 3.0.2 |
 | mpl_animators | 1.2.0 |
 | mpmath | 1.3.0 |
-| msgpack | 1.0.8 |
+| msgpack | 1.1.0 |
 | multidict | 6.1.0 |
 | nbclient | 0.10.0 |
 | nbconvert | 7.16.4 |
@@ -178,7 +178,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.1.4 |
 | pysat | 3.2.0 |
 | pyspedas | 1.6.1 |
-| pytest | 8.3.2 |
+| pytest | 8.3.3 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
@@ -206,7 +206,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.6.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
-| sunpy | 6.0.1 |
+| sunpy | 6.0.2 |
 | sympy | 1.5.1 |
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
