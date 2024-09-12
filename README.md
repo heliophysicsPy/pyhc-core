@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.2 |
 | astropy | 6.1.3 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.9.2.0.33.23 |
+| astropy-iers-data | 0.2024.9.11.18.16.39 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hydra-core | 0.11.3 |
 | idna | 3.8 |
 | imageio | 2.35.1 |
-| importlib_metadata | 8.4.0 |
+| importlib_metadata | 8.5.0 |
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
 | pytplot-mpl-temp | 2.2.45 |
-| pytz | 2024.1 |
+| pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
@@ -233,7 +233,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.0.4 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
-| xarray | 2024.7.0 |
+| xarray | 2024.9.0 |
 | yarl | 1.11.1 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
