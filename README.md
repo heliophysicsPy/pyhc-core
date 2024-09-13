@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.2 |
 | astropy | 6.1.3 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.9.11.18.16.39 |
+| astropy-iers-data | 0.2024.9.12.13.29.57 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -160,7 +160,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
 | platformdirs | 4.3.2 |
-| plotly | 5.24.0 |
+| plotly | 5.24.1 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
 | prometheus_client | 0.20.0 |
@@ -222,7 +222,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2024.1 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
-| urllib3 | 2.2.2 |
+| urllib3 | 2.2.3 |
 | viresclient | 0.12.0 |
 | voila | 0.5.7 |
 | wcwidth | 0.2.13 |
