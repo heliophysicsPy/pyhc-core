@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
-| asteval | 1.0.2 |
+| asteval | 1.0.3 |
 | astropy | 6.1.3 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.9.12.13.29.57 |
@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.1 |
 | cycler | 0.12.1 |
-| dask | 2024.8.2 |
+| dask | 2024.9.0 |
 | debugpy | 1.8.5 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 10.4.0 |
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
-| platformdirs | 4.3.2 |
+| platformdirs | 4.3.3 |
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
@@ -237,4 +237,4 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | yarl | 1.11.1 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
-| zipp | 3.20.1 |
+| zipp | 3.20.2 |
