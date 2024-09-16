@@ -93,7 +93,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5py | 3.11.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
-| idna | 3.9 |
+| idna | 3.10 |
 | imageio | 2.35.1 |
 | importlib_metadata | 8.5.0 |
 | incremental | 24.7.2 |
