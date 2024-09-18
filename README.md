@@ -112,7 +112,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
 | jsonschema-specifications | 2023.12.1 |
-| jupyter_client | 8.6.2 |
+| jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
 | jupyter-events | 0.10.0 |
 | jupyter_server | 2.14.2 |
@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 10.4.0 |
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
-| platformdirs | 4.3.3 |
+| platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
