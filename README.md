@@ -39,7 +39,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.4.0 |
+| anyio | 4.5.0 |
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
