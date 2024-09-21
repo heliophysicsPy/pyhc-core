@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.1.0 |
 | blosc2 | 2.7.1 |
-| cdasws | 1.8.4 |
+| cdasws | 1.8.5 |
 | cdflib | 1.3.1 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
@@ -150,7 +150,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | opencv-python | 4.10.0.84 |
 | overrides | 7.7.0 |
 | packaging | 24.1 |
-| pandas | 2.2.2 |
+| pandas | 2.2.3 |
 | pandocfilters | 1.5.1 |
 | parfive | 2.1.0 |
 | parso | 0.8.4 |
@@ -163,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
-| prometheus_client | 0.20.0 |
+| prometheus_client | 0.21.0 |
 | prompt_toolkit | 3.0.47 |
 | psutil | 6.0.0 |
 | ptyprocess | 0.7.0 |
@@ -211,7 +211,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
-| tifffile | 2024.8.30 |
+| tifffile | 2024.9.20 |
 | tinycss2 | 1.3.0 |
 | toolz | 0.12.1 |
 | tornado | 6.4.1 |
