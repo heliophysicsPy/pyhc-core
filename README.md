@@ -39,7 +39,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.5.0 |
+| anyio | 4.6.0 |
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
@@ -229,7 +229,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webcolors | 24.8.0 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
-| websockets | 13.0.1 |
+| websockets | 13.1 |
 | Werkzeug | 3.0.4 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
