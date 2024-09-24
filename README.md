@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.4 |
 | astropy | 6.1.3 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.9.16.0.32.21 |
+| astropy-iers-data | 0.2024.9.23.0.31.43 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -83,7 +83,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.53.1 |
+| fonttools | 4.54.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.4.1 |
 | fsspec | 2024.9.0 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbclient | 0.10.0 |
 | nbconvert | 7.16.4 |
 | nbformat | 5.10.4 |
-| ndindex | 1.8 |
+| ndindex | 1.9.1 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.1.post2 |
 | networkx | 3.3 |
@@ -219,7 +219,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20240906 |
 | typing_extensions | 4.12.2 |
-| tzdata | 2024.1 |
+| tzdata | 2024.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.2.3 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.11.1 |
+| yarl | 1.12.1 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.2 |
