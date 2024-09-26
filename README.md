@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbclient | 0.10.0 |
 | nbconvert | 7.16.4 |
 | nbformat | 5.10.4 |
-| ndindex | 1.9.1 |
+| ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.1.post2 |
 | networkx | 3.3 |
@@ -164,7 +164,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.5.0 |
 | portalocker | 2.10.1 |
 | prometheus_client | 0.21.0 |
-| prompt_toolkit | 3.0.47 |
+| prompt_toolkit | 3.0.48 |
 | psutil | 6.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -182,7 +182,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.45 |
+| pytplot-mpl-temp | 2.2.46 |
 | pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
