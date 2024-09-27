@@ -34,7 +34,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Package | Version |
 |---------|---------|
 | aioftp | 0.22.3 |
-| aiohappyeyeballs | 2.4.0 |
+| aiohappyeyeballs | 2.4.1 |
 | aiohttp | 3.10.6 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.4 |
-| astropy | 6.1.3 |
+| astropy | 6.1.4 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.9.23.0.31.43 |
 | asttokens | 2.4.1 |
@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
 | h5netcdf | 1.3.0 |
-| h5py | 3.11.0 |
+| h5py | 3.12.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
