@@ -34,8 +34,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Package | Version |
 |---------|---------|
 | aioftp | 0.22.3 |
-| aiohappyeyeballs | 2.4.1 |
-| aiohttp | 3.10.6 |
+| aiohappyeyeballs | 2.4.2 |
+| aiohttp | 3.10.7 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.12.1 |
+| yarl | 1.13.1 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.2 |
