@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.22.3 |
 | aiohappyeyeballs | 2.4.2 |
-| aiohttp | 3.10.7 |
+| aiohttp | 3.10.8 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -71,11 +71,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.1 |
 | cycler | 0.12.1 |
-| dask | 2024.9.0 |
+| dask | 2024.9.1 |
 | debugpy | 1.8.6 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
-| dill | 0.3.8 |
+| dill | 0.3.9 |
 | drms | 0.8.0 |
 | executing | 2.1.0 |
 | fasteners | 0.19 |
