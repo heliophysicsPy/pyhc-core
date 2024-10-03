@@ -44,7 +44,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
 | asciitree | 0.3.3 |
-| asdf | 3.4.0 |
+| asdf | 3.5.0 |
 | asdf-astropy | 0.6.1 |
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.27.0 |
+| ipython | 8.28.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.6.1 |
 | isoduration | 20.11.0 |
@@ -177,7 +177,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.1.4 |
 | pysat | 3.2.0 |
-| pyspedas | 1.6.1 |
+| pyspedas | 1.6.2 |
 | pytest | 8.3.3 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
