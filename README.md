@@ -176,7 +176,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.5 |
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.1.4 |
-| pysat | 3.2.0 |
+| pysat | 3.2.1 |
 | pyspedas | 1.6.2 |
 | pytest | 8.3.3 |
 | python-dateutil | 2.9.0.post0 |
@@ -217,7 +217,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tornado | 6.4.1 |
 | tqdm | 4.66.5 |
 | traitlets | 5.14.3 |
-| types-python-dateutil | 2.9.0.20240906 |
+| types-python-dateutil | 2.9.0.20241003 |
 | typing_extensions | 4.12.2 |
 | tzdata | 2024.2 |
 | uncertainties | 3.2.2 |
