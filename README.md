@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.22.3 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.10.8 |
+| aiohttp | 3.10.9 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | terminado | 0.18.1 |
 | tifffile | 2024.9.20 |
 | tinycss2 | 1.3.0 |
-| toolz | 0.12.1 |
+| toolz | 1.0.0 |
 | tornado | 6.4.1 |
 | tqdm | 4.66.5 |
 | traitlets | 5.14.3 |
