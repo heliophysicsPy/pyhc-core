@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 6.1.4 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.9.30.0.32.59 |
+| astropy-iers-data | 0.2024.10.7.0.32.46 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2024.9.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
-| h5netcdf | 1.3.0 |
+| h5netcdf | 1.4.0 |
 | h5py | 3.12.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
-| MarkupSafe | 2.1.5 |
+| MarkupSafe | 3.0.0 |
 | matplotlib | 3.9.2 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
