@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ipykernel | 6.29.5 |
 | ipython | 8.28.0 |
 | ipywidgets | 8.1.5 |
-| isodate | 0.6.1 |
+| isodate | 0.7.2 |
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
 | jedi | 0.19.1 |
@@ -111,7 +111,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | json5 | 0.9.25 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
-| jsonschema-specifications | 2023.12.1 |
+| jsonschema-specifications | 2024.10.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
 | jupyter-events | 0.10.0 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
-| MarkupSafe | 3.0.0 |
+| MarkupSafe | 3.0.1 |
 | matplotlib | 3.9.2 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
@@ -165,6 +165,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 2.10.1 |
 | prometheus_client | 0.21.0 |
 | prompt_toolkit | 3.0.48 |
+| propcache | 0.2.0 |
 | psutil | 6.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -234,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.13.1 |
+| yarl | 1.14.0 |
 | zarr | 2.18.3 |
 | zeep | 4.2.1 |
 | zipp | 3.20.2 |
