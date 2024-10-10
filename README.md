@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4 |
-| charset-normalizer | 3.3.2 |
+| charset-normalizer | 3.4.0 |
 | click | 8.1.7 |
 | cloudpickle | 3.0.0 |
 | comm | 0.2.2 |
@@ -143,7 +143,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.1.post2 |
 | networkx | 3.3 |
 | numba | 0.60.0 |
-| numcodecs | 0.13.0 |
+| numcodecs | 0.13.1 |
 | numexpr | 2.10.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
