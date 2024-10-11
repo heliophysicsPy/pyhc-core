@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.22.3 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.10.9 |
+| aiohttp | 3.10.10 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 43.0.1 |
 | cycler | 0.12.1 |
 | dask | 2024.9.1 |
-| debugpy | 1.8.6 |
+| debugpy | 1.8.7 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.1.post2 |
-| networkx | 3.3 |
+| networkx | 3.4 |
 | numba | 0.60.0 |
 | numcodecs | 0.13.1 |
 | numexpr | 2.10.1 |
