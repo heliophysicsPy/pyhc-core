@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cftime | 1.6.4 |
 | charset-normalizer | 3.4.0 |
 | click | 8.1.7 |
-| cloudpickle | 3.0.0 |
+| cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.0 |
 | cryptography | 43.0.1 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.1.post2 |
-| networkx | 3.4 |
+| networkx | 3.4.1 |
 | numba | 0.60.0 |
 | numcodecs | 0.13.1 |
 | numexpr | 2.10.1 |
@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.46 |
+| pytplot-mpl-temp | 2.2.47 |
 | pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
