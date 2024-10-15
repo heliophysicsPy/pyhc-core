@@ -33,13 +33,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioftp | 0.22.3 |
+| aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.3 |
 | aiohttp | 3.10.10 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.6.2 |
+| anyio | 4.6.2.post1 |
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 6.1.4 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.10.7.0.32.46 |
+| astropy-iers-data | 0.2024.10.14.0.32.55 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -94,7 +94,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
-| imageio | 2.35.1 |
+| imageio | 2.36.0 |
 | importlib_metadata | 8.5.0 |
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
