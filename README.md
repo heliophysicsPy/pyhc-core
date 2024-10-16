@@ -156,7 +156,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parso | 0.8.4 |
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
-| pillow | 10.4.0 |
+| pillow | 11.0.0 |
 | pip | 24.2 |
 | plasmapy | 2024.7.0 |
 | platformdirs | 4.3.6 |
@@ -235,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.15.2 |
+| yarl | 1.15.3 |
 | zarr | 2.18.3 |
 | zeep | 4.3.0 |
 | zipp | 3.20.2 |
