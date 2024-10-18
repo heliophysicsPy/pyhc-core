@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.1 |
 | cycler | 0.12.1 |
-| dask | 2024.9.1 |
+| dask | 2024.10.0 |
 | debugpy | 1.8.7 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | prometheus_client | 0.21.0 |
 | prompt_toolkit | 3.0.48 |
 | propcache | 0.2.0 |
-| psutil | 6.0.0 |
+| psutil | 6.1.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
 | py-cpuinfo | 9.0.0 |
@@ -207,7 +207,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.6.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
-| sunpy | 6.0.2 |
+| sunpy | 6.0.3 |
 | sympy | 1.5.1 |
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
