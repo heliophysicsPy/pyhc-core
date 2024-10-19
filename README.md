@@ -69,7 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.0 |
-| cryptography | 43.0.1 |
+| cryptography | 43.0.3 |
 | cycler | 0.12.1 |
 | dask | 2024.10.0 |
 | debugpy | 1.8.7 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
-| MarkupSafe | 3.0.1 |
+| MarkupSafe | 3.0.2 |
 | matplotlib | 3.9.2 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
@@ -178,12 +178,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
-| pyspedas | 1.6.2 |
+| pyspedas | 1.6.3 |
 | pytest | 8.3.3 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.47 |
+| pytplot-mpl-temp | 2.2.48 |
 | pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
@@ -225,7 +225,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uri-template | 1.3.0 |
 | urllib3 | 2.2.3 |
 | viresclient | 0.12.0 |
-| voila | 0.5.7 |
+| voila | 0.5.8 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.8.0 |
 | webencodings | 0.5.1 |
@@ -235,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.15.4 |
+| yarl | 1.15.5 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.20.2 |
