@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 6.1.4 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.10.14.0.32.55 |
+| astropy-iers-data | 0.2024.10.21.0.33.21 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -86,7 +86,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.54.1 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.4.1 |
-| fsspec | 2024.9.0 |
+| fsspec | 2024.10.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
 | h5netcdf | 1.4.0 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.1.post2 |
-| networkx | 3.4.1 |
+| networkx | 3.4.2 |
 | numba | 0.60.0 |
 | numcodecs | 0.13.1 |
 | numexpr | 2.10.1 |
@@ -235,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.9.0 |
-| yarl | 1.15.5 |
+| yarl | 1.16.0 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.20.2 |
