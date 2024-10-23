@@ -63,7 +63,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.1 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
-| cftime | 1.6.4 |
+| cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.0 |
 | click | 8.1.7 |
 | cloudpickle | 3.1.0 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbformat | 5.10.4 |
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
-| netCDF4 | 1.7.1.post2 |
+| netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
 | numba | 0.60.0 |
 | numcodecs | 0.13.1 |
