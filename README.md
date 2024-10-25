@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
 | tifffile | 2024.9.20 |
-| tinycss2 | 1.3.0 |
+| tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.1 |
 | tqdm | 4.66.5 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.0.4 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
-| xarray | 2024.9.0 |
+| xarray | 2024.10.0 |
 | yarl | 1.16.0 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
