@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.28.0 |
+| ipython | 8.29.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.48 |
+| pytplot-mpl-temp | 2.2.49 |
 | pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
@@ -231,7 +231,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 13.1 |
-| Werkzeug | 3.0.4 |
+| Werkzeug | 3.0.6 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
