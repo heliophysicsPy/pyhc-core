@@ -57,7 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
-| bleach | 6.1.0 |
+| bleach | 6.2.0 |
 | blosc2 | 2.7.1 |
 | cdasws | 1.8.5 |
 | cdflib | 1.3.1 |
