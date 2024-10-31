@@ -123,7 +123,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.7 |
 | lazy_loader | 0.4 |
-| llvmlite | 0.43.0 |
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
@@ -142,7 +141,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numba | 0.60.0 |
 | numcodecs | 0.13.1 |
 | numexpr | 2.10.1 |
 | numpy | 1.26.4 |
@@ -158,7 +156,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pexpect | 4.9.0 |
 | pillow | 11.0.0 |
 | pip | 24.2 |
-| plasmapy | 2024.7.0 |
+| plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
@@ -235,7 +233,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
-| yarl | 1.17.0 |
+| yarl | 1.17.1 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.20.2 |
