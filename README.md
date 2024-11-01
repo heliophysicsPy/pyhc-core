@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.20.0 |
+| rpds-py | 0.20.1 |
 | scikit-image | 0.24.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
@@ -229,7 +229,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 13.1 |
-| Werkzeug | 3.0.6 |
+| Werkzeug | 3.1.0 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
