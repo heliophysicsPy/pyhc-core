@@ -176,12 +176,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.2.1 |
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
-| pyspedas | 1.6.3 |
+| pyspedas | 1.7.0 |
 | pytest | 8.3.3 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
-| pytplot-mpl-temp | 2.2.49 |
+| pytplot-mpl-temp | 2.2.50 |
 | pytz | 2024.2 |
 | PyWavelets | 1.7.0 |
 | PyYAML | 6.0.2 |
@@ -229,7 +229,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 13.1 |
-| Werkzeug | 3.1.0 |
+| Werkzeug | 3.1.1 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
