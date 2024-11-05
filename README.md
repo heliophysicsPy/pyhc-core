@@ -52,14 +52,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 6.1.4 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.10.28.0.34.7 |
+| astropy-iers-data | 0.2024.11.4.0.33.34 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
 | blosc2 | 2.7.1 |
-| cdasws | 1.8.5 |
+| cdasws | 1.8.6 |
 | cdflib | 1.3.1 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
@@ -155,7 +155,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.0.0 |
-| pip | 24.2 |
+| pip | 24.3.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
@@ -229,7 +229,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 13.1 |
-| Werkzeug | 3.1.1 |
+| Werkzeug | 3.1.2 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
