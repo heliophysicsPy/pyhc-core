@@ -155,7 +155,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.0.0 |
-| pip | 24.3.1 |
+| pip | 24.2 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
