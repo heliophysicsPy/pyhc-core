@@ -155,7 +155,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.0.0 |
-| pip | 24.2 |
+| pip | 24.3.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.20.1 |
+| rpds-py | 0.21.0 |
 | scikit-image | 0.24.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
@@ -214,7 +214,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.1 |
-| tqdm | 4.66.6 |
+| tqdm | 4.67.0 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241003 |
 | typing_extensions | 4.12.2 |
