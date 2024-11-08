@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.5 |
-| astropy | 6.1.4 |
+| astropy | 6.1.5 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.11.4.0.33.34 |
 | asttokens | 2.4.1 |
