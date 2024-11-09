@@ -71,8 +71,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.3 |
 | cycler | 0.12.1 |
-| dask | 2024.10.0 |
-| debugpy | 1.8.7 |
+| dask | 2024.11.0 |
+| debugpy | 1.8.8 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -147,7 +147,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | omegaconf | 1.4.1 |
 | opencv-python | 4.10.0.84 |
 | overrides | 7.7.0 |
-| packaging | 24.1 |
+| packaging | 24.2 |
 | pandas | 2.2.3 |
 | pandocfilters | 1.5.1 |
 | parfive | 2.1.0 |
@@ -202,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | six | 1.16.0 |
 | sniffio | 1.3.1 |
 | soupsieve | 2.6 |
-| spacepy | 0.6.0 |
+| spacepy | 0.7.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
 | sunpy | 6.0.3 |
@@ -229,7 +229,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 13.1 |
-| Werkzeug | 3.1.2 |
+| Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
