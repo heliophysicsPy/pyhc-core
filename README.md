@@ -50,9 +50,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.5 |
-| astropy | 6.1.5 |
+| astropy | 6.1.6 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.11.4.0.33.34 |
+| astropy-iers-data | 0.2024.11.11.0.32.38 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.0 |
 | cryptography | 43.0.3 |
 | cycler | 0.12.1 |
-| dask | 2024.11.0 |
+| dask | 2024.11.1 |
 | debugpy | 1.8.8 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -104,11 +104,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
-| jedi | 0.19.1 |
+| jedi | 0.19.2 |
 | Jinja2 | 3.1.4 |
 | jmespath | 1.0.1 |
 | joblib | 1.4.2 |
-| json5 | 0.9.25 |
+| json5 | 0.9.28 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
 | jsonschema-specifications | 2024.10.1 |
@@ -170,7 +170,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | py-cpuinfo | 9.0.0 |
 | pycapnp | 2.0.0 |
 | pycparser | 2.22 |
-| pyerfa | 2.0.1.4 |
+| pyerfa | 2.0.1.5 |
 | Pygments | 2.18.0 |
 | pyhc-core | 0.0.5 |
 | pyOpenSSL | 24.2.1 |
@@ -225,7 +225,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.12.0 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
-| webcolors | 24.8.0 |
+| webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
 | websockets | 14.0 |
