@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
 | blosc2 | 2.7.1 |
-| cdasws | 1.8.6 |
+| cdasws | 1.8.7 |
 | cdflib | 1.3.1 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
@@ -68,7 +68,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.1.7 |
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
-| contourpy | 1.3.0 |
+| contourpy | 1.3.1 |
 | cryptography | 43.0.3 |
 | cycler | 0.12.1 |
 | dask | 2024.11.1 |
