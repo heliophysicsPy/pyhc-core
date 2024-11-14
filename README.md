@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.10.10 |
+| aiohttp | 3.11.0 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -45,7 +45,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | arrow | 1.3.0 |
 | asciitree | 0.3.3 |
 | asdf | 3.5.0 |
-| asdf-astropy | 0.6.1 |
+| asdf-astropy | 0.7.0 |
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.1 |
 | cryptography | 43.0.3 |
 | cycler | 0.12.1 |
-| dask | 2024.11.1 |
+| dask | 2024.11.2 |
 | debugpy | 1.8.8 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2024.10.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
-| h5netcdf | 1.4.0 |
+| h5netcdf | 1.4.1 |
 | h5py | 3.12.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.13.1 |
+| numcodecs | 0.14.0 |
 | numexpr | 2.10.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -228,7 +228,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
-| websockets | 14.0 |
+| websockets | 14.1 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
