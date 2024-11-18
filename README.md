@@ -233,7 +233,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
-| yarl | 1.17.1 |
+| yarl | 1.17.2 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
