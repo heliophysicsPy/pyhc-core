@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 6.1.6 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.11.11.0.32.38 |
+| astropy-iers-data | 0.2024.11.18.0.35.2 |
 | asttokens | 2.4.1 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -60,7 +60,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | bleach | 6.2.0 |
 | blosc2 | 2.7.1 |
 | cdasws | 1.8.7 |
-| cdflib | 1.3.1 |
+| cdflib | 1.3.2 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
@@ -160,7 +160,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
-| portalocker | 2.10.1 |
+| portalocker | 3.0.0 |
 | prometheus_client | 0.21.0 |
 | prompt_toolkit | 3.0.48 |
 | propcache | 0.2.0 |
