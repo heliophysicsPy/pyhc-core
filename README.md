@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.11.2 |
+| aiohttp | 3.11.6 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -44,7 +44,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
 | asciitree | 0.3.3 |
-| asdf | 3.5.0 |
+| asdf | 4.0.0 |
 | asdf-astropy | 0.7.0 |
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
@@ -187,7 +187,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
 | referencing | 0.35.1 |
-| reproject | 0.14.0 |
+| reproject | 0.14.1 |
 | requests | 2.32.3 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
