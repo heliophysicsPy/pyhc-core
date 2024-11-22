@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.11.6 |
+| aiohttp | 3.11.7 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 43.0.3 |
 | cycler | 0.12.1 |
 | dask | 2024.11.2 |
-| debugpy | 1.8.8 |
+| debugpy | 1.8.9 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.14.0 |
+| numcodecs | 0.14.1 |
 | numexpr | 2.10.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -233,7 +233,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.16.0 |
 | xarray | 2024.10.0 |
-| yarl | 1.17.2 |
+| yarl | 1.18.0 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
