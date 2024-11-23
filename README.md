@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.5 |
-| astropy | 6.1.6 |
+| astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.11.18.0.35.2 |
 | asttokens | 2.4.1 |
@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tifffile | 2024.9.20 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
-| tornado | 6.4.1 |
+| tornado | 6.4.2 |
 | tqdm | 4.67.0 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241003 |
@@ -231,8 +231,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | websockets | 14.1 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
-| wrapt | 1.16.0 |
-| xarray | 2024.10.0 |
+| wrapt | 1.17.0 |
+| xarray | 2024.11.0 |
 | yarl | 1.18.0 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
