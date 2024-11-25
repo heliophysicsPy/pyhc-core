@@ -214,7 +214,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
-| tqdm | 4.67.0 |
+| tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241003 |
 | typing_extensions | 4.12.2 |
