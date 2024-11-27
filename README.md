@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Jinja2 | 3.1.4 |
 | jmespath | 1.0.1 |
 | joblib | 1.4.2 |
-| json5 | 0.9.28 |
+| json5 | 0.10.0 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
 | jsonschema-specifications | 2024.10.1 |
