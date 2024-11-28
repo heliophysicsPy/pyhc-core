@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.3 |
-| aiohttp | 3.11.7 |
+| aiohttp | 3.11.8 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -69,7 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.1 |
-| cryptography | 43.0.3 |
+| cryptography | 44.0.0 |
 | cycler | 0.12.1 |
 | dask | 2024.11.2 |
 | debugpy | 1.8.9 |
@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | drms | 0.8.0 |
 | executing | 2.1.0 |
 | fasteners | 0.19 |
-| fastjsonschema | 2.20.0 |
+| fastjsonschema | 2.21.0 |
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
@@ -173,7 +173,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.18.0 |
 | pyhc-core | 0.0.5 |
-| pyOpenSSL | 24.2.1 |
+| pyOpenSSL | 24.3.0 |
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
 | pyspedas | 1.7.0 |
