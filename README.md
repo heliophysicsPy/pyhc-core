@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.29.0 |
+| ipython | 8.30.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
@@ -134,7 +134,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| nbclient | 0.10.0 |
+| nbclient | 0.10.1 |
 | nbconvert | 7.16.4 |
 | nbformat | 5.10.4 |
 | ndindex | 1.9.2 |
