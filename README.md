@@ -34,7 +34,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Package | Version |
 |---------|---------|
 | aioftp | 0.23.1 |
-| aiohappyeyeballs | 2.4.3 |
+| aiohappyeyeballs | 2.4.4 |
 | aiohttp | 3.11.8 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
@@ -53,7 +53,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2024.11.25.0.34.48 |
-| asttokens | 2.4.1 |
+| asttokens | 3.0.0 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.9.2 |
+| matplotlib | 3.9.3 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
 | mpl_animators | 1.2.0 |
