@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.4 |
-| aiohttp | 3.11.8 |
+| aiohttp | 3.11.9 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -163,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.0.0 |
 | prometheus_client | 0.21.0 |
 | prompt_toolkit | 3.0.48 |
-| propcache | 0.2.0 |
+| propcache | 0.2.1 |
 | psutil | 6.1.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -177,7 +177,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
 | pyspedas | 1.7.0 |
-| pytest | 8.3.3 |
+| pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 2.0.7 |
@@ -233,7 +233,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.0 |
 | xarray | 2024.11.0 |
-| yarl | 1.18.0 |
+| yarl | 1.18.3 |
 | zarr | 2.18.3 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
