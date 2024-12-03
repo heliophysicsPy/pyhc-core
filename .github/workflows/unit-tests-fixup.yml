@@ -48,6 +48,28 @@ jobs:
     #     # pip install .
     #     pytest
 
+    - name: Clone and test PlasmaPy
+      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
+      shell: python
+      run: |
+        import tomli
+        import subprocess
+
+        # Clone the PlasmaPy repository
+        subprocess.run(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
+        subprocess.run(["cd", "PlasmaPy"])
+
+        # Parse test dependencies from pyproject.toml
+        with open("PlasmaPy/pyproject.toml", "rb") as f:
+            pyproject = tomli.load(f)
+        test_deps = pyproject["project"]["optional-dependencies"]["tests"]
+
+        # Install test dependencies
+        subprocess.run(["pip", "install", *test_deps])
+
+        # Run the tests
+        subprocess.run(["pytest", "--continue-on-collection-errors", "-v"])
+
     - name: Test pysat
       continue-on-error: false
       run: |
@@ -57,72 +79,9 @@ jobs:
         # Set the directory for pysat data
         python -c "import pysat; pysat.params['data_dirs'] = ['$(pwd)/pysatData']"
         
-        # Run pysat's unit tests from the installed package
+        # Run pysat's unit tests from the installed package (TODO: run all tests, not just test_utils!!!) 
         pytest --pyargs pysat.tests.test_utils
         # pytest --pyargs pysat.tests
-
-    - name: Debug PlasmaPy Installation
-      run: |
-        echo "Checking PlasmaPy package installation..."
-
-        # Show package metadata
-        echo "Package Metadata:"
-        pip show plasmapy || echo "PlasmaPy not installed."
-
-        # Locate the installed PlasmaPy package directory
-        echo "Installed PlasmaPy Location:"
-        python -c "import plasmapy; print(plasmapy.__file__)"
-
-        # List the contents of the PlasmaPy package directory
-        echo "Listing PlasmaPy Package Contents:"
-        python -c "import plasmapy; import os; print('\n'.join(os.listdir(os.path.dirname(plasmapy.__file__))))"
-
-        # Check for 'tests' directory/module
-        echo "Checking for 'tests' directory in PlasmaPy:"
-        python -c "import plasmapy; import os; test_dir = os.path.join(os.path.dirname(plasmapy.__file__), 'tests'); print('Found' if os.path.exists(test_dir) else 'Not Found')"
-
-        # Attempt to import 'plasmapy.tests'
-        echo "Checking if 'plasmapy.tests' is importable:"
-        python -c "import importlib.util; print('Importable' if importlib.util.find_spec('plasmapy.tests') else 'Not Importable')"
-
-    - name: Debug PlasmaPy Tests
-      run: |
-        echo "Listing PlasmaPy Test Files:"
-        python -c "import os; import plasmapy; print('\n'.join(os.listdir(os.path.join(os.path.dirname(plasmapy.__file__), 'tests'))))"
-
-    - name: List PlasmaPy Test Files Recursively
-      shell: python
-      run: |
-        import os
-        import plasmapy
-
-        # Define the tests directory path
-        test_dir = os.path.join(os.path.dirname(plasmapy.__file__), 'tests')
-
-        print("Recursively listing files under:", test_dir)
-        if os.path.exists(test_dir):
-            for root, dirs, files in os.walk(test_dir):
-                for file in files:
-                    print(os.path.relpath(os.path.join(root, file), start=test_dir))
-        else:
-            print("Tests directory does not exist!")
-
-
-    - name: Test PlasmaPy with Verbose Output
-      run: |
-        pytest --pyargs plasmapy.tests -v || pytest /opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/plasmapy/tests -v
-
-    - name: Test PlasmaPy with Skip Reasons
-      run: |
-        pytest --pyargs plasmapy.tests --maxfail=5 -v -rs
-
-    - name: Test PlasmaPy
-      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
-      run: |
-        pip install hypothesis
-        
-        # Run PlasmaPy's unit tests from the installed package
-        pytest --pyargs plasmapy.tests || pytest /opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/plasmapy/tests
 
     - name: Clone and test pyspedas
       run: |
