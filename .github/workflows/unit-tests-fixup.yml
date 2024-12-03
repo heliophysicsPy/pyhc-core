@@ -52,23 +52,36 @@ jobs:
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       shell: python
       run: |
-        import tomli
         import subprocess
+        import sys
+        import os
+
+        # Ensure tomli is installed (for Python < 3.11)
+        try:
+            import tomllib  # Python 3.11+
+        except ModuleNotFoundError:
+            try:
+                import tomli as tomllib  # Python < 3.11
+            except ModuleNotFoundError:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
+                import tomli as tomllib
 
         # Clone the PlasmaPy repository
-        subprocess.run(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
-        subprocess.run(["cd", "PlasmaPy"])
+        subprocess.check_call(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
+
+        # Change directory to PlasmaPy
+        os.chdir("PlasmaPy")
 
         # Parse test dependencies from pyproject.toml
-        with open("PlasmaPy/pyproject.toml", "rb") as f:
-            pyproject = tomli.load(f)
+        with open("pyproject.toml", "rb") as f:
+            pyproject = tomllib.load(f)
         test_deps = pyproject["project"]["optional-dependencies"]["tests"]
 
         # Install test dependencies
-        subprocess.run(["pip", "install", *test_deps])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", *test_deps])
 
         # Run the tests
-        subprocess.run(["pytest", "--continue-on-collection-errors", "-v"])
+        subprocess.check_call(["pytest", "--continue-on-collection-errors", "-v"])
 
     - name: Test pysat
       continue-on-error: false
