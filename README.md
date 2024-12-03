@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.11.25.0.34.48 |
+| astropy-iers-data | 0.2024.12.2.0.35.34 |
 | asttokens | 3.0.0 |
 | attrs | 24.2.0 |
 | babel | 2.16.0 |
@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | drms | 0.8.0 |
 | executing | 2.1.0 |
 | fasteners | 0.19 |
-| fastjsonschema | 2.21.0 |
+| fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
@@ -176,7 +176,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 24.3.0 |
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.0 |
+| pyspedas | 1.7.1 |
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.21.0 |
+| rpds-py | 0.22.0 |
 | scikit-image | 0.24.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
