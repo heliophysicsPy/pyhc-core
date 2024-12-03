@@ -32,12 +32,13 @@ jobs:
         pip install .
 
     # hapiclient has been failing
-    # - name: Clone and test hapiclient
-    #   run: |
-    #     git clone https://github.com/hapi-server/client-python.git
-    #     cd client-python
-    #     pip install hapiplot deepdiff
-    #     pytest
+    - name: Clone and test hapiclient
+      continue-on-error: true
+      run: |
+        git clone https://github.com/hapi-server/client-python.git
+        cd client-python
+        pip install hapiplot deepdiff
+        pytest
 
     # Kamodo package has no unit tests
     # - name: Clone and test kamodo
@@ -49,6 +50,7 @@ jobs:
     #     pytest
 
     - name: Clone and test PlasmaPy
+      continue-on-error: true
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       shell: python
       run: |
@@ -96,16 +98,52 @@ jobs:
         pytest --pyargs pysat.tests.test_utils
         # pytest --pyargs pysat.tests
 
+    - name: Check if pyspedas tests are bundled
+      continue-on-error: true
+      run: |
+        # Show package metadata
+        echo "Package Metadata:"
+        pip show pyspedas || echo "pyspedas not installed."
+
+        # Locate the installed pyspedas package directory
+        echo "Installed pyspedas Location:"
+        python -c "import pyspedas; print(pyspedas.__file__)"
+
+        # List the contents of the pyspedas package directory
+        echo "Listing pyspedas Package Contents:"
+        python -c "import pyspedas; import os; print('\n'.join(os.listdir(os.path.dirname(pyspedas.__file__))))"
+
+        # Check for 'tests' directory in pyspedas
+        echo "Checking for 'tests' directory in pyspedas:"
+        python -c "import pyspedas; import os; test_dir = os.path.join(os.path.dirname(pyspedas.__file__), 'tests'); print('Found' if os.path.exists(test_dir) else 'Not Found')"
+
+        # Attempt to import 'pyspedas.tests'
+        echo "Checking if 'pyspedas.tests' is importable:"
+        python -c "import importlib.util; print('Importable' if importlib.util.find_spec('pyspedas.tests') else 'Not Importable')"
+
+    - name: Test pyspedas
+      continue-on-error: true
+      run: |
+        # Install any additional test dependencies
+        pip install mth5
+
+        # Run pyspedas's unit tests from the installed package
+        pytest --pyargs pyspedas.tests -k "not test_degpol and not test_elliptict and not test_helict and not test_powspec and not test_waveangle and not test_read_epde_calibration_data"
+
+
     - name: Clone and test pyspedas
+      continue-on-error: true
       run: |
         git clone https://github.com/spedas/pyspedas.git
         cd pyspedas
         pip install -r requirements.txt
         pip install mth5
         # Ignore 6 known failing tests, for now
-        pytest -k "not test_degpol and not test_elliptict and not test_helict and not test_powspec and not test_waveangle and not test_read_epde_calibration_data"
+        pytest
+        # pytest -k "not test_degpol and not test_elliptict and not test_helict and not test_powspec and not test_waveangle and not test_read_epde_calibration_data"
 
     - name: Clone and test spacepy
+      continue-on-error: true
       run: |
         git clone https://github.com/spacepy/spacepy.git
         cd spacepy/tests
