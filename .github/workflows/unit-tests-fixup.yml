@@ -77,13 +77,13 @@ jobs:
         echo "Listing PlasmaPy Package Contents:"
         python -c "import plasmapy; import os; print('\n'.join(os.listdir(os.path.dirname(plasmapy.__file__))))"
 
-        # Check for `tests` directory/module
+        # Check for 'tests' directory/module
         echo "Checking for 'tests' directory in PlasmaPy:"
         python -c "import plasmapy; import os; test_dir = os.path.join(os.path.dirname(plasmapy.__file__), 'tests'); print('Found' if os.path.exists(test_dir) else 'Not Found')"
 
-        # Check for `plasmapy.tests` module
+        # Attempt to import 'plasmapy.tests'
         echo "Checking if 'plasmapy.tests' is importable:"
-        python -c "import importlib; print('Importable' if importlib.util.find_spec('plasmapy.tests') else 'Not Importable')"
+        python -c "import importlib.util; print('Importable' if importlib.util.find_spec('plasmapy.tests') else 'Not Importable')"
 
     - name: Test PlasmaPy
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
@@ -91,7 +91,7 @@ jobs:
         pip install hypothesis
         
         # Run PlasmaPy's unit tests from the installed package
-        pytest --pyargs plasmapy.tests
+        pytest --pyargs plasmapy.tests || pytest /opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/plasmapy/tests
 
     - name: Clone and test pyspedas
       run: |
