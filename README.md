@@ -83,7 +83,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.0 |
+| fonttools | 4.55.1 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.10.0 |
@@ -161,7 +161,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
 | portalocker | 3.0.0 |
-| prometheus_client | 0.21.0 |
+| prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.48 |
 | propcache | 0.2.1 |
 | psutil | 6.1.0 |
@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.22.0 |
+| rpds-py | 0.22.1 |
 | scikit-image | 0.24.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
