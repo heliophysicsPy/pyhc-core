@@ -85,6 +85,19 @@ jobs:
         echo "Checking if 'plasmapy.tests' is importable:"
         python -c "import importlib.util; print('Importable' if importlib.util.find_spec('plasmapy.tests') else 'Not Importable')"
 
+    - name: Debug PlasmaPy Tests
+      run: |
+        echo "Listing PlasmaPy Test Files:"
+        python -c "import os; import plasmapy; print('\n'.join(os.listdir(os.path.join(os.path.dirname(plasmapy.__file__), 'tests'))))"
+
+    - name: Test PlasmaPy with Verbose Output
+      run: |
+        pytest --pyargs plasmapy.tests -v || pytest /opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/plasmapy/tests -v
+
+    - name: Test PlasmaPy with Skip Reasons
+      run: |
+        pytest --pyargs plasmapy.tests --maxfail=5 -v -rs
+
     - name: Test PlasmaPy
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       run: |
