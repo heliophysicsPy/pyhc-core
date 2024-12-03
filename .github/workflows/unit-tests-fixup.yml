@@ -61,6 +61,30 @@ jobs:
         pytest --pyargs pysat.tests.test_utils
         # pytest --pyargs pysat.tests
 
+    - name: Debug PlasmaPy Installation
+      run: |
+        echo "Checking PlasmaPy package installation..."
+
+        # Show package metadata
+        echo "Package Metadata:"
+        pip show plasmapy || echo "PlasmaPy not installed."
+
+        # Locate the installed PlasmaPy package directory
+        echo "Installed PlasmaPy Location:"
+        python -c "import plasmapy; print(plasmapy.__file__)"
+
+        # List the contents of the PlasmaPy package directory
+        echo "Listing PlasmaPy Package Contents:"
+        python -c "import plasmapy; import os; print('\n'.join(os.listdir(os.path.dirname(plasmapy.__file__))))"
+
+        # Check for `tests` directory/module
+        echo "Checking for 'tests' directory in PlasmaPy:"
+        python -c "import plasmapy; import os; test_dir = os.path.join(os.path.dirname(plasmapy.__file__), 'tests'); print('Found' if os.path.exists(test_dir) else 'Not Found')"
+
+        # Check for `plasmapy.tests` module
+        echo "Checking if 'plasmapy.tests' is importable:"
+        python -c "import importlib; print('Importable' if importlib.util.find_spec('plasmapy.tests') else 'Not Importable')"
+
     - name: Test PlasmaPy
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       run: |
