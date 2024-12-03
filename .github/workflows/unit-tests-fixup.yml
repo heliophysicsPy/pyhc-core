@@ -51,6 +51,12 @@ jobs:
     - name: Test pysat
       continue-on-error: false
       run: |
+        # Create a directory for pysat data
+        mkdir -p pysatData
+        
+        # Set the directory for pysat data
+        python -c "import pysat; pysat.params['data_dirs'] = ['$(pwd)/pysatData']"
+        
         # Run pysat's unit tests from the installed package
         pytest --pyargs pysat.tests.test_utils
 
