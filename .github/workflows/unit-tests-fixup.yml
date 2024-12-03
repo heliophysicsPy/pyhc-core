@@ -90,6 +90,24 @@ jobs:
         echo "Listing PlasmaPy Test Files:"
         python -c "import os; import plasmapy; print('\n'.join(os.listdir(os.path.join(os.path.dirname(plasmapy.__file__), 'tests'))))"
 
+    - name: List PlasmaPy Test Files Recursively
+      shell: python
+      run: |
+        import os
+        import plasmapy
+
+        # Define the tests directory path
+        test_dir = os.path.join(os.path.dirname(plasmapy.__file__), 'tests')
+
+        print("Recursively listing files under:", test_dir)
+        if os.path.exists(test_dir):
+            for root, dirs, files in os.walk(test_dir):
+                for file in files:
+                    print(os.path.relpath(os.path.join(root, file), start=test_dir))
+        else:
+            print("Tests directory does not exist!")
+
+
     - name: Test PlasmaPy with Verbose Output
       run: |
         pytest --pyargs plasmapy.tests -v || pytest /opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/plasmapy/tests -v
