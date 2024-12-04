@@ -29,89 +29,7 @@ jobs:
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
-        pip install .
-
-    - name: Get SunPy version
-      id: sunpy_version
-      run: |
-        echo "SUNPY_VERSION=$(python -c 'import sunpy; print(sunpy.__version__)')" >> $GITHUB_ENV
-
-    - name: Clone and test SunPy
-      continue-on-error: true
-      shell: python
-      env:
-        SUNPY_VERSION: ${{ env.SUNPY_VERSION }}
-      run: |
-        import os
-        import sys
-        import subprocess
-
-        # Get SunPy version from environment variable
-        sunpy_version = os.environ.get('SUNPY_VERSION')
-        if not sunpy_version:
-            print('SunPy version not found.')
-            sys.exit(1)
-
-        print(f'Cloning SunPy version {sunpy_version}')
-
-        # Adjust version string if necessary
-        sunpy_version_tag = sunpy_version.split('.dev')[0]
-
-        # Clone the SunPy repository
-        subprocess.check_call([
-            "git", "clone",
-            "--branch", f"v{sunpy_version_tag}",
-            "https://github.com/sunpy/sunpy.git"
-        ])
-        os.chdir("sunpy")
-
-        # Ensure tomli or tomllib is available
-        try:
-            import tomllib  # Python 3.11+
-        except ModuleNotFoundError:
-            try:
-                import tomli as tomllib  # Python < 3.11
-            except ModuleNotFoundError:
-                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
-                import tomli as tomllib
-
-        # Parse pyproject.toml
-        with open("pyproject.toml", "rb") as f:
-            pyproject = tomllib.load(f)
-
-        optional_deps = pyproject.get("project", {}).get("optional-dependencies", {})
-        all_deps = set()
-
-        def resolve_extras(extras):
-            resolved = set()
-            for extra in extras:
-                extra = extra.strip()
-                if extra.startswith("sunpy[") and extra.endswith("]"):
-                    # Extract the extras inside sunpy[...]
-                    inner_extras = extra[len("sunpy["):-1].split(",")
-                    resolved.update(resolve_extras(inner_extras))
-                elif extra in optional_deps:
-                    resolved.update(resolve_extras(optional_deps[extra]))
-                else:
-                    resolved.add(extra)
-            return resolved
-
-        # Get the 'tests' optional dependencies
-        tests_extras = optional_deps.get("tests", [])
-        # Resolve dependencies recursively
-        test_dependencies = resolve_extras(tests_extras)
-        # Convert set to list and remove any potential duplicates
-        test_dependencies = list(test_dependencies)
-
-        # Add 'setuptools_scm' to test dependencies
-        test_dependencies.append('setuptools_scm')
-
-        # Install test dependencies without reinstalling SunPy
-        if test_dependencies:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", *test_dependencies])
-
-        # Run the tests
-        # subprocess.check_call([sys.executable, "-m", "pytest"])
+        pip install .[tests]
 
     # Mark tests as successful if 98%+ pass
     - name: Test SunPy
@@ -155,7 +73,7 @@ jobs:
         pass_rate = (passed / total) * 100 if total > 0 else 0
     
         print(f'Total tests: {total}')
-        print(f'Passed: {passed}')
+        print(f'Passed: {passed} (including skipped)')
         print(f'Failures: {failures}')
         print(f'Errors: {errors}')
         print(f'Skipped: {skipped}')
@@ -169,9 +87,84 @@ jobs:
             sys.exit(1)
         EOF
 
-
-    # - name: Test SunPy
-    #   continue-on-error: true
+    # - name: Get SunPy version
+    #   id: sunpy_version
     #   run: |
-    #     # Run SunPy's unit tests from the installed package
-    #     pytest --pyargs sunpy
+    #     echo "SUNPY_VERSION=$(python -c 'import sunpy; print(sunpy.__version__)')" >> $GITHUB_ENV
+
+    # - name: Clone and test SunPy
+    #   continue-on-error: true
+    #   shell: python
+    #   env:
+    #     SUNPY_VERSION: ${{ env.SUNPY_VERSION }}
+    #   run: |
+    #     import os
+    #     import sys
+    #     import subprocess
+
+    #     # Get SunPy version from environment variable
+    #     sunpy_version = os.environ.get('SUNPY_VERSION')
+    #     if not sunpy_version:
+    #         print('SunPy version not found.')
+    #         sys.exit(1)
+
+    #     print(f'Cloning SunPy version {sunpy_version}')
+
+    #     # Adjust version string if necessary
+    #     sunpy_version_tag = sunpy_version.split('.dev')[0]
+
+    #     # Clone the SunPy repository
+    #     subprocess.check_call([
+    #         "git", "clone",
+    #         "--branch", f"v{sunpy_version_tag}",
+    #         "https://github.com/sunpy/sunpy.git"
+    #     ])
+    #     os.chdir("sunpy")
+
+    #     # Ensure tomli or tomllib is available
+    #     try:
+    #         import tomllib  # Python 3.11+
+    #     except ModuleNotFoundError:
+    #         try:
+    #             import tomli as tomllib  # Python < 3.11
+    #         except ModuleNotFoundError:
+    #             subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
+    #             import tomli as tomllib
+
+    #     # Parse pyproject.toml
+    #     with open("pyproject.toml", "rb") as f:
+    #         pyproject = tomllib.load(f)
+
+    #     optional_deps = pyproject.get("project", {}).get("optional-dependencies", {})
+    #     all_deps = set()
+
+    #     def resolve_extras(extras):
+    #         resolved = set()
+    #         for extra in extras:
+    #             extra = extra.strip()
+    #             if extra.startswith("sunpy[") and extra.endswith("]"):
+    #                 # Extract the extras inside sunpy[...]
+    #                 inner_extras = extra[len("sunpy["):-1].split(",")
+    #                 resolved.update(resolve_extras(inner_extras))
+    #             elif extra in optional_deps:
+    #                 resolved.update(resolve_extras(optional_deps[extra]))
+    #             else:
+    #                 resolved.add(extra)
+    #         return resolved
+
+    #     # Get the 'tests' optional dependencies
+    #     tests_extras = optional_deps.get("tests", [])
+    #     # Resolve dependencies recursively
+    #     test_dependencies = resolve_extras(tests_extras)
+    #     # Convert set to list and remove any potential duplicates
+    #     test_dependencies = list(test_dependencies)
+
+    #     # Add 'setuptools_scm' to test dependencies
+    #     test_dependencies.append('setuptools_scm')
+
+    #     # Install test dependencies without reinstalling SunPy
+    #     if test_dependencies:
+    #         subprocess.check_call([sys.executable, "-m", "pip", "install", *test_dependencies])
+
+    #     # Run the tests
+    #     subprocess.check_call([sys.executable, "-m", "pytest"])
