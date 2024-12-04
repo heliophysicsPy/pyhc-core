@@ -59,7 +59,7 @@ jobs:
 
         # Clone the SunPy repository
         subprocess.check_call([
-            "git", "clone", "--depth", "1",
+            "git", "clone",
             "--branch", f"v{sunpy_version_tag}",
             "https://github.com/sunpy/sunpy.git"
         ])
