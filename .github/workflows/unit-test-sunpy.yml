@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
 
     steps:
     - uses: actions/checkout@v2
@@ -31,27 +31,40 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
 
-    # SunPy always fails with "pytest: error: unrecognized arguments: --doctest-rst --dist --arraydiff"
-    # - name: Clone and test sunpy
-    #   continue-on-error: true
-    #   run: |
-    #     git clone https://github.com/sunpy/sunpy.git
-    #     cd sunpy
-    #     # Extract dependencies from pyproject.toml
-    #     python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
-    #     pip install -r req_file.txt
-    #     pytest
+    - name: Get SunPy version
+      id: sunpy_version
+      run: |
+        echo "SUNPY_VERSION=$(python -c 'import sunpy; print(sunpy.__version__)')" >> $GITHUB_ENV
 
-    # collected 2705 items / 74 deselected / 3 skipped / 2631 selected
     - name: Clone and test SunPy
       continue-on-error: true
       shell: python
+      env:
+        SUNPY_VERSION: ${{ env.SUNPY_VERSION }}
       run: |
         import os
         import sys
         import subprocess
-        import json
-    
+
+        # Get SunPy version from environment variable
+        sunpy_version = os.environ.get('SUNPY_VERSION')
+        if not sunpy_version:
+            print('SunPy version not found.')
+            sys.exit(1)
+
+        print(f'Cloning SunPy version {sunpy_version}')
+
+        # Adjust version string if necessary
+        sunpy_version_tag = sunpy_version.split('.dev')[0]
+
+        # Clone the SunPy repository
+        subprocess.check_call([
+            "git", "clone", "--depth", "1",
+            "--branch", f"v{sunpy_version_tag}",
+            "https://github.com/sunpy/sunpy.git"
+        ])
+        os.chdir("sunpy")
+
         # Ensure tomli or tomllib is available
         try:
             import tomllib  # Python 3.11+
@@ -61,22 +74,19 @@ jobs:
             except ModuleNotFoundError:
                 subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
                 import tomli as tomllib
-    
-        # Clone the SunPy repository
-        subprocess.check_call(["git", "clone", "https://github.com/sunpy/sunpy.git"])
-        os.chdir("sunpy")
-    
+
         # Parse pyproject.toml
         with open("pyproject.toml", "rb") as f:
             pyproject = tomllib.load(f)
-    
+
         optional_deps = pyproject.get("project", {}).get("optional-dependencies", {})
         all_deps = set()
-    
+
         def resolve_extras(extras):
             resolved = set()
             for extra in extras:
-                if extra.startswith("sunpy["):
+                extra = extra.strip()
+                if extra.startswith("sunpy[") and extra.endswith("]"):
                     # Extract the extras inside sunpy[...]
                     inner_extras = extra[len("sunpy["):-1].split(",")
                     resolved.update(resolve_extras(inner_extras))
@@ -85,7 +95,7 @@ jobs:
                 else:
                     resolved.add(extra)
             return resolved
-    
+
         # Get the 'tests' optional dependencies
         tests_extras = optional_deps.get("tests", [])
         # Resolve dependencies recursively
@@ -95,16 +105,14 @@ jobs:
 
         # Add 'setuptools_scm' to test dependencies
         test_dependencies.append('setuptools_scm')
-    
+
         # Install test dependencies without reinstalling SunPy
         if test_dependencies:
             subprocess.check_call([sys.executable, "-m", "pip", "install", *test_dependencies])
-    
+
         # Run the tests
         subprocess.check_call([sys.executable, "-m", "pytest"])
 
-
-    # collected 24 items
     - name: Test SunPy
       continue-on-error: true
       run: |
