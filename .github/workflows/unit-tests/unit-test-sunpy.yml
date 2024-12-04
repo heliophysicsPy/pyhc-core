@@ -1,0 +1,43 @@
+name: Unit Test SunPy (Fixup)
+
+on:
+  # push:
+  #   branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # daily
+  workflow_dispatch:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # TODO: make this `["ubuntu-latest", "windows-latest", "macos-latest"]`?
+
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+
+    # SunPy always fails with "pytest: error: unrecognized arguments: --doctest-rst --dist --arraydiff"
+    - name: Clone and test sunpy
+      continue-on-error: true
+      run: |
+        git clone https://github.com/sunpy/sunpy.git
+        cd sunpy
+        # Extract dependencies from pyproject.toml
+        python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
+        pip install -r req_file.txt
+        pytest
