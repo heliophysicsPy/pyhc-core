@@ -36,47 +36,33 @@ jobs:
       run: |
         echo "PLASMAPY_VERSION=$(python -c 'import plasmapy; print(plasmapy.__version__)')" >> $GITHUB_ENV
 
+    # Mark tests as successful if 98%+ pass
     - name: Clone and test PlasmaPy
-      shell: python
+      shell: bash
       env:
         PLASMAPY_VERSION: ${{ env.PLASMAPY_VERSION }}
       run: |
-        import os
-        import sys
-        import subprocess
+        # Clone correct version of PlasmaPy repository
+        plasmapy_version="${PLASMAPY_VERSION}"
+        if [ -z "$plasmapy_version" ]; then
+            echo "PlasmaPy version not found."
+            exit 1
+        fi
 
-        # Get PlasmaPy version from environment variable
-        plasmapy_version = os.environ.get('PLASMAPY_VERSION')
-        if not plasmapy_version:
-            print('PlasmaPy version not found.')
-            sys.exit(1)
+        echo "Cloning PlasmaPy version $plasmapy_version"
 
-        print(f'Cloning PlasmaPy version {plasmapy_version}')
+        plasmapy_version_tag="${plasmapy_version%%.dev*}"
 
-        # Adjust version string if necessary
-        plasmapy_version_tag = plasmapy_version.split('.dev')[0]
+        git clone --branch "v$plasmapy_version_tag" "https://github.com/PlasmaPy/PlasmaPy.git"
+        cd PlasmaPy
 
-        # Clone the PlasmaPy repository
-        subprocess.check_call([
-            "git", "clone",
-            "--branch", f"v{plasmapy_version_tag}",
-            "https://github.com/PlasmaPy/PlasmaPy.git"
-        ])
-        os.chdir("PlasmaPy")
+        # Run the tests, ignoring tests that require GH_TOKEN
+        python -m pytest \
+          --junitxml=test-results.xml \
+          --continue-on-collection-errors \
+          --ignore=tests/utils/data/test_downloader.py || true
 
-        # Run the tests
-        try:
-            subprocess.check_call([
-                sys.executable, "-m", "pytest",
-                "--junitxml=test-results.xml",
-                "--continue-on-collection-errors",
-                "--ignore=tests/utils/data/test_downloader.py"
-            ])
-        except subprocess.CalledProcessError as e:
-            # The tests failed, but we proceed to analyze the test results
-            print(f'Tests exited with code {e.returncode}')
-
-        # Calculate pass rate and determine exit code
+        # Analyze test results
         python <<EOF
         import sys
         import xml.etree.ElementTree as ET
@@ -124,7 +110,7 @@ jobs:
             print('Pass rate is below threshold of 98%.')
             sys.exit(1)
         EOF
-        
+
 
     - name: Analyze PlasmaPy Test Results
       shell: bash
@@ -134,7 +120,7 @@ jobs:
         import xml.etree.ElementTree as ET
 
         # Parse the XML file
-        tree = ET.parse('test-results.xml')
+        tree = ET.parse('PlasmaPy/test-results.xml')
         root = tree.getroot()
 
         # Initialize counters
