@@ -35,5 +35,6 @@ tests = [
   "sunpy[tests]",
   "plasmapy[tests]",
   "pysat[test]",
+  "deepdiff",
   "mth5",
 ]
