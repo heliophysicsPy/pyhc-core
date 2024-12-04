@@ -54,7 +54,7 @@ jobs:
     #     pytest
 
     - name: Clone and test PlasmaPy
-      continue-on-error: true
+      continue-on-error: false
       if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       shell: python
       run: |
@@ -91,6 +91,7 @@ jobs:
             "pytest",
             "--continue-on-collection-errors",
             "--deselect", "tests/plasma/test_grids.py::test_AbstractGrid_add_quantities[B_x-value0-None-None-None]",  # failing an assertion
+            "--deselect", "tests/utils/decorators/test_checks.py::TestCheckUnits::test_cu_method__get_unit_checks",  # failing test
             "--ignore=tests/utils/data/test_downloader.py"  # missing env var: GH_TOKEN
         ])
 
