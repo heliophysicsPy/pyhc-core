@@ -31,6 +31,88 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
 
+    - name: Get SpacePy version
+      id: spacepy_version
+      run: |
+        echo "SPACEPY_VERSION=$(python -c 'import spacepy; print(spacepy.__version__)')" >> $GITHUB_ENV
+
+    - name: Clone, test, and analyze SpacePy
+      continue-on-error: true
+      shell: bash
+      env:
+        SPACEPY_VERSION: ${{ env.SPACEPY_VERSION }}
+      run: |
+        # Clone SpacePy repository
+        spacepy_version="${SPACEPY_VERSION}"
+        if [ -z "$spacepy_version" ]; then
+            echo "SpacePy version not found."
+            exit 1
+        fi
+    
+        echo "Cloning SpacePy version $spacepy_version"
+    
+        spacepy_version_tag="${spacepy_version%%.dev*}"
+    
+        git clone --branch "v$spacepy_version_tag" "https://github.com/spacepy/spacepy.git"
+        cd spacepy
+    
+        # Run the tests using nose and generate XML report
+        cd tests
+        # --exclude=test_all.py \
+        nosetests --with-xunit --xunit-file=test-results.xml \
+          --exclude=test_data_assimilation.py \
+          --exclude=test_irbempy.py \
+          --exclude=test_base.py \
+          --exclude=test_toolbox.py \
+          || true
+    
+        # Analyze test results
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuite':
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skip', 0))
+        elif root.tag == 'testsuites':
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skip', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 98:
+            print('Pass rate is above 98%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 98%.')
+            sys.exit(1)
+        EOF
+
     - name: Clone and test spacepy
       continue-on-error: true
       run: |
