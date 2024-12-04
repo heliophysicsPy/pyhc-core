@@ -35,9 +35,11 @@ jobs:
     - name: Clone and test hapiclient
       continue-on-error: true
       run: |
+        pytest --version
         git clone https://github.com/hapi-server/client-python.git
         cd client-python
         pip install hapiplot deepdiff
+        pytest --version
         # pytest
         # Ignore 1 failing test
         pytest --deselect hapiclient/test/test_hapitime_reformat.py::test_hapitime_reformat
