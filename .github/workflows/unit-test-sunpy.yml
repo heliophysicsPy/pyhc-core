@@ -113,8 +113,45 @@ jobs:
         # Run the tests
         subprocess.check_call([sys.executable, "-m", "pytest"])
 
+    # Mark tests as successful if 90%+ pass
     - name: Test SunPy
-      continue-on-error: true
+      shell: bash
       run: |
-        # Run SunPy's unit tests from the installed package
-        pytest --pyargs sunpy
+        # Run SunPy's unit tests from the installed package and output results to XML
+        pytest --pyargs sunpy --junitxml=test-results.xml || true
+
+        # Calculate pass rate and determine exit code
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+
+        total = int(root.attrib.get('tests', 0))
+        errors = int(root.attrib.get('errors', 0))
+        failures = int(root.attrib.get('failures', 0))
+        skipped = int(root.attrib.get('skipped', 0))
+        passed = total - errors - failures - skipped
+
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed}')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+
+        if pass_rate >= 90:
+            print('Pass rate is acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold.')
+            sys.exit(1)
+        EOF
+
+    # - name: Test SunPy
+    #   continue-on-error: true
+    #   run: |
+    #     # Run SunPy's unit tests from the installed package
+    #     pytest --pyargs sunpy
