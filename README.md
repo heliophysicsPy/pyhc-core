@@ -199,7 +199,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
 | setuptools | 65.5.0 |
-| six | 1.16.0 |
+| six | 1.17.0 |
 | sniffio | 1.3.1 |
 | soupsieve | 2.6 |
 | spacepy | 0.7.0 |
