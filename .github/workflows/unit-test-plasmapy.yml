@@ -1,4 +1,4 @@
-name: Unit Test PlasmaPy (Fixup)
+name: Unit Test PlasmaPy
 
 on:
   # push:
@@ -42,7 +42,7 @@ jobs:
       env:
         PLASMAPY_VERSION: ${{ env.PLASMAPY_VERSION }}
       run: |
-        # Clone correct version of PlasmaPy repository
+        # Clone matching version of PlasmaPy repository
         plasmapy_version="${PLASMAPY_VERSION}"
         if [ -z "$plasmapy_version" ]; then
             echo "PlasmaPy version not found."
@@ -56,7 +56,7 @@ jobs:
         git clone --branch "v$plasmapy_version_tag" "https://github.com/PlasmaPy/PlasmaPy.git"
         cd PlasmaPy
 
-        # Run the tests, ignoring tests that require GH_TOKEN
+        # Run the tests (ignoring tests that require GH_TOKEN)
         python -m pytest \
           --junitxml=test-results.xml \
           --continue-on-collection-errors \
@@ -110,147 +110,3 @@ jobs:
             print('Pass rate is below threshold of 98%.')
             sys.exit(1)
         EOF
-
-
-    - name: Analyze PlasmaPy Test Results
-      shell: bash
-      run: |
-        python <<EOF
-        import sys
-        import xml.etree.ElementTree as ET
-
-        # Parse the XML file
-        tree = ET.parse('PlasmaPy/test-results.xml')
-        root = tree.getroot()
-
-        # Initialize counters
-        total = errors = failures = skipped = 0
-
-        if root.tag == 'testsuites':
-            # Sum over all testsuite elements
-            for testsuite in root.findall('testsuite'):
-                total += int(testsuite.attrib.get('tests', 0))
-                errors += int(testsuite.attrib.get('errors', 0))
-                failures += int(testsuite.attrib.get('failures', 0))
-                skipped += int(testsuite.attrib.get('skipped', 0))
-        elif root.tag == 'testsuite':
-            # Single testsuite
-            total = int(root.attrib.get('tests', 0))
-            errors = int(root.attrib.get('errors', 0))
-            failures = int(root.attrib.get('failures', 0))
-            skipped = int(root.attrib.get('skipped', 0))
-        else:
-            print(f'Unexpected root tag: {root.tag}')
-            sys.exit(1)
-
-        # Count skipped tests as passed
-        passed = total - errors - failures
-
-        pass_rate = (passed / total) * 100 if total > 0 else 0
-
-        print(f'Total tests: {total}')
-        print(f'Passed: {passed} (including skipped)')
-        print(f'Failures: {failures}')
-        print(f'Errors: {errors}')
-        print(f'Skipped: {skipped}')
-        print(f'Pass rate: {pass_rate:.2f}%')
-
-        if pass_rate >= 98:
-            print('Pass rate is above 98%, acceptable.')
-            sys.exit(0)
-        else:
-            print('Pass rate is below threshold of 98%.')
-            sys.exit(1)
-        EOF
-
-    # Mark tests as successful if 98%+ pass
-    # - name: Test PlasmaPy
-    #   shell: bash
-    #   run: |
-    #     # Run PlasmaPy's unit tests from the installed package and output results to XML
-    #     pytest --pyargs plasmapy --junitxml=test-results.xml || true
-    
-    #     # Calculate pass rate and determine exit code
-    #     python <<EOF
-    #     import sys
-    #     import xml.etree.ElementTree as ET
-    
-    #     # Parse the XML file
-    #     tree = ET.parse('test-results.xml')
-    #     root = tree.getroot()
-    
-    #     # Initialize counters
-    #     total = errors = failures = skipped = 0
-    
-    #     if root.tag == 'testsuites':
-    #         # Sum over all testsuite elements
-    #         for testsuite in root.findall('testsuite'):
-    #             total += int(testsuite.attrib.get('tests', 0))
-    #             errors += int(testsuite.attrib.get('errors', 0))
-    #             failures += int(testsuite.attrib.get('failures', 0))
-    #             skipped += int(testsuite.attrib.get('skipped', 0))
-    #     elif root.tag == 'testsuite':
-    #         # Single testsuite
-    #         total = int(root.attrib.get('tests', 0))
-    #         errors = int(root.attrib.get('errors', 0))
-    #         failures = int(root.attrib.get('failures', 0))
-    #         skipped = int(root.attrib.get('skipped', 0))
-    #     else:
-    #         print(f'Unexpected root tag: {root.tag}')
-    #         sys.exit(1)
-    
-    #     # Count skipped tests as passed
-    #     passed = total - errors - failures
-    
-    #     pass_rate = (passed / total) * 100 if total > 0 else 0
-    
-    #     print(f'Total tests: {total}')
-    #     print(f'Passed: {passed} (including skipped)')
-    #     print(f'Failures: {failures}')
-    #     print(f'Errors: {errors}')
-    #     print(f'Skipped: {skipped}')
-    #     print(f'Pass rate: {pass_rate:.2f}%')
-    
-    #     if pass_rate >= 98:
-    #         print('Pass rate is above 98%, acceptable.')
-    #         sys.exit(0)
-    #     else:
-    #         print('Pass rate is below threshold of 98%.')
-    #         sys.exit(1)
-    #     EOF
-    
-    - name: Clone and test PlasmaPy (old)
-      continue-on-error: false
-      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
-      shell: python
-      run: |
-        import subprocess
-        import sys
-        import os
-        # Ensure tomli is installed (for Python < 3.11)
-        try:
-            import tomllib  # Python 3.11+
-        except ModuleNotFoundError:
-            try:
-                import tomli as tomllib  # Python < 3.11
-            except ModuleNotFoundError:
-                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
-                import tomli as tomllib
-        # Clone the PlasmaPy repository
-        subprocess.check_call(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
-        # Change directory to PlasmaPy
-        os.chdir("PlasmaPy")
-        # Parse test dependencies from pyproject.toml
-        with open("pyproject.toml", "rb") as f:
-            pyproject = tomllib.load(f)
-        test_deps = pyproject["project"]["optional-dependencies"]["tests"]
-        # Install test dependencies
-        subprocess.check_call([sys.executable, "-m", "pip", "install", *test_deps])
-        # Run the tests
-        subprocess.check_call([
-            "pytest",
-            "--continue-on-collection-errors",
-            "--deselect", "tests/plasma/test_grids.py::test_AbstractGrid_add_quantities[B_x-value0-None-None-None]",  # failing an assertion
-            "--deselect", "tests/utils/decorators/test_checks.py::TestCheckUnits::test_cu_method__get_unit_checks",  # failing test
-            "--ignore=tests/utils/data/test_downloader.py"  # missing env var: GH_TOKEN
-        ])
