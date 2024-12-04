@@ -1,4 +1,4 @@
-name: Unit Test pySPEDAS (Fixup)
+name: Unit Test pySPEDAS
 
 on:
   # push:
@@ -93,18 +93,3 @@ jobs:
             print('Pass rate is below threshold of 90%.')
             sys.exit(1)
         EOF
-
-    - name: Clone and test pyspedas
-      continue-on-error: true
-      run: |
-        git clone https://github.com/spedas/pyspedas.git
-        cd pyspedas
-        pip install -r requirements.txt
-        pip install mth5
-        # Ignore 5 known failing tests, for now
-        pytest \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_degpol \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_elliptict \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_helict \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_powspec \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_waveangle
