@@ -29,7 +29,7 @@ jobs:
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
-        pip install .[tests]
+        pip install .
 
     # Mark tests as successful if 98%+ pass
     - name: Test SunPy
