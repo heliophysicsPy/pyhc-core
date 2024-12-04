@@ -41,3 +41,9 @@ jobs:
         python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
         pip install -r req_file.txt
         pytest
+
+    - name: Test SunPy
+      continue-on-error: true
+      run: |
+        # Run SunPy's unit tests from the installed package
+        pytest --pyargs sunpy.tests
