@@ -32,15 +32,73 @@ jobs:
         pip install .
 
     # SunPy always fails with "pytest: error: unrecognized arguments: --doctest-rst --dist --arraydiff"
-    - name: Clone and test sunpy
+    # - name: Clone and test sunpy
+    #   continue-on-error: true
+    #   run: |
+    #     git clone https://github.com/sunpy/sunpy.git
+    #     cd sunpy
+    #     # Extract dependencies from pyproject.toml
+    #     python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
+    #     pip install -r req_file.txt
+    #     pytest
+
+    - name: Clone and test SunPy
       continue-on-error: true
+      shell: python
       run: |
-        git clone https://github.com/sunpy/sunpy.git
-        cd sunpy
-        # Extract dependencies from pyproject.toml
-        python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
-        pip install -r req_file.txt
-        pytest
+        import os
+        import sys
+        import subprocess
+        import json
+    
+        # Ensure tomli or tomllib is available
+        try:
+            import tomllib  # Python 3.11+
+        except ModuleNotFoundError:
+            try:
+                import tomli as tomllib  # Python < 3.11
+            except ModuleNotFoundError:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
+                import tomli as tomllib
+    
+        # Clone the SunPy repository
+        subprocess.check_call(["git", "clone", "https://github.com/sunpy/sunpy.git"])
+        os.chdir("sunpy")
+    
+        # Parse pyproject.toml
+        with open("pyproject.toml", "rb") as f:
+            pyproject = tomllib.load(f)
+    
+        optional_deps = pyproject.get("project", {}).get("optional-dependencies", {})
+        all_deps = set()
+    
+        def resolve_extras(extras):
+            resolved = set()
+            for extra in extras:
+                if extra.startswith("sunpy["):
+                    # Extract the extras inside sunpy[...]
+                    inner_extras = extra[len("sunpy["):-1].split(",")
+                    resolved.update(resolve_extras(inner_extras))
+                elif extra in optional_deps:
+                    resolved.update(resolve_extras(optional_deps[extra]))
+                else:
+                    resolved.add(extra)
+            return resolved
+    
+        # Get the 'tests' optional dependencies
+        tests_extras = optional_deps.get("tests", [])
+        # Resolve dependencies recursively
+        test_dependencies = resolve_extras(tests_extras)
+        # Convert set to list and remove any potential duplicates
+        test_dependencies = list(test_dependencies)
+    
+        # Install test dependencies without reinstalling SunPy
+        if test_dependencies:
+            subprocess.check_call([sys.executable, "-m", "pip", "install", *test_dependencies])
+    
+        # Run the tests
+        subprocess.check_call([sys.executable, "-m", "pytest"])
+
 
     - name: Test SunPy
       continue-on-error: true
