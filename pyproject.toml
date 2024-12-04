@@ -31,4 +31,7 @@ classifiers = [
 Source = "https://github.com/heliophysicsPy/pyhc-core"
 
 [project.optional-dependencies]
-tests = ["sunpy[tests]"]
+tests = [
+  "sunpy[tests]",
+  "plasmapy[tests]",
+]
