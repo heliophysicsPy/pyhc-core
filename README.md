@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-json-logger | 2.0.7 |
 | pytplot-mpl-temp | 2.2.50 |
 | pytz | 2024.2 |
-| PyWavelets | 1.7.0 |
+| PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
 | referencing | 0.35.1 |
