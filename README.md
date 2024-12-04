@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.22.1 |
+| rpds-py | 0.22.3 |
 | scikit-image | 0.24.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
