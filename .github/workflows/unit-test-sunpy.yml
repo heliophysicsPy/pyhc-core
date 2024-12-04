@@ -42,6 +42,7 @@ jobs:
     #     pip install -r req_file.txt
     #     pytest
 
+    # collected 2705 items / 74 deselected / 3 skipped / 2631 selected
     - name: Clone and test SunPy
       continue-on-error: true
       shell: python
@@ -103,6 +104,7 @@ jobs:
         subprocess.check_call([sys.executable, "-m", "pytest"])
 
 
+    # collected 24 items
     - name: Test SunPy
       continue-on-error: true
       run: |
