@@ -109,4 +109,4 @@ jobs:
       continue-on-error: true
       run: |
         # Run SunPy's unit tests from the installed package
-        pytest --pyargs sunpy.tests
+        pytest --pyargs sunpy
