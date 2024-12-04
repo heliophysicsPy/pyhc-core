@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]  # TODO: add 3.13 eventually
 
     steps:
     - uses: actions/checkout@v2
@@ -29,7 +29,88 @@ jobs:
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
-        pip install .
+        pip install .  # TODO: include optional test dependencies?
+
+    - name: Get hapiclient version
+      id: hapiclient_version
+      run: |
+        echo "HAPICLIENT_VERSION=$(python -c 'import hapiclient; print(hapiclient.__version__)')" >> $GITHUB_ENV
+
+    - name: Clone, test, and analyze hapiclient
+      shell: bash
+      env:
+        HAPICLIENT_VERSION: ${{ env.HAPICLIENT_VERSION }}
+      run: |
+        # Clone hapiclient repository
+        hapiclient_version="${HAPICLIENT_VERSION}"
+        if [ -z "$hapiclient_version" ]; then
+            echo "hapiclient version not found."
+            exit 1
+        fi
+    
+        echo "Cloning hapiclient version $hapiclient_version"
+    
+        hapiclient_version_tag="${hapiclient_version%%.dev*}"
+    
+        git clone --branch "v$hapiclient_version_tag" "https://github.com/hapi-server/client-python.git"
+        cd client-python
+    
+        # Run the tests
+        # --deselect hapiclient/test/test_hapitime_reformat.py::test_hapitime_reformat \
+        python -m pytest \
+          -v hapiclient/test/ \
+          --junitxml=test-results.xml \
+          || true
+    
+        # Analyze test results
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 98:
+            print('Pass rate is above 98%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 98%.')
+            sys.exit(1)
+        EOF
+
 
     - name: Clone and test hapiclient
       continue-on-error: true
