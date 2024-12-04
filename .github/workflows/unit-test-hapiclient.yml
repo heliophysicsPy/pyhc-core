@@ -1,4 +1,4 @@
-name: Unit Test HAPI Client (Fixup)
+name: Unit Test HAPI Client
 
 on:
   # push:
