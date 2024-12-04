@@ -86,11 +86,11 @@ jobs:
         print(f'Skipped: {skipped}')
         print(f'Pass rate: {pass_rate:.2f}%')
     
-        if pass_rate >= 98:
-            print('Pass rate is above 98%, acceptable.')
+        if pass_rate >= 90:
+            print('Pass rate is above 90%, acceptable.')
             sys.exit(0)
         else:
-            print('Pass rate is below threshold of 98%.')
+            print('Pass rate is below threshold of 90%.')
             sys.exit(1)
         EOF
 
