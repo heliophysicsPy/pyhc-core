@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyhc-core"
-version = "0.0.5"
+version = "0.0.6"
 description = "A package to install the core PyHC packages."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -29,3 +29,6 @@ classifiers = [
 
 [project.urls]
 Source = "https://github.com/heliophysicsPy/pyhc-core"
+
+[project.optional-dependencies]
+tests = ["sunpy[tests]"]
