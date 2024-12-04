@@ -34,4 +34,5 @@ Source = "https://github.com/heliophysicsPy/pyhc-core"
 tests = [
   "sunpy[tests]",
   "plasmapy[tests]",
+  "mth5",
 ]
