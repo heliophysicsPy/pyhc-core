@@ -1,4 +1,4 @@
-name: Unit Test SunPy (Fixup)
+name: Unit Test SunPy
 
 on:
   # push:
@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12"] # TODO: add 3.13 eventually
 
     steps:
     - uses: actions/checkout@v2
@@ -29,7 +29,7 @@ jobs:
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
-        pip install .
+        pip install .[tests]
 
     # Mark tests as successful if 98%+ pass
     - name: Test SunPy
@@ -159,7 +159,7 @@ jobs:
     #     # Convert set to list and remove any potential duplicates
     #     test_dependencies = list(test_dependencies)
 
-    #     # Add 'setuptools_scm' to test dependencies
+    #     # Add 'setuptools_scm' to test dependencies (SunPy's tests fail without this)
     #     test_dependencies.append('setuptools_scm')
 
     #     # Install test dependencies without reinstalling SunPy
