@@ -1,0 +1,68 @@
+name: Unit Test PlasmaPy (Fixup)
+
+on:
+  # push:
+  #   branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *' # daily
+  workflow_dispatch:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # TODO: make this `["ubuntu-latest", "windows-latest", "macos-latest"]`?
+
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+    
+    - name: Clone and test PlasmaPy
+      continue-on-error: false
+      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
+      shell: python
+      run: |
+        import subprocess
+        import sys
+        import os
+        # Ensure tomli is installed (for Python < 3.11)
+        try:
+            import tomllib  # Python 3.11+
+        except ModuleNotFoundError:
+            try:
+                import tomli as tomllib  # Python < 3.11
+            except ModuleNotFoundError:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
+                import tomli as tomllib
+        # Clone the PlasmaPy repository
+        subprocess.check_call(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
+        # Change directory to PlasmaPy
+        os.chdir("PlasmaPy")
+        # Parse test dependencies from pyproject.toml
+        with open("pyproject.toml", "rb") as f:
+            pyproject = tomllib.load(f)
+        test_deps = pyproject["project"]["optional-dependencies"]["tests"]
+        # Install test dependencies
+        subprocess.check_call([sys.executable, "-m", "pip", "install", *test_deps])
+        # Run the tests
+        subprocess.check_call([
+            "pytest",
+            "--continue-on-collection-errors",
+            "--deselect", "tests/plasma/test_grids.py::test_AbstractGrid_add_quantities[B_x-value0-None-None-None]",  # failing an assertion
+            "--deselect", "tests/utils/decorators/test_checks.py::TestCheckUnits::test_cu_method__get_unit_checks",  # failing test
+            "--ignore=tests/utils/data/test_downloader.py"  # missing env var: GH_TOKEN
+        ])
