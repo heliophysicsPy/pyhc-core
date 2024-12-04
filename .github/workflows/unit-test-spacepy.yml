@@ -53,7 +53,7 @@ jobs:
     
         spacepy_version_tag="${spacepy_version%%.dev*}"
     
-        git clone --branch "v$spacepy_version_tag" "https://github.com/spacepy/spacepy.git"
+        git clone --branch "release-$spacepy_version_tag" "https://github.com/spacepy/spacepy.git"
         cd spacepy
     
         # Run the tests using nose and generate XML report
