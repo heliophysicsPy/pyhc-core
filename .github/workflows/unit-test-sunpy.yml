@@ -91,6 +91,9 @@ jobs:
         test_dependencies = resolve_extras(tests_extras)
         # Convert set to list and remove any potential duplicates
         test_dependencies = list(test_dependencies)
+
+        # Add 'setuptools_scm' to test dependencies
+        test_dependencies.append('setuptools_scm')
     
         # Install test dependencies without reinstalling SunPy
         if test_dependencies:
