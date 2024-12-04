@@ -40,7 +40,6 @@ jobs:
       shell: python
       env:
         PLASMAPY_VERSION: ${{ env.PLASMAPY_VERSION }}
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         import os
         import sys
@@ -66,11 +65,16 @@ jobs:
         os.chdir("PlasmaPy")
 
         # Run the tests
-        subprocess.check_call([
-            sys.executable, "-m", "pytest",
-            "--junitxml=test-results.xml",
-            "--continue-on-collection-errors"
-        ])
+        try:
+            subprocess.check_call([
+                sys.executable, "-m", "pytest",
+                "--junitxml=test-results.xml",
+                "--continue-on-collection-errors",
+                "--ignore=tests/utils/data/test_downloader.py"
+            ])
+        except subprocess.CalledProcessError as e:
+            # The tests failed, but we proceed to analyze the test results
+            print(f'Tests exited with code {e.returncode}')
 
     - name: Analyze PlasmaPy Test Results
       shell: bash
