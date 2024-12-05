@@ -55,63 +55,67 @@ jobs:
     
         git clone --branch "release-$spacepy_version_tag" "https://github.com/spacepy/spacepy.git"
         cd spacepy
-    
-        # Run the tests using nose and generate XML report
+
+        # Run the tests
         cd tests
-        # --exclude=test_all.py \
-        nosetests --with-xunit --xunit-file=test-results.xml \
-          --exclude=test_data_assimilation.py \
-          --exclude=test_irbempy.py \
-          --exclude=test_base.py \
-          --exclude=test_toolbox.py \
-          || true
+        python test_all.py
     
-        # Analyze test results
-        python <<EOF
-        import sys
-        import xml.etree.ElementTree as ET
+        # # Run the tests using nose and generate XML report
+        # cd tests
+        # # --exclude=test_all.py \
+        # nosetests --with-xunit --xunit-file=test-results.xml \
+        #   --exclude=test_data_assimilation.py \
+        #   --exclude=test_irbempy.py \
+        #   --exclude=test_base.py \
+        #   --exclude=test_toolbox.py \
+        #   || true
     
-        # Parse the XML file
-        tree = ET.parse('test-results.xml')
-        root = tree.getroot()
+        # # Analyze test results
+        # python <<EOF
+        # import sys
+        # import xml.etree.ElementTree as ET
     
-        # Initialize counters
-        total = errors = failures = skipped = 0
+        # # Parse the XML file
+        # tree = ET.parse('test-results.xml')
+        # root = tree.getroot()
     
-        if root.tag == 'testsuite':
-            total = int(root.attrib.get('tests', 0))
-            errors = int(root.attrib.get('errors', 0))
-            failures = int(root.attrib.get('failures', 0))
-            skipped = int(root.attrib.get('skip', 0))
-        elif root.tag == 'testsuites':
-            for testsuite in root.findall('testsuite'):
-                total += int(testsuite.attrib.get('tests', 0))
-                errors += int(testsuite.attrib.get('errors', 0))
-                failures += int(testsuite.attrib.get('failures', 0))
-                skipped += int(testsuite.attrib.get('skip', 0))
-        else:
-            print(f'Unexpected root tag: {root.tag}')
-            sys.exit(1)
+        # # Initialize counters
+        # total = errors = failures = skipped = 0
     
-        # Count skipped tests as passed
-        passed = total - errors - failures
+        # if root.tag == 'testsuite':
+        #     total = int(root.attrib.get('tests', 0))
+        #     errors = int(root.attrib.get('errors', 0))
+        #     failures = int(root.attrib.get('failures', 0))
+        #     skipped = int(root.attrib.get('skip', 0))
+        # elif root.tag == 'testsuites':
+        #     for testsuite in root.findall('testsuite'):
+        #         total += int(testsuite.attrib.get('tests', 0))
+        #         errors += int(testsuite.attrib.get('errors', 0))
+        #         failures += int(testsuite.attrib.get('failures', 0))
+        #         skipped += int(testsuite.attrib.get('skip', 0))
+        # else:
+        #     print(f'Unexpected root tag: {root.tag}')
+        #     sys.exit(1)
     
-        pass_rate = (passed / total) * 100 if total > 0 else 0
+        # # Count skipped tests as passed
+        # passed = total - errors - failures
     
-        print(f'Total tests: {total}')
-        print(f'Passed: {passed} (including skipped)')
-        print(f'Failures: {failures}')
-        print(f'Errors: {errors}')
-        print(f'Skipped: {skipped}')
-        print(f'Pass rate: {pass_rate:.2f}%')
+        # pass_rate = (passed / total) * 100 if total > 0 else 0
     
-        if pass_rate >= 98:
-            print('Pass rate is above 98%, acceptable.')
-            sys.exit(0)
-        else:
-            print('Pass rate is below threshold of 98%.')
-            sys.exit(1)
-        EOF
+        # print(f'Total tests: {total}')
+        # print(f'Passed: {passed} (including skipped)')
+        # print(f'Failures: {failures}')
+        # print(f'Errors: {errors}')
+        # print(f'Skipped: {skipped}')
+        # print(f'Pass rate: {pass_rate:.2f}%')
+    
+        # if pass_rate >= 98:
+        #     print('Pass rate is above 98%, acceptable.')
+        #     sys.exit(0)
+        # else:
+        #     print('Pass rate is below threshold of 98%.')
+        #     sys.exit(1)
+        # EOF
 
     - name: Clone and test spacepy
       continue-on-error: true
