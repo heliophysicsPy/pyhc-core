@@ -1,4 +1,4 @@
-name: Unit Test Compatibility (Fixup)
+name: Unit Test All Core Packages
 
 on:
   # push:
