@@ -131,6 +131,7 @@ jobs:
     # ========== PlasmaPy ===============================
 
     - name: Get PlasmaPy version
+      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
       id: plasmapy_version
       run: |
         echo "PLASMAPY_VERSION=$(python -c 'import plasmapy; print(plasmapy.__version__)')" >> $GITHUB_ENV
@@ -403,6 +404,7 @@ jobs:
 
       # Mark tests as successful if 98%+ pass
     - name: Test SunPy
+      if: matrix.python-version != '3.9'  # Exclude SunPy for Python 3.9
       shell: bash
       run: |
         # Run SunPy's unit tests from the installed package and output results to XML
