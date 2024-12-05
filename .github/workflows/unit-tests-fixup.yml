@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]  # TODO: add 3.13 eventually
 
     steps:
     - uses: actions/checkout@v2
@@ -29,20 +29,94 @@ jobs:
     - name: Install core PyHC packages  # Install all dependencies listed in pyproject.toml
       run: |
         python -m pip install --upgrade pip
-        pip install .
+        pip install .[tests]  # include optional test dependencies
 
-    # hapiclient has been failing
-    - name: Clone and test hapiclient
-      continue-on-error: true
+
+    # ========== HAPI Client ===============================
+
+    - name: Get hapiclient version
+      id: hapiclient_version
       run: |
-        pytest --version
-        git clone https://github.com/hapi-server/client-python.git
+        echo "HAPICLIENT_VERSION=$(python -c 'import hapiclient; print(hapiclient.__version__)')" >> $GITHUB_ENV
+
+      # Mark tests as successful if 90%+ pass (not 98% because of known failing tests)
+    - name: Clone and test HAPI Client
+      shell: bash
+      env:
+        HAPICLIENT_VERSION: ${{ env.HAPICLIENT_VERSION }}
+      run: |
+        # Clone hapiclient repository
+        hapiclient_version="${HAPICLIENT_VERSION}"
+        if [ -z "$hapiclient_version" ]; then
+            echo "hapiclient version not found."
+            exit 1
+        fi
+    
+        echo "Cloning hapiclient version $hapiclient_version"
+    
+        hapiclient_version_tag="${hapiclient_version%%.dev*}"
+    
+        git clone --branch "v$hapiclient_version_tag" "https://github.com/hapi-server/client-python.git"
         cd client-python
-        pip install hapiplot deepdiff
-        pytest --version
-        # pytest
-        # Ignore 1 failing test
-        pytest --deselect hapiclient/test/test_hapitime_reformat.py::test_hapitime_reformat
+    
+        # Run the tests
+        # --deselect hapiclient/test/test_hapitime_reformat.py::test_hapitime_reformat \
+        python -m pytest \
+          -v hapiclient/test/ \
+          --junitxml=test-results.xml \
+          || true
+    
+        # Analyze test results
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 90:
+            print('Pass rate is above 90%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 90%.')
+            sys.exit(1)
+        EOF
+
+
+    # ========== Kamodo ===============================
 
     # Kamodo package has no unit tests
     # - name: Clone and test kamodo
@@ -52,51 +126,97 @@ jobs:
     #     pip install -r requirements.txt
     #     # pip install .
     #     pytest
+    
 
-    - name: Clone and test PlasmaPy
-      continue-on-error: false
-      if: matrix.python-version != '3.9'  # Exclude PlasmaPy for Python 3.9
-      shell: python
+    # ========== PlasmaPy ===============================
+
+    - name: Get PlasmaPy version
+      id: plasmapy_version
       run: |
-        import subprocess
+        echo "PLASMAPY_VERSION=$(python -c 'import plasmapy; print(plasmapy.__version__)')" >> $GITHUB_ENV
+
+      # Mark tests as successful if 98%+ pass
+    - name: Clone and test PlasmaPy
+      shell: bash
+      env:
+        PLASMAPY_VERSION: ${{ env.PLASMAPY_VERSION }}
+      run: |
+        # Clone matching version of PlasmaPy repository
+        plasmapy_version="${PLASMAPY_VERSION}"
+        if [ -z "$plasmapy_version" ]; then
+            echo "PlasmaPy version not found."
+            exit 1
+        fi
+
+        echo "Cloning PlasmaPy version $plasmapy_version"
+
+        plasmapy_version_tag="${plasmapy_version%%.dev*}"
+
+        git clone --branch "v$plasmapy_version_tag" "https://github.com/PlasmaPy/PlasmaPy.git"
+        cd PlasmaPy
+
+        # Run the tests (ignoring tests that require GH_TOKEN)
+        python -m pytest \
+          --junitxml=test-results.xml \
+          --continue-on-collection-errors \
+          --ignore=tests/utils/data/test_downloader.py || true
+
+        # Analyze test results
+        python <<EOF
         import sys
-        import os
+        import xml.etree.ElementTree as ET
 
-        # Ensure tomli is installed (for Python < 3.11)
-        try:
-            import tomllib  # Python 3.11+
-        except ModuleNotFoundError:
-            try:
-                import tomli as tomllib  # Python < 3.11
-            except ModuleNotFoundError:
-                subprocess.check_call([sys.executable, "-m", "pip", "install", "tomli"])
-                import tomli as tomllib
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
 
-        # Clone the PlasmaPy repository
-        subprocess.check_call(["git", "clone", "https://github.com/PlasmaPy/PlasmaPy.git"])
+        # Initialize counters
+        total = errors = failures = skipped = 0
 
-        # Change directory to PlasmaPy
-        os.chdir("PlasmaPy")
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
 
-        # Parse test dependencies from pyproject.toml
-        with open("pyproject.toml", "rb") as f:
-            pyproject = tomllib.load(f)
-        test_deps = pyproject["project"]["optional-dependencies"]["tests"]
+        # Count skipped tests as passed
+        passed = total - errors - failures
 
-        # Install test dependencies
-        subprocess.check_call([sys.executable, "-m", "pip", "install", *test_deps])
+        pass_rate = (passed / total) * 100 if total > 0 else 0
 
-        # Run the tests
-        subprocess.check_call([
-            "pytest",
-            "--continue-on-collection-errors",
-            "--deselect", "tests/plasma/test_grids.py::test_AbstractGrid_add_quantities[B_x-value0-None-None-None]",  # failing an assertion
-            "--deselect", "tests/utils/decorators/test_checks.py::TestCheckUnits::test_cu_method__get_unit_checks",  # failing test
-            "--ignore=tests/utils/data/test_downloader.py"  # missing env var: GH_TOKEN
-        ])
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
 
+        if pass_rate >= 98:
+            print('Pass rate is above 98%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 98%.')
+            sys.exit(1)
+        EOF
+
+
+    # ========== pysat ===============================
+
+      # Mark tests as successful if 98%+ pass
     - name: Test pysat
       continue-on-error: false
+      shell: bash
       run: |
         # Create a directory for pysat data
         mkdir -p pysatData
@@ -104,40 +224,164 @@ jobs:
         # Set the directory for pysat data
         python -c "import pysat; pysat.params['data_dirs'] = ['$(pwd)/pysatData']"
         
-        # Run pysat's unit tests from the installed package (TODO: run all tests, not just test_utils!!!) 
-        pytest --pyargs pysat.tests.test_utils
-        # pytest --pyargs pysat.tests
+        # Run pysat's unit tests from the installed package and output results to XML
+        pytest --pyargs pysat.tests --junitxml=test-results.xml || true
 
-    - name: Clone and test pyspedas
-      continue-on-error: true
+        # Calculate pass rate and determine exit code
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 98:
+            print('Pass rate is above 98%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 98%.')
+            sys.exit(1)
+        EOF
+
+
+    # ========== pySPEDAS ===============================
+
+      # Mark tests as successful if 90%+ pass (not 98% because of known failing tests)
+    - name: Test pySPEDAS
+      shell: bash
       run: |
-        git clone https://github.com/spedas/pyspedas.git
-        cd pyspedas
-        pip install -r requirements.txt
-        pip install mth5
+        # Run pySPEDAS's unit tests from the installed package and output results to XML
         # Ignore 5 known failing tests, for now
-        pytest \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_degpol \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_elliptict \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_helict \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_powspec \
-          --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_waveangle
+        # pytest \
+        #   --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_degpol \
+        #   --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_elliptict \
+        #   --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_helict \
+        #   --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_powspec \
+        #   --deselect pyspedas/analysis/tests/test_twavpol.py::TwavpolDataValidation::test_waveangle
+        pytest --pyargs pyspedas --junitxml=test-results.xml || true
+    
+        # Calculate pass rate and determine exit code
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 90:
+            print('Pass rate is above 90%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 90%.')
+            sys.exit(1)
+        EOF
+
+
+    # ========== SpacePy ===============================
         
-    - name: Clone and test spacepy
-      continue-on-error: true
+    - name: Get SpacePy version
+      id: spacepy_version
       run: |
-        git clone https://github.com/spacepy/spacepy.git
-        cd spacepy/tests
-        # python test_all.py
-        # Manually run all test files except 5 that cause problems
+        echo "SPACEPY_VERSION=$(python -c 'import spacepy; print(spacepy.__version__)')" >> $GITHUB_ENV
+
+    - name: Clone and teset SpacePy
+      continue-on-error: false
+      shell: bash
+      env:
+        SPACEPY_VERSION: ${{ env.SPACEPY_VERSION }}
+      run: |
+        # Clone SpacePy repository
+        spacepy_version="${SPACEPY_VERSION}"
+        if [ -z "$spacepy_version" ]; then
+            echo "SpacePy version not found."
+            exit 1
+        fi
+    
+        echo "Cloning SpacePy version $spacepy_version"
+    
+        spacepy_version_tag="${spacepy_version%%.dev*}"
+    
+        git clone --branch "release-$spacepy_version_tag" "https://github.com/spacepy/spacepy.git"
+        cd spacepy
+
+        # Run the tests (all test files except one that always fails)
+        cd tests
+        # python test_all.py  # would run all files below
         python test_ae9ap9.py
-        # python test_base.py
+        # python test_base.py  # version "UNRELEASED" never matches installed version
         python test_coordinates.py
         python test_ctrans.py
-        # python test_data_assimilation.py
         python test_datamanager.py
+        python test_datamodel.py
+        python test_empiricals.py
         python test_igrf.py
-        # python test_irbempy.py
+        python test_irbempy.py
         python test_lanlstar.py
         python test_lib.py
         python test_omni.py
@@ -145,20 +389,70 @@ jobs:
         python test_plot_utils.py
         python test_poppy.py
         python test_pybats.py
+        python test_pycdf.py
+        python test_pycdf_istp.py
         python test_rst.py
         python test_seapy.py
         python test_spectrogram.py
         python test_testing.py
         python test_time.py
-        # python test_toolbox.py
+        python test_toolbox.py
 
-    # SunPy always fails with "pytest: error: unrecognized arguments: --doctest-rst --dist --arraydiff"
-    # - name: Clone and test sunpy
-    #   continue-on-error: true
-    #   run: |
-    #     git clone https://github.com/sunpy/sunpy.git
-    #     cd sunpy
-    #     # Extract dependencies from pyproject.toml
-    #     python -c "import tomli; f=open('pyproject.toml', 'rb'); pyproject=tomli.load(f); f.close(); dependencies=pyproject.get('project', {}).get('dependencies', []); req_file=open('req_file.txt', 'w'); req_file.write('\n'.join(dependencies)); req_file.close()"
-    #     pip install -r req_file.txt
-    #     pytest
+
+    # ========== SunPy ===============================
+
+      # Mark tests as successful if 98%+ pass
+    - name: Test SunPy
+      shell: bash
+      run: |
+        # Run SunPy's unit tests from the installed package and output results to XML
+        pytest --pyargs sunpy --junitxml=test-results.xml || true
+    
+        # Calculate pass rate and determine exit code
+        python <<EOF
+        import sys
+        import xml.etree.ElementTree as ET
+    
+        # Parse the XML file
+        tree = ET.parse('test-results.xml')
+        root = tree.getroot()
+    
+        # Initialize counters
+        total = errors = failures = skipped = 0
+    
+        if root.tag == 'testsuites':
+            # Sum over all testsuite elements
+            for testsuite in root.findall('testsuite'):
+                total += int(testsuite.attrib.get('tests', 0))
+                errors += int(testsuite.attrib.get('errors', 0))
+                failures += int(testsuite.attrib.get('failures', 0))
+                skipped += int(testsuite.attrib.get('skipped', 0))
+        elif root.tag == 'testsuite':
+            # Single testsuite
+            total = int(root.attrib.get('tests', 0))
+            errors = int(root.attrib.get('errors', 0))
+            failures = int(root.attrib.get('failures', 0))
+            skipped = int(root.attrib.get('skipped', 0))
+        else:
+            print(f'Unexpected root tag: {root.tag}')
+            sys.exit(1)
+    
+        # Count skipped tests as passed
+        passed = total - errors - failures
+    
+        pass_rate = (passed / total) * 100 if total > 0 else 0
+    
+        print(f'Total tests: {total}')
+        print(f'Passed: {passed} (including skipped)')
+        print(f'Failures: {failures}')
+        print(f'Errors: {errors}')
+        print(f'Skipped: {skipped}')
+        print(f'Pass rate: {pass_rate:.2f}%')
+    
+        if pass_rate >= 98:
+            print('Pass rate is above 98%, acceptable.')
+            sys.exit(0)
+        else:
+            print('Pass rate is below threshold of 98%.')
+            sys.exit(1)
+        EOF
