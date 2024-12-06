@@ -35,11 +35,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.23.1 |
 | aiohappyeyeballs | 2.4.4 |
-| aiohttp | 3.11.9 |
+| aiohttp | 3.11.10 |
 | aiosignal | 1.3.1 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.6.2.post1 |
+| anyio | 4.7.0 |
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
 | blosc2 | 2.7.1 |
-| cdasws | 1.8.8 |
+| cdasws | 1.8.9 |
 | cdflib | 1.3.2 |
 | certifi | 2024.8.30 |
 | cffi | 1.17.1 |
@@ -83,7 +83,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.1 |
+| fonttools | 4.55.2 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.10.0 |
@@ -172,7 +172,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.18.0 |
-| pyhc-core | 0.0.5 |
+| pyhc-core | 0.0.6 |
 | pyOpenSSL | 24.3.0 |
 | pyparsing | 3.2.0 |
 | pysat | 3.2.1 |
