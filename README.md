@@ -216,7 +216,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tornado | 6.4.2 |
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
-| types-python-dateutil | 2.9.0.20241003 |
+| types-python-dateutil | 2.9.0.20241206 |
 | typing_extensions | 4.12.2 |
 | tzdata | 2024.2 |
 | uncertainties | 3.2.2 |
