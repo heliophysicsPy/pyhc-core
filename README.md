@@ -205,7 +205,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
-| sunpy | 6.0.3 |
+| sunpy | 6.0.4 |
 | sympy | 1.5.1 |
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
