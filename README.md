@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
 | dask | 2024.12.0 |
-| debugpy | 1.8.9 |
+| debugpy | 1.8.10 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -83,7 +83,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.2 |
+| fonttools | 4.55.3 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.10.0 |
