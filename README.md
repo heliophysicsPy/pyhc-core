@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
-| blosc2 | 2.7.1 |
+| blosc2 | 3.0.0 |
 | cdasws | 1.8.9 |
 | cdflib | 1.3.2 |
 | certifi | 2024.8.30 |
@@ -89,9 +89,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2024.10.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
+| h11 | 0.14.0 |
 | h5netcdf | 1.4.1 |
 | h5py | 3.12.1 |
 | hapiclient | 0.2.6 |
+| httpcore | 1.0.7 |
+| httpx | 0.28.1 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
 | imageio | 2.36.1 |
@@ -141,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.14.1 |
+| numcodecs | 0.13.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -180,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| python-json-logger | 2.0.7 |
+| python-json-logger | 3.2.0 |
 | pytplot-mpl-temp | 2.2.50 |
 | pytz | 2024.2 |
 | PyWavelets | 1.8.0 |
@@ -234,6 +237,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.0 |
 | xarray | 2024.11.0 |
 | yarl | 1.18.3 |
-| zarr | 2.18.3 |
+| zarr | 2.18.4 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
