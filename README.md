@@ -33,10 +33,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioftp | 0.24.0 |
+| aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.4 |
 | aiohttp | 3.11.10 |
-| aiosignal | 1.3.1 |
+| aiosignal | 1.3.2 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
 | anyio | 4.7.0 |
@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
 | dask | 2024.12.0 |
-| debugpy | 1.8.9 |
+| debugpy | 1.8.11 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -130,7 +130,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.9.3 |
+| matplotlib | 3.9.4 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
 | mpl_animators | 1.2.0 |
@@ -197,7 +197,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
-| scikit-image | 0.24.0 |
+| scikit-image | 0.25.0 |
 | scipy | 1.14.1 |
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tables | 3.10.1 |
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
-| tifffile | 2024.9.20 |
+| tifffile | 2024.12.12 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
