@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | blosc2 | 3.0.0 |
 | cdasws | 1.8.9 |
 | cdflib | 1.3.2 |
-| certifi | 2024.8.30 |
+| certifi | 2024.12.14 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.0 |
@@ -130,7 +130,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 5.3.0 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.9.4 |
+| matplotlib | 3.10.0 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.0.2 |
 | mpl_animators | 1.2.0 |
