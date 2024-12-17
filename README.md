@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2024.10.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
-| jupyter-events | 0.10.0 |
+| jupyter-events | 0.11.0 |
 | jupyter_server | 2.14.2 |
 | jupyter_server_terminals | 0.5.3 |
 | jupyterlab_pygments | 0.3.0 |
