@@ -52,9 +52,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.12.9.0.36.21 |
+| astropy-iers-data | 0.2024.12.16.0.35.48 |
 | asttokens | 3.0.0 |
-| attrs | 24.2.0 |
+| attrs | 24.3.0 |
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| python-json-logger | 3.2.0 |
+| python-json-logger | 3.2.1 |
 | pytplot-mpl-temp | 2.2.50 |
 | pytz | 2024.2 |
 | PyWavelets | 1.8.0 |
