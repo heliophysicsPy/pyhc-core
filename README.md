@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.1 |
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
-| dask | 2024.12.0 |
+| dask | 2024.12.1 |
 | debugpy | 1.8.11 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
