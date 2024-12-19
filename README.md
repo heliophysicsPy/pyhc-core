@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.4 |
-| aiohttp | 3.11.10 |
+| aiohttp | 3.11.11 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
@@ -225,7 +225,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.2.3 |
-| viresclient | 0.12.0 |
+| viresclient | 0.12.1 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
