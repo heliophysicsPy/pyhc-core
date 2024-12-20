@@ -86,7 +86,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.55.3 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
-| fsspec | 2024.10.0 |
+| fsspec | 2024.12.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.6 |
 | h11 | 0.14.0 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| nbclient | 0.10.1 |
+| nbclient | 0.10.2 |
 | nbconvert | 7.16.4 |
 | nbformat | 5.10.4 |
 | ndindex | 1.9.2 |
@@ -167,7 +167,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.48 |
 | propcache | 0.2.1 |
-| psutil | 6.1.0 |
+| psutil | 6.1.1 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
 | py-cpuinfo | 9.0.0 |
