@@ -102,7 +102,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.30.0 |
+| ipython | 8.31.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
@@ -118,7 +118,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
 | jupyter-events | 0.11.0 |
-| jupyter_server | 2.14.2 |
+| jupyter_server | 2.15.0 |
 | jupyter_server_terminals | 0.5.3 |
 | jupyterlab_pygments | 0.3.0 |
 | jupyterlab_server | 2.27.3 |
