@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.0 |
-| click | 8.1.7 |
+| click | 8.1.8 |
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.1 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
 | jedi | 0.19.2 |
-| Jinja2 | 3.1.4 |
+| Jinja2 | 3.1.5 |
 | jmespath | 1.0.1 |
 | joblib | 1.4.2 |
 | json5 | 0.10.0 |
