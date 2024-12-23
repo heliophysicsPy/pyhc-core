@@ -224,7 +224,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2024.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
-| urllib3 | 2.2.3 |
+| urllib3 | 2.3.0 |
 | viresclient | 0.12.1 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
