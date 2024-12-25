@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | certifi | 2024.12.14 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
-| charset-normalizer | 3.4.0 |
+| charset-normalizer | 3.4.1 |
 | click | 8.1.8 |
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
@@ -124,7 +124,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyterlab_server | 2.27.3 |
 | jupyterlab_widgets | 3.0.13 |
 | kamodo | 23.3.0 |
-| kiwisolver | 1.4.7 |
+| kiwisolver | 1.4.8 |
 | lazy_loader | 0.4 |
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
