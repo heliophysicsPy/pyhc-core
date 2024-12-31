@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.12.23.0.33.24 |
+| astropy-iers-data | 0.2024.12.30.0.33.36 |
 | asttokens | 3.0.0 |
 | attrs | 24.3.0 |
 | babel | 2.16.0 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.0 |
 | matplotlib-inline | 0.1.7 |
-| mistune | 3.0.2 |
+| mistune | 3.1.0 |
 | mpl_animators | 1.2.0 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
