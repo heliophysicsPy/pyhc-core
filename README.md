@@ -163,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | platformdirs | 4.3.6 |
 | plotly | 5.24.1 |
 | pluggy | 1.5.0 |
-| portalocker | 3.0.0 |
+| portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.48 |
 | propcache | 0.2.1 |
@@ -177,7 +177,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Pygments | 2.18.0 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 24.3.0 |
-| pyparsing | 3.2.0 |
+| pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
 | pyspedas | 1.7.1 |
 | pytest | 8.3.4 |
