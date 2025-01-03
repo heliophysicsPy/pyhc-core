@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
 | nbclient | 0.10.2 |
-| nbconvert | 7.16.4 |
+| nbconvert | 7.16.5 |
 | nbformat | 5.10.4 |
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
@@ -157,7 +157,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parso | 0.8.4 |
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
-| pillow | 11.0.0 |
+| pillow | 11.1.0 |
 | pip | 24.3.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
