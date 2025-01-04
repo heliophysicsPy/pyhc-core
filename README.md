@@ -198,7 +198,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
 | scikit-image | 0.25.0 |
-| scipy | 1.14.1 |
+| scipy | 1.15.0 |
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
 | setuptools | 65.5.0 |
@@ -235,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.0 |
-| xarray | 2024.11.0 |
+| xarray | 2025.1.0 |
 | yarl | 1.18.3 |
 | zarr | 2.18.4 |
 | zeep | 4.3.1 |
