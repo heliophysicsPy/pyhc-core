@@ -210,7 +210,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | stack-data | 0.6.3 |
 | sunpy | 6.0.4 |
 | sympy | 1.5.1 |
-| tables | 3.10.1 |
+| tables | 3.10.2 |
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
 | tifffile | 2024.12.12 |
