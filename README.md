@@ -39,7 +39,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.3.2 |
 | aniso8601 | 9.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.7.0 |
+| anyio | 4.8.0 |
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pycapnp | 2.0.0 |
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
-| Pygments | 2.18.0 |
+| Pygments | 2.19.0 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 24.3.0 |
 | pyparsing | 3.2.1 |
