@@ -52,7 +52,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2024.12.30.0.33.36 |
+| astropy-iers-data | 0.2025.1.6.0.33.42 |
 | asttokens | 3.0.0 |
 | attrs | 24.3.0 |
 | babel | 2.16.0 |
@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pycapnp | 2.0.0 |
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
-| Pygments | 2.19.0 |
+| Pygments | 2.19.1 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 24.3.0 |
 | pyparsing | 3.2.1 |
