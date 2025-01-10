@@ -43,7 +43,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
-| asciitree | 0.3.3 |
 | asdf | 4.0.0 |
 | asdf-astropy | 0.7.0 |
 | asdf_coordinates_schemas | 0.3.0 |
@@ -69,6 +68,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.0 |
 | comm | 0.2.2 |
 | contourpy | 1.3.1 |
+| crc32c | 2.7.1 |
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
 | dask | 2024.12.1 |
@@ -76,9 +76,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
+| donfig | 0.8.1.post1 |
 | drms | 0.8.0 |
 | executing | 2.1.0 |
-| fasteners | 0.19 |
 | fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.13.1 |
+| numcodecs | 0.14.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -184,7 +184,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
-| pytplot-mpl-temp | 2.2.50 |
+| pytplot-mpl-temp | 2.2.51 |
 | pytz | 2024.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -235,8 +235,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.0 |
-| xarray | 2025.1.0 |
+| xarray | 2025.1.1 |
 | yarl | 1.18.3 |
-| zarr | 2.18.4 |
+| zarr | 3.0.0 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
