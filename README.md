@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiohappyeyeballs | 2.4.4 |
 | aiohttp | 3.11.11 |
 | aiosignal | 1.3.2 |
-| aniso8601 | 9.0.1 |
+| aniso8601 | 10.0.0 |
 | antlr4-python3-runtime | 4.7 |
 | anyio | 4.8.0 |
 | argon2-cffi | 23.1.0 |
@@ -198,7 +198,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
 | scikit-image | 0.25.0 |
-| scipy | 1.15.0 |
+| scipy | 1.15.1 |
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
 | setuptools | 65.5.0 |
@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tables | 3.10.2 |
 | tenacity | 9.0.0 |
 | terminado | 0.18.1 |
-| tifffile | 2024.12.12 |
+| tifffile | 2025.1.10 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
