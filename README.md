@@ -176,7 +176,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.1 |
 | pyhc-core | 0.0.6 |
-| pyOpenSSL | 24.3.0 |
+| pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
 | pyspedas | 1.7.1 |
