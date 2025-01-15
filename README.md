@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.5 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2025.1.6.0.33.42 |
+| astropy-iers-data | 0.2025.1.13.0.34.51 |
 | asttokens | 3.0.0 |
 | attrs | 24.3.0 |
 | babel | 2.16.0 |
@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.1 |
 | click | 8.1.8 |
-| cloudpickle | 3.1.0 |
+| cloudpickle | 3.1.1 |
 | comm | 0.2.2 |
 | contourpy | 1.3.1 |
 | crc32c | 2.7.1 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | websockets | 14.1 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
-| wrapt | 1.17.1 |
+| wrapt | 1.17.2 |
 | xarray | 2025.1.1 |
 | yarl | 1.18.3 |
 | zarr | 3.0.0 |
