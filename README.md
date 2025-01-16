@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | bleach | 6.2.0 |
 | blosc2 | 3.0.0 |
 | cdasws | 1.8.9 |
-| cdflib | 1.3.2 |
+| cdflib | 1.3.3 |
 | certifi | 2024.12.14 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
 | geopack | 1.0.11 |
-| Glymur | 0.13.6 |
+| Glymur | 0.13.7 |
 | h11 | 0.14.0 |
 | h5netcdf | 1.4.1 |
 | h5py | 3.12.1 |
