@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
 | dask | 2024.12.1 |
-| debugpy | 1.8.11 |
+| debugpy | 1.8.12 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
-| opencv-python | 4.10.0.84 |
+| opencv-python | 4.11.0.86 |
 | overrides | 7.7.0 |
 | packaging | 24.2 |
 | pandas | 2.2.3 |
@@ -189,7 +189,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
-| referencing | 0.35.1 |
+| referencing | 0.36.0 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
 | requests-file | 2.1.0 |
