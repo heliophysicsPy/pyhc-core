@@ -71,10 +71,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 44.0.0 |
 | cycler | 0.12.1 |
-| dask | 2024.12.1 |
+| dask | 2025.1.0 |
 | debugpy | 1.8.12 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
+| Deprecated | 1.2.15 |
 | dill | 0.3.9 |
 | donfig | 0.8.1.post1 |
 | drms | 0.8.0 |
@@ -144,7 +145,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.14.1 |
+| numcodecs | 0.15.0 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -189,7 +190,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
-| referencing | 0.36.0 |
+| referencing | 0.36.1 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
 | requests-file | 2.1.0 |
@@ -237,6 +238,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.1.1 |
 | yarl | 1.18.3 |
-| zarr | 3.0.0 |
+| zarr | 3.0.1 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
