@@ -48,7 +48,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
-| asteval | 1.0.5 |
+| asteval | 1.0.6 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2025.1.13.0.34.51 |
@@ -232,7 +232,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
-| websockets | 14.1 |
+| websockets | 14.2 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
