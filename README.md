@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2025.1.13.0.34.51 |
+| astropy-iers-data | 0.2025.1.20.0.32.27 |
 | asttokens | 3.0.0 |
 | attrs | 24.3.0 |
 | babel | 2.16.0 |
@@ -98,8 +98,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | httpx | 0.28.1 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
-| imageio | 2.36.1 |
-| importlib_metadata | 8.5.0 |
+| imageio | 2.37.0 |
+| importlib_metadata | 8.6.1 |
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
-| prompt_toolkit | 3.0.48 |
+| prompt_toolkit | 3.0.50 |
 | propcache | 0.2.1 |
 | psutil | 6.1.1 |
 | ptyprocess | 0.7.0 |
