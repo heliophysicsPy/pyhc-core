@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.3 |
+| fonttools | 4.55.4 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
@@ -222,7 +222,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
 | typing_extensions | 4.12.2 |
-| tzdata | 2024.2 |
+| tzdata | 2025.1 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.3.0 |
