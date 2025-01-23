@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dill | 0.3.9 |
 | donfig | 0.8.1.post1 |
 | drms | 0.8.0 |
-| executing | 2.1.0 |
+| executing | 2.2.0 |
 | fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
