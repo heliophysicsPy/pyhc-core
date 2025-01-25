@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | debugpy | 1.8.12 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
-| Deprecated | 1.2.15 |
+| Deprecated | 1.2.17 |
 | dill | 0.3.9 |
 | donfig | 0.8.1.post1 |
 | drms | 0.8.0 |
@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.5 |
+| fonttools | 4.55.6 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
