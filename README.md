@@ -53,7 +53,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy_healpix | 1.0.3 |
 | astropy-iers-data | 0.2025.1.20.0.32.27 |
 | asttokens | 3.0.0 |
-| attrs | 24.3.0 |
+| attrs | 25.1.0 |
 | babel | 2.16.0 |
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
 | geopack | 1.0.11 |
-| Glymur | 0.13.7 |
+| Glymur | 0.13.8 |
 | h11 | 0.14.0 |
 | h5netcdf | 1.4.1 |
 | h5py | 3.12.1 |
@@ -190,7 +190,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.0 |
-| referencing | 0.36.1 |
+| referencing | 0.36.2 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
 | requests-file | 2.1.0 |
