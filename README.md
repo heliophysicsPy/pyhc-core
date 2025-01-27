@@ -91,7 +91,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | geopack | 1.0.11 |
 | Glymur | 0.13.8 |
 | h11 | 0.14.0 |
-| h5netcdf | 1.4.1 |
+| h5netcdf | 1.5.0 |
 | h5py | 3.12.1 |
 | hapiclient | 0.2.6 |
 | httpcore | 1.0.7 |
@@ -198,7 +198,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
-| scikit-image | 0.25.0 |
+| scikit-image | 0.25.1 |
 | scipy | 1.15.1 |
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
