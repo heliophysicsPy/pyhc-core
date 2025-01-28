@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2025.1.20.0.32.27 |
+| astropy-iers-data | 0.2025.1.27.0.32.44 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.16.0 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | debugpy | 1.8.12 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
-| Deprecated | 1.2.17 |
+| Deprecated | 1.2.18 |
 | dill | 0.3.9 |
 | donfig | 0.8.1.post1 |
 | drms | 0.8.0 |
