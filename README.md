@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.6 |
+| fonttools | 4.55.7 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
@@ -133,13 +133,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.0 |
 | matplotlib-inline | 0.1.7 |
-| mistune | 3.1.0 |
+| mistune | 3.1.1 |
 | mpl_animators | 1.2.0 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
+| narwhals | 1.24.1 |
 | nbclient | 0.10.2 |
-| nbconvert | 7.16.5 |
+| nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
 | ndindex | 1.9.2 |
 | nest-asyncio | 1.6.0 |
@@ -162,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 24.3.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
-| plotly | 5.24.1 |
+| plotly | 6.0.0 |
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
@@ -185,7 +186,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
-| pytplot-mpl-temp | 2.2.51 |
+| pytplot-mpl-temp | 2.2.52 |
 | pytz | 2024.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -212,7 +213,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 6.0.4 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tenacity | 9.0.0 |
 | terminado | 0.18.1 |
 | tifffile | 2025.1.10 |
 | tinycss2 | 1.4.0 |
