@@ -33,9 +33,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
+| aioboto3 | 13.4.0 |
+| aiobotocore | 2.18.0 |
+| aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.4 |
 | aiohttp | 3.11.11 |
+| aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.0 |
 | antlr4-python3-runtime | 4.7 |
@@ -58,7 +62,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
 | blosc2 | 3.0.0 |
-| cdasws | 1.8.9 |
+| boto3 | 1.36.1 |
+| botocore | 1.36.1 |
+| cdasws | 1.8.10 |
 | cdflib | 1.3.3 |
 | certifi | 2024.12.14 |
 | cffi | 1.17.1 |
@@ -84,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.7 |
+| fonttools | 4.55.8 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2024.12.0 |
@@ -160,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.1.0 |
-| pip | 24.3.1 |
+| pip | 25.0 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 6.0.0 |
@@ -181,7 +187,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.1 |
+| pyspedas | 1.7.2 |
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -199,6 +205,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
+| s3fs | 2024.12.0 |
+| s3transfer | 0.11.2 |
 | scikit-image | 0.25.1 |
 | scipy | 1.15.1 |
 | semantic-version | 2.10.0 |
