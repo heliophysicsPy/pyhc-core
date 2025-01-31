@@ -196,7 +196,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2024.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
-| pyzmq | 26.2.0 |
+| pyzmq | 26.2.1 |
 | referencing | 0.36.2 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
