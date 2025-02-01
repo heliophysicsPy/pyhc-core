@@ -47,7 +47,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi | 23.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
-| asdf | 4.0.0 |
+| asdf | 4.1.0 |
 | asdf-astropy | 0.7.0 |
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.0 |
 | astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2025.1.27.0.32.44 |
+| astropy-iers-data | 0.2025.1.31.12.41.4 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.16.0 |
@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.36.1 |
 | cdasws | 1.8.10 |
 | cdflib | 1.3.3 |
-| certifi | 2024.12.14 |
+| certifi | 2025.1.31 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.1 |
@@ -109,7 +109,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.31.0 |
+| ipython | 8.32.0 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
 | pytplot-mpl-temp | 2.2.52 |
-| pytz | 2024.2 |
+| pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.2.1 |
@@ -244,8 +244,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
-| xarray | 2025.1.1 |
+| xarray | 2025.1.2 |
 | yarl | 1.18.3 |
-| zarr | 3.0.1 |
+| zarr | 3.0.2 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
