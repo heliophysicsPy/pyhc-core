@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.1.31.12.41.4 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
-| babel | 2.16.0 |
+| babel | 2.17.0 |
 | beautifulsoup4 | 4.12.3 |
 | bleach | 6.2.0 |
 | blosc2 | 3.0.0 |
@@ -93,7 +93,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.55.8 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
-| fsspec | 2024.12.0 |
+| fsspec | 2025.2.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.8 |
 | h11 | 0.14.0 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.24.1 |
+| narwhals | 1.24.2 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -205,7 +205,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.22.3 |
-| s3fs | 2024.12.0 |
+| s3fs | 2025.2.0 |
 | s3transfer | 0.11.2 |
 | scikit-image | 0.25.1 |
 | scipy | 1.15.1 |
