@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.17.0 |
-| beautifulsoup4 | 4.12.3 |
+| beautifulsoup4 | 4.13.0 |
 | bleach | 6.2.0 |
 | blosc2 | 3.0.0 |
 | boto3 | 1.36.1 |
