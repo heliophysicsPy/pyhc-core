@@ -54,12 +54,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.6 |
 | astropy | 7.0.0 |
-| astropy_healpix | 1.0.3 |
-| astropy-iers-data | 0.2025.1.31.12.41.4 |
+| astropy_healpix | 1.1.0 |
+| astropy-iers-data | 0.2025.2.3.0.32.42 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.17.0 |
-| beautifulsoup4 | 4.13.0 |
+| beautifulsoup4 | 4.13.1 |
 | bleach | 6.2.0 |
 | blosc2 | 3.0.0 |
 | boto3 | 1.36.1 |
@@ -124,7 +124,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2024.10.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
-| jupyter-events | 0.11.0 |
+| jupyter-events | 0.12.0 |
 | jupyter_server | 2.15.0 |
 | jupyter_server_terminals | 0.5.3 |
 | jupyterlab_pygments | 0.3.0 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.24.2 |
+| narwhals | 1.25.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
