@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Deprecated | 1.2.18 |
 | dill | 0.3.9 |
 | donfig | 0.8.1.post1 |
-| drms | 0.8.0 |
+| drms | 0.9.0 |
 | executing | 2.2.0 |
 | fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.25.0 |
+| narwhals | 1.25.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
