@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.4 |
-| aiohttp | 3.11.11 |
+| aiohttp | 3.11.12 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.0 |
@@ -53,7 +53,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.6 |
-| astropy | 7.0.0 |
+| astropy | 7.0.1 |
 | astropy_healpix | 1.1.0 |
 | astropy-iers-data | 0.2025.2.3.0.32.42 |
 | asttokens | 3.0.0 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.25.1 |
+| narwhals | 1.25.2 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
