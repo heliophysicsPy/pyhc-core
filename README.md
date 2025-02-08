@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiobotocore | 2.18.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
-| aiohappyeyeballs | 2.4.4 |
+| aiohappyeyeballs | 2.4.6 |
 | aiohttp | 3.11.12 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | Flask-Cors | 5.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.55.8 |
+| fonttools | 4.56.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2025.2.0 |
