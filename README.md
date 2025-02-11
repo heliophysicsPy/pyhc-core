@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.0 |
-| astropy-iers-data | 0.2025.2.3.0.32.42 |
+| astropy-iers-data | 0.2025.2.10.0.33.26 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.17.0 |
@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy_loader | 0.4 |
 | lmfit | 1.3.2 |
 | locket | 1.0.0 |
-| lxml | 5.3.0 |
+| lxml | 5.3.1 |
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.0 |
 | matplotlib-inline | 0.1.7 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.25.2 |
+| narwhals | 1.26.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -152,7 +152,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.15.0 |
+| numcodecs | 0.15.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
