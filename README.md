@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.2 |
 | contourpy | 1.3.1 |
 | crc32c | 2.7.1 |
-| cryptography | 44.0.0 |
+| cryptography | 44.0.1 |
 | cycler | 0.12.1 |
 | dask | 2025.1.0 |
 | debugpy | 1.8.12 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.1.0 |
-| pip | 25.0 |
+| pip | 25.0.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
 | plotly | 6.0.0 |
