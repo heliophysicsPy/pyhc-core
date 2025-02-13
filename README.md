@@ -48,7 +48,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
 | asdf | 4.1.0 |
-| asdf-astropy | 0.7.0 |
+| asdf-astropy | 0.7.1 |
 | asdf_coordinates_schemas | 0.3.0 |
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
