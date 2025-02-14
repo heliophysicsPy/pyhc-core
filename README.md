@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
-| blosc2 | 3.0.0 |
+| blosc2 | 3.1.0 |
 | boto3 | 1.36.1 |
 | botocore | 1.36.1 |
 | cdasws | 1.8.10 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 44.0.1 |
 | cycler | 0.12.1 |
-| dask | 2025.1.0 |
+| dask | 2025.2.0 |
 | debugpy | 1.8.12 |
 | decorator | 5.1.1 |
 | defusedxml | 0.7.1 |
@@ -175,7 +175,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.50 |
 | propcache | 0.2.1 |
-| psutil | 6.1.1 |
+| psutil | 7.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
 | py-cpuinfo | 9.0.0 |
@@ -187,7 +187,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.2 |
+| pyspedas | 1.7.3 |
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
