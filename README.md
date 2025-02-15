@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
-| blosc2 | 3.1.0 |
+| blosc2 | 3.1.1 |
 | boto3 | 1.36.1 |
 | botocore | 1.36.1 |
 | cdasws | 1.8.10 |
@@ -187,7 +187,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.3 |
+| pyspedas | 1.7.4 |
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -246,6 +246,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.1.2 |
 | yarl | 1.18.3 |
-| zarr | 3.0.2 |
+| zarr | 3.0.3 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
