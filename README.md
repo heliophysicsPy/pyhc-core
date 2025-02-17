@@ -240,7 +240,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
-| websockets | 14.2 |
+| websockets | 15.0 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
