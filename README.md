@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
-| astropy_healpix | 1.1.1 |
+| astropy_healpix | 1.1.2 |
 | astropy-iers-data | 0.2025.2.17.0.34.13 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.0 |
 | matplotlib-inline | 0.1.7 |
-| mistune | 3.1.1 |
+| mistune | 3.1.2 |
 | mpl_animators | 1.2.0 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
@@ -192,7 +192,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
-| pytplot-mpl-temp | 2.2.53 |
+| pytplot-mpl-temp | 2.2.54 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -222,7 +222,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.1.10 |
+| tifffile | 2025.2.18 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
