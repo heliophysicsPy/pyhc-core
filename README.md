@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.50 |
-| propcache | 0.2.1 |
+| propcache | 0.3.0 |
 | psutil | 7.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -187,7 +187,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.4 |
+| pyspedas | 1.7.5 |
 | pytest | 8.3.4 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -204,7 +204,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.22.3 |
+| rpds-py | 0.23.0 |
 | s3fs | 2025.2.0 |
 | s3transfer | 0.11.2 |
 | scikit-image | 0.25.2 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.3.0 |
-| viresclient | 0.12.1 |
+| viresclient | 0.12.2 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
