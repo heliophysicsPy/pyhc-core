@@ -204,7 +204,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.23.0 |
+| rpds-py | 0.23.1 |
 | s3fs | 2025.2.0 |
 | s3transfer | 0.11.2 |
 | scikit-image | 0.25.2 |
