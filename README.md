@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cycler | 0.12.1 |
 | dask | 2025.2.0 |
 | debugpy | 1.8.12 |
-| decorator | 5.1.1 |
+| decorator | 5.2.0 |
 | defusedxml | 0.7.1 |
 | Deprecated | 1.2.18 |
 | dill | 0.3.9 |
