@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 13.4.0 |
-| aiobotocore | 2.18.0 |
+| aioboto3 | 14.0.0 |
+| aiobotocore | 2.20.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.6 |
@@ -62,8 +62,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
 | blosc2 | 3.1.1 |
-| boto3 | 1.36.1 |
-| botocore | 1.36.1 |
+| boto3 | 1.36.23 |
+| botocore | 1.36.23 |
 | cdasws | 1.8.10 |
 | cdflib | 1.3.3 |
 | certifi | 2025.1.31 |
@@ -246,6 +246,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.1.2 |
 | yarl | 1.18.3 |
-| zarr | 3.0.3 |
+| zarr | 3.0.4 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
