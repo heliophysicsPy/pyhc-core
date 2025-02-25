@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.4.6 |
-| aiohttp | 3.11.12 |
+| aiohttp | 3.11.13 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.0 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.2.17.0.34.13 |
+| astropy-iers-data | 0.2025.2.24.0.34.4 |
 | asttokens | 3.0.0 |
 | attrs | 25.1.0 |
 | babel | 2.17.0 |
@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cycler | 0.12.1 |
 | dask | 2025.2.0 |
 | debugpy | 1.8.12 |
-| decorator | 5.2.0 |
+| decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
 | Deprecated | 1.2.18 |
 | dill | 0.3.9 |
@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | executing | 2.2.0 |
 | fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
-| Flask-Cors | 5.0.0 |
+| flask-cors | 5.0.1 |
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.56.0 |
 | fqdn | 1.5.1 |
@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.27.1 |
+| narwhals | 1.28.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -192,7 +192,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
-| pytplot-mpl-temp | 2.2.54 |
+| pytplot-mpl-temp | 2.2.55 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -218,7 +218,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
-| sunpy | 6.0.4 |
+| sunpy | 6.1.1 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
