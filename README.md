@@ -206,7 +206,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.23.1 |
 | s3fs | 2025.2.0 |
-| s3transfer | 0.11.2 |
+| s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
 | scipy | 1.15.2 |
 | semantic-version | 2.10.0 |
