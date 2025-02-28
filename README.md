@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
-| blosc2 | 3.1.1 |
+| blosc2 | 3.2.0 |
 | boto3 | 1.36.23 |
 | botocore | 1.36.23 |
 | cdasws | 1.8.10 |
@@ -96,12 +96,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.2.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.13.8 |
-| h11 | 0.14.0 |
 | h5netcdf | 1.5.0 |
 | h5py | 3.13.0 |
 | hapiclient | 0.2.6 |
-| httpcore | 1.0.7 |
-| httpx | 0.28.1 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
 | imageio | 2.37.0 |
@@ -137,7 +134,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 5.3.1 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.10.0 |
+| matplotlib | 3.10.1 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.2 |
 | mpl_animators | 1.2.0 |
