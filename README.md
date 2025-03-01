@@ -106,7 +106,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 8.32.0 |
+| ipython | 9.0.0 |
+| ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
@@ -231,7 +232,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.3.0 |
-| viresclient | 0.12.2 |
+| viresclient | 0.12.3 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
