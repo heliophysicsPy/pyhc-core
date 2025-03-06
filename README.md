@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 44.0.2 |
 | cycler | 0.12.1 |
 | dask | 2025.2.0 |
-| debugpy | 1.8.12 |
+| debugpy | 1.8.13 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
 | Deprecated | 1.2.18 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
 | jedi | 0.19.2 |
-| Jinja2 | 3.1.5 |
+| Jinja2 | 3.1.6 |
 | jmespath | 1.0.1 |
 | joblib | 1.4.2 |
 | json5 | 0.10.0 |
@@ -238,7 +238,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
 | websocket-client | 1.8.0 |
-| websockets | 15.0 |
+| websockets | 15.0.1 |
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
