@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiobotocore | 2.21.1 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
-| aiohappyeyeballs | 2.4.8 |
+| aiohappyeyeballs | 2.5.0 |
 | aiohttp | 3.11.13 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
@@ -142,7 +142,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
-| narwhals | 1.29.0 |
+| narwhals | 1.29.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -185,12 +185,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.6 |
+| pyspedas | 1.7.7 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.2.1 |
-| pytplot-mpl-temp | 2.2.55 |
+| pytplot-mpl-temp | 2.2.56 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
