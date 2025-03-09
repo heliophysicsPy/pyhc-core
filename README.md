@@ -106,7 +106,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.0.0 |
 | ipykernel | 6.29.5 |
-| ipython | 9.0.1 |
+| ipython | 9.0.2 |
 | ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.5 |
 | isodate | 0.7.2 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.8 |
+| pyspedas | 1.7.9 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
