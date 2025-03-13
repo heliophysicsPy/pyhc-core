@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiobotocore | 2.21.1 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
-| aiohappyeyeballs | 2.6.0 |
+| aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.11.13 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
@@ -57,7 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy_healpix | 1.1.2 |
 | astropy-iers-data | 0.2025.3.10.0.29.26 |
 | asttokens | 3.0.0 |
-| attrs | 25.1.0 |
+| attrs | 25.2.0 |
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.8 |
 | lazy_loader | 0.4 |
-| lmfit | 1.3.2 |
+| lmfit | 1.3.3 |
 | locket | 1.0.0 |
 | lxml | 5.3.1 |
 | MarkupSafe | 3.0.2 |
@@ -194,7 +194,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
-| pyzmq | 26.2.1 |
+| pyzmq | 26.3.0 |
 | referencing | 0.36.2 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
