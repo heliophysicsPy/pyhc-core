@@ -57,7 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy_healpix | 1.1.2 |
 | astropy-iers-data | 0.2025.3.10.0.29.26 |
 | asttokens | 3.0.0 |
-| attrs | 25.2.0 |
+| attrs | 25.3.0 |
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.1 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.2 |
-| mpl_animators | 1.2.0 |
+| mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.1.0 |
