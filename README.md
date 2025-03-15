@@ -190,7 +190,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.59 |
+| pytplot-mpl-temp | 2.2.60 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -220,7 +220,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.2.18 |
+| tifffile | 2025.3.13 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
