@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.11.13 |
+| aiohttp | 3.11.14 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.0 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.3.10.0.29.26 |
+| astropy-iers-data | 0.2025.3.17.0.34.53 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -141,8 +141,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
-| multidict | 6.1.0 |
-| narwhals | 1.30.0 |
+| multidict | 6.2.0 |
+| narwhals | 1.31.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -167,7 +167,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.0.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.6 |
-| plotly | 6.0.0 |
+| plotly | 6.0.1 |
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
