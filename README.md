@@ -104,7 +104,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | imageio | 2.37.0 |
 | importlib_metadata | 8.6.1 |
 | incremental | 24.7.2 |
-| iniconfig | 2.0.0 |
+| iniconfig | 2.1.0 |
 | ipykernel | 6.29.5 |
 | ipython | 9.0.2 |
 | ipython_pygments_lexers | 1.1.1 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.1 |
 | matplotlib-inline | 0.1.7 |
-| mistune | 3.1.2 |
+| mistune | 3.1.3 |
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 11.1.0 |
 | pip | 25.0.1 |
 | plasmapy | 2024.10.0 |
-| platformdirs | 4.3.6 |
+| platformdirs | 4.3.7 |
 | plotly | 6.0.1 |
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
@@ -185,12 +185,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.1 |
 | pysat | 3.2.1 |
-| pyspedas | 1.7.12 |
+| pyspedas | 1.7.13 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.60 |
+| pytplot-mpl-temp | 2.2.63 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
