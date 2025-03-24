@@ -190,7 +190,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.65 |
+| pytplot-mpl-temp | 2.2.66 |
 | pytz | 2025.1 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -228,7 +228,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
 | typing_extensions | 4.12.2 |
-| tzdata | 2025.1 |
+| tzdata | 2025.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.3.0 |
