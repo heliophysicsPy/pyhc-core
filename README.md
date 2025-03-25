@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.3.17.0.34.53 |
+| astropy-iers-data | 0.2025.3.24.0.35.32 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -142,7 +142,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.2.0 |
-| narwhals | 1.31.0 |
+| narwhals | 1.32.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -183,9 +183,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Pygments | 2.19.1 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 25.0.0 |
-| pyparsing | 3.2.1 |
+| pyparsing | 3.2.2 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.14 |
+| pyspedas | 1.7.15 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
