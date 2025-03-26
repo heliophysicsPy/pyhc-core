@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Pygments | 2.19.1 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 25.0.0 |
-| pyparsing | 3.2.2 |
+| pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.15 |
 | pytest | 8.3.5 |
@@ -191,7 +191,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
 | pytplot-mpl-temp | 2.2.66 |
-| pytz | 2025.1 |
+| pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 26.3.0 |
