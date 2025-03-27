@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
-| blosc2 | 3.2.0 |
+| blosc2 | 3.2.1 |
 | boto3 | 1.37.1 |
 | botocore | 1.37.1 |
 | cdasws | 1.8.10 |
@@ -172,7 +172,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.50 |
-| propcache | 0.3.0 |
+| propcache | 0.3.1 |
 | psutil | 7.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -202,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.23.1 |
+| rpds-py | 0.24.0 |
 | s3fs | 2025.3.0 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
@@ -227,7 +227,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
-| typing_extensions | 4.12.2 |
+| typing_extensions | 4.13.0 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
