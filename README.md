@@ -185,12 +185,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.15 |
+| pyspedas | 1.7.16 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.67 |
+| pytplot-mpl-temp | 2.2.68 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
