@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.5.0 |
 | fsspec | 2025.3.0 |
 | geopack | 1.0.11 |
-| Glymur | 0.14.0.post1 |
+| Glymur | 0.14.0.post2 |
 | h5netcdf | 1.6.1 |
 | h5py | 3.13.0 |
 | hapiclient | 0.2.6 |
