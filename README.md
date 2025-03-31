@@ -93,7 +93,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.56.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
-| fsspec | 2025.3.0 |
+| fsspec | 2025.3.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.0.post2 |
 | h5netcdf | 1.6.1 |
@@ -203,7 +203,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.24.0 |
-| s3fs | 2025.3.0 |
+| s3fs | 2025.3.1 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
 | scipy | 1.15.2 |
@@ -220,7 +220,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.3.13 |
+| tifffile | 2025.3.30 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
