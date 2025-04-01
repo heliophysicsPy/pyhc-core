@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.24.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.11.14 |
+| aiohttp | 3.11.12 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.0 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.3.24.0.35.32 |
+| astropy-iers-data | 0.2025.3.31.0.36.18 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -93,7 +93,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.56.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
-| fsspec | 2025.3.1 |
+| fsspec | 2025.3.2 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.0.post2 |
 | h5netcdf | 1.6.1 |
@@ -141,8 +141,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
-| multidict | 6.2.0 |
-| narwhals | 1.32.0 |
+| multidict | 6.3.0 |
+| narwhals | 1.33.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.16 |
+| pyspedas | 1.7.17 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -203,7 +203,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.24.0 |
-| s3fs | 2025.3.1 |
+| s3fs | 2025.3.2 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
 | scipy | 1.15.2 |
@@ -242,7 +242,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
-| xarray | 2025.3.0 |
+| xarray | 2025.3.1 |
 | yarl | 1.18.3 |
 | zarr | 3.0.6 |
 | zeep | 4.3.1 |
