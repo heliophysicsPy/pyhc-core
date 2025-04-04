@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 5.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.56.0 |
+| fonttools | 4.57.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.5.0 |
 | fsspec | 2025.3.2 |
@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Jinja2 | 3.1.6 |
 | jmespath | 1.0.1 |
 | joblib | 1.4.2 |
-| json5 | 0.11.0 |
+| json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
 | jsonschema-specifications | 2024.10.1 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
-| multidict | 6.2.0 |
+| multidict | 6.3.2 |
 | narwhals | 1.33.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
@@ -227,7 +227,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
-| typing_extensions | 4.13.0 |
+| typing_extensions | 4.13.1 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
