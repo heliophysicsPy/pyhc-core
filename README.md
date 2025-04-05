@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.0.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.17 |
+| pyspedas | 1.7.18 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -194,7 +194,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
-| pyzmq | 26.3.0 |
+| pyzmq | 26.4.0 |
 | referencing | 0.36.2 |
 | reproject | 0.14.1 |
 | requests | 2.32.3 |
