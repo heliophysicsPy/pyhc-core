@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.5.0 |
 | fsspec | 2025.3.2 |
 | geopack | 1.0.11 |
-| Glymur | 0.14.0.post2 |
+| Glymur | 0.14.1.post1 |
 | h5netcdf | 1.6.1 |
 | h5py | 3.13.0 |
 | hapiclient | 0.2.6 |
@@ -243,7 +243,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.13 |
 | wrapt | 1.17.2 |
 | xarray | 2025.3.1 |
-| yarl | 1.18.3 |
+| yarl | 1.19.0 |
 | zarr | 3.0.6 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
