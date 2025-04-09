@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 14.1.0 |
 | aiobotocore | 2.21.1 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.24.1 |
+| aioftp | 0.25.0 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.11.16 |
 | aioitertools | 0.12.0 |
@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.3 |
 | bleach | 6.2.0 |
-| blosc2 | 3.2.1 |
+| blosc2 | 3.3.0 |
 | boto3 | 1.37.1 |
 | botocore | 1.37.1 |
 | cdasws | 1.8.10 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
-| multidict | 6.3.2 |
+| multidict | 6.2.0 |
 | narwhals | 1.34.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
@@ -189,7 +189,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.68 |
+| pytplot-mpl-temp | 2.2.69 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
