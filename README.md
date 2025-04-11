@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.37.1 |
 | botocore | 1.37.1 |
 | cdasws | 1.8.10 |
-| cdflib | 1.3.3 |
+| cdflib | 1.3.4 |
 | certifi | 2025.1.31 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 44.0.2 |
 | cycler | 0.12.1 |
 | dask | 2025.3.0 |
-| debugpy | 1.8.13 |
+| debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.3.9 |
@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ipykernel | 6.29.5 |
 | ipython | 9.1.0 |
 | ipython_pygments_lexers | 1.1.1 |
-| ipywidgets | 8.1.5 |
+| ipywidgets | 8.1.6 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
@@ -126,7 +126,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyter_server_terminals | 0.5.3 |
 | jupyterlab_pygments | 0.3.0 |
 | jupyterlab_server | 2.27.3 |
-| jupyterlab_widgets | 3.0.13 |
+| jupyterlab_widgets | 3.0.14 |
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.8 |
 | lazy_loader | 0.4 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
-| multidict | 6.4.2 |
+| multidict | 6.4.3 |
 | narwhals | 1.34.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
@@ -189,7 +189,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.69 |
+| pytplot-mpl-temp | 2.2.70 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
@@ -226,11 +226,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
-| typing_extensions | 4.13.1 |
+| typing_extensions | 4.13.2 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.2 |
 | uri-template | 1.3.0 |
-| urllib3 | 2.3.0 |
+| urllib3 | 2.4.0 |
 | viresclient | 0.12.3 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
@@ -239,7 +239,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | websocket-client | 1.8.0 |
 | websockets | 15.0.1 |
 | Werkzeug | 3.1.3 |
-| widgetsnbextension | 4.0.13 |
+| widgetsnbextension | 4.0.14 |
 | wrapt | 1.17.2 |
 | xarray | 2025.3.1 |
 | yarl | 1.19.0 |
