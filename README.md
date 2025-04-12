@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 14.1.0 |
 | aiobotocore | 2.21.1 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.25.0 |
+| aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.11.16 |
 | aioitertools | 0.12.0 |
