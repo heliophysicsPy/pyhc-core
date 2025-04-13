@@ -162,7 +162,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parso | 0.8.4 |
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
-| pillow | 11.1.0 |
+| pillow | 11.2.1 |
 | pip | 25.0.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.7 |
@@ -189,7 +189,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.70 |
+| pytplot-mpl-temp | 2.2.71 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
