@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
-| beautifulsoup4 | 4.13.3 |
+| beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
 | blosc2 | 3.3.0 |
 | boto3 | 1.37.1 |
@@ -73,7 +73,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.1.8 |
 | cloudpickle | 3.1.1 |
 | comm | 0.2.2 |
-| contourpy | 1.3.1 |
+| contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
 | cryptography | 44.0.2 |
 | cycler | 0.12.1 |
@@ -170,7 +170,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
-| prompt_toolkit | 3.0.50 |
+| prompt_toolkit | 3.0.51 |
 | propcache | 0.3.1 |
 | psutil | 7.0.0 |
 | ptyprocess | 0.7.0 |
