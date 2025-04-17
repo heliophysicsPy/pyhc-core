@@ -81,7 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
-| dill | 0.3.9 |
+| dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
 | executing | 2.2.0 |
