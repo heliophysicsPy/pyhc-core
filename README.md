@@ -91,7 +91,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.57.0 |
 | fqdn | 1.5.1 |
-| frozenlist | 1.5.0 |
+| frozenlist | 1.6.0 |
 | fsspec | 2025.3.2 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
@@ -242,7 +242,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | widgetsnbextension | 4.0.14 |
 | wrapt | 1.17.2 |
 | xarray | 2025.3.1 |
-| yarl | 1.19.0 |
+| yarl | 1.20.0 |
 | zarr | 3.0.6 |
 | zeep | 4.3.1 |
 | zipp | 3.21.0 |
