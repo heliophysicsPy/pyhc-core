@@ -41,7 +41,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiohttp | 3.11.16 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
-| aniso8601 | 10.0.0 |
+| aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
 | anyio | 4.9.0 |
 | argon2-cffi | 23.1.0 |
