@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.3.0 |
+| blosc2 | 3.3.1 |
 | boto3 | 1.37.1 |
 | botocore | 1.37.1 |
 | cdasws | 1.8.10 |
@@ -211,7 +211,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | setuptools | 65.5.0 |
 | six | 1.17.0 |
 | sniffio | 1.3.1 |
-| soupsieve | 2.6 |
+| soupsieve | 2.7 |
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
