@@ -118,7 +118,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
-| jsonschema-specifications | 2024.10.1 |
+| jsonschema-specifications | 2025.4.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.7.2 |
 | jupyter-events | 0.12.0 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy_loader | 0.4 |
 | lmfit | 1.3.3 |
 | locket | 1.0.0 |
-| lxml | 5.3.2 |
+| lxml | 5.4.0 |
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.1 |
 | matplotlib-inline | 0.1.7 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.3 |
-| narwhals | 1.35.0 |
+| narwhals | 1.36.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
