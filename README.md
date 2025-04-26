@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 44.0.2 |
 | cycler | 0.12.1 |
-| dask | 2025.4.0 |
+| dask | 2025.4.1 |
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.1.0 |
 | ipykernel | 6.29.5 |
-| ipython | 9.1.0 |
+| ipython | 9.2.0 |
 | ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.6 |
 | isodate | 0.7.2 |
