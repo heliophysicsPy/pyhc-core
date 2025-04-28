@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
 | imageio | 2.37.0 |
-| importlib_metadata | 8.6.1 |
+| importlib_metadata | 8.7.0 |
 | incremental | 24.7.2 |
 | iniconfig | 2.1.0 |
 | ipykernel | 6.29.5 |
@@ -231,7 +231,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.3 |
 | uri-template | 1.3.0 |
 | urllib3 | 2.4.0 |
-| viresclient | 0.12.3 |
+| viresclient | 0.13.0 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
