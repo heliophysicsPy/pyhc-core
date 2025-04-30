@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.3 |
-| narwhals | 1.37.0 |
+| narwhals | 1.37.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -163,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.2.1 |
-| pip | 25.0.1 |
+| pip | 25.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.7 |
 | plotly | 6.0.1 |
@@ -241,7 +241,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.14 |
 | wrapt | 1.17.2 |
-| xarray | 2025.3.1 |
+| xarray | 2025.4.0 |
 | yarl | 1.20.0 |
 | zarr | 3.0.7 |
 | zeep | 4.3.1 |
