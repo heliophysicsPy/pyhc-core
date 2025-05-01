@@ -189,7 +189,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.71 |
+| pytplot-mpl-temp | 2.2.73 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
