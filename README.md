@@ -114,7 +114,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jedi | 0.19.2 |
 | Jinja2 | 3.1.6 |
 | jmespath | 1.0.1 |
-| joblib | 1.4.2 |
+| joblib | 1.5.0 |
 | json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
 | jsonschema | 4.23.0 |
