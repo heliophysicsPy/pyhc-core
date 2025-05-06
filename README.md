@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 14.1.0 |
-| aiobotocore | 2.21.1 |
+| aioboto3 | 14.2.0 |
+| aiobotocore | 2.22.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
@@ -55,15 +55,15 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.0.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.4.28.0.37.27 |
+| astropy-iers-data | 0.2025.5.5.0.38.14 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
 | blosc2 | 3.3.2 |
-| boto3 | 1.37.1 |
-| botocore | 1.37.1 |
+| boto3 | 1.37.3 |
+| botocore | 1.37.3 |
 | cdasws | 1.8.10 |
 | cdflib | 1.3.4 |
 | certifi | 2025.4.26 |
@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ipykernel | 6.29.5 |
 | ipython | 9.2.0 |
 | ipython_pygments_lexers | 1.1.1 |
-| ipywidgets | 8.1.6 |
+| ipywidgets | 8.1.7 |
 | isodate | 0.7.2 |
 | isoduration | 20.11.0 |
 | itsdangerous | 2.2.0 |
@@ -126,7 +126,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyter_server_terminals | 0.5.3 |
 | jupyterlab_pygments | 0.3.0 |
 | jupyterlab_server | 2.27.3 |
-| jupyterlab_widgets | 3.0.14 |
+| jupyterlab_widgets | 3.0.15 |
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.8 |
 | lazy_loader | 0.4 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.3 |
-| narwhals | 1.37.1 |
+| narwhals | 1.38.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
