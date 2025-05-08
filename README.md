@@ -33,7 +33,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 14.2.0 |
+| aioboto3 | 14.3.0 |
 | aiobotocore | 2.22.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
@@ -163,9 +163,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
 | pillow | 11.2.1 |
-| pip | 25.1 |
+| pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
-| platformdirs | 4.3.7 |
+| platformdirs | 4.3.8 |
 | plotly | 6.0.1 |
 | pluggy | 1.5.0 |
 | portalocker | 3.1.1 |
