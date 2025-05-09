@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | blosc2 | 3.3.2 |
 | boto3 | 1.37.3 |
 | botocore | 1.37.3 |
-| cdasws | 1.8.10 |
+| cdasws | 1.8.11 |
 | cdflib | 1.3.4 |
 | certifi | 2025.4.26 |
 | cffi | 1.17.1 |
@@ -134,14 +134,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 5.4.0 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.10.1 |
+| matplotlib | 3.10.3 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.3 |
 | mpl_animators | 1.2.1 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.3 |
-| narwhals | 1.38.0 |
+| narwhals | 1.38.2 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -205,7 +205,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2025.3.2 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
-| scipy | 1.15.2 |
+| scipy | 1.15.3 |
 | semantic-version | 2.10.0 |
 | Send2Trash | 1.8.3 |
 | setuptools | 65.5.0 |
