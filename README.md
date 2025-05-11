@@ -70,7 +70,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.2 |
-| click | 8.1.8 |
+| click | 8.2.0 |
 | cloudpickle | 3.1.1 |
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 5.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.57.0 |
+| fonttools | 4.58.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.6.0 |
 | fsspec | 2025.3.2 |
@@ -219,7 +219,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.3.30 |
+| tifffile | 2025.5.10 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.4.2 |
