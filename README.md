@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.3.2 |
+| blosc2 | 3.3.3 |
 | boto3 | 1.37.3 |
 | botocore | 1.37.3 |
 | cdasws | 1.8.11 |
