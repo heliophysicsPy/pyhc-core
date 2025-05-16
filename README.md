@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.3 |
-| narwhals | 1.39.0 |
+| narwhals | 1.39.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -166,8 +166,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.8 |
-| plotly | 6.0.1 |
-| pluggy | 1.5.0 |
+| plotly | 6.1.0 |
+| pluggy | 1.6.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.21.1 |
 | prompt_toolkit | 3.0.51 |
@@ -201,7 +201,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.24.0 |
+| rpds-py | 0.25.0 |
 | s3fs | 2025.3.2 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
@@ -222,7 +222,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tifffile | 2025.5.10 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
-| tornado | 6.4.2 |
+| tornado | 6.5 |
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20241206 |
