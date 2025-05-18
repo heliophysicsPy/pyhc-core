@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
-| cryptography | 44.0.3 |
+| cryptography | 45.0.1 |
 | cycler | 0.12.1 |
 | dask | 2025.5.0 |
 | debugpy | 1.8.14 |
@@ -87,7 +87,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | executing | 2.2.0 |
 | fastjsonschema | 2.21.1 |
 | Flask | 1.1.2 |
-| flask-cors | 5.0.1 |
+| flask-cors | 6.0.0 |
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.58.0 |
 | fqdn | 1.5.1 |
@@ -181,7 +181,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.1 |
 | pyhc-core | 0.0.6 |
-| pyOpenSSL | 25.0.0 |
+| pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.20 |
