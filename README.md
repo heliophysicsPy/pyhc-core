@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.1 |
+| cryptography | 45.0.2 |
 | cycler | 0.12.1 |
 | dask | 2025.5.0 |
 | debugpy | 1.8.14 |
