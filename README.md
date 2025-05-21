@@ -53,7 +53,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.1.1 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.6 |
-| astropy | 7.0.2 |
+| astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
 | astropy-iers-data | 0.2025.5.19.0.38.36 |
 | asttokens | 3.0.0 |
@@ -70,14 +70,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.2 |
-| click | 8.2.0 |
+| click | 8.2.1 |
 | cloudpickle | 3.1.1 |
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
 | cryptography | 45.0.2 |
 | cycler | 0.12.1 |
-| dask | 2025.5.0 |
+| dask | 2025.5.1 |
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
@@ -92,7 +92,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.58.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.6.0 |
-| fsspec | 2025.3.2 |
+| fsspec | 2025.5.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
 | h5netcdf | 1.6.1 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.8 |
-| plotly | 6.1.0 |
+| plotly | 6.1.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.22.0 |
@@ -202,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.25.0 |
-| s3fs | 2025.3.2 |
+| s3fs | 2025.5.0 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
 | scipy | 1.15.3 |
