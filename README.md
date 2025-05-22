@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf | 4.1.0 |
 | asdf-astropy | 0.7.1 |
 | asdf_coordinates_schemas | 0.3.0 |
-| asdf_standard | 1.1.1 |
+| asdf_standard | 1.2.0 |
 | asdf_transform_schemas | 0.5.0 |
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
@@ -81,6 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
+| Deprecated | 1.2.18 |
 | dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
@@ -145,11 +146,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
-| ndindex | 1.9.2 |
+| ndindex | 1.10.0 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.16.0 |
+| numcodecs | 0.15.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -201,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.25.0 |
+| rpds-py | 0.25.1 |
 | s3fs | 2025.5.0 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
