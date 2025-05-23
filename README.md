@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.3.3 |
+| blosc2 | 3.3.4 |
 | boto3 | 1.37.3 |
 | botocore | 1.37.3 |
 | cdasws | 1.8.11 |
@@ -81,7 +81,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
-| Deprecated | 1.2.18 |
 | dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
@@ -150,7 +149,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.4.2 |
-| numcodecs | 0.15.1 |
+| numcodecs | 0.16.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -220,10 +219,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.5.10 |
+| tifffile | 2025.5.21 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
-| tornado | 6.5 |
+| tornado | 6.5.1 |
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20250516 |
