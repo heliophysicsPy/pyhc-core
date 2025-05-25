@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.11.18 |
+| aiohttp | 3.12.0 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -92,7 +92,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.58.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.6.0 |
-| fsspec | 2025.5.0 |
+| fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
 | h5netcdf | 1.6.1 |
@@ -202,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.25.1 |
-| s3fs | 2025.5.0 |
+| s3fs | 2025.5.1 |
 | s3transfer | 0.11.3 |
 | scikit-image | 0.25.2 |
 | scipy | 1.15.3 |
@@ -219,7 +219,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.5.21 |
+| tifffile | 2025.5.24 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.5.1 |
