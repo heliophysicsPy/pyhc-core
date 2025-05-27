@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.0 |
+| aiohttp | 3.12.2 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.5.19.0.38.36 |
+| astropy-iers-data | 0.2025.5.26.0.37.21 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -117,10 +117,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | joblib | 1.5.1 |
 | json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
-| jsonschema | 4.23.0 |
+| jsonschema | 4.24.0 |
 | jsonschema-specifications | 2025.4.1 |
 | jupyter_client | 8.6.3 |
-| jupyter_core | 5.7.2 |
+| jupyter_core | 5.8.0 |
 | jupyter-events | 0.12.0 |
 | jupyter_server | 2.16.0 |
 | jupyter_server_terminals | 0.5.3 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
-| narwhals | 1.40.0 |
+| narwhals | 1.41.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -219,7 +219,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.5.24 |
+| tifffile | 2025.5.26 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.5.1 |
@@ -245,4 +245,4 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | yarl | 1.20.0 |
 | zarr | 3.0.8 |
 | zeep | 4.3.1 |
-| zipp | 3.21.0 |
+| zipp | 3.22.0 |
