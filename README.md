@@ -49,9 +49,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | arrow | 1.3.0 |
 | asdf | 4.1.0 |
 | asdf-astropy | 0.7.1 |
-| asdf_coordinates_schemas | 0.3.0 |
+| asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.2.0 |
-| asdf_transform_schemas | 0.5.0 |
+| asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
@@ -120,7 +120,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema | 4.24.0 |
 | jsonschema-specifications | 2025.4.1 |
 | jupyter_client | 8.6.3 |
-| jupyter_core | 5.8.0 |
+| jupyter_core | 5.8.1 |
 | jupyter-events | 0.12.0 |
 | jupyter_server | 2.16.0 |
 | jupyter_server_terminals | 0.5.3 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.8 |
-| plotly | 6.1.1 |
+| plotly | 6.1.2 |
 | pluggy | 1.6.0 |
 | portalocker | 3.1.1 |
 | prometheus_client | 0.22.0 |
