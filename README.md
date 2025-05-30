@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.3 |
+| aiohttp | 3.12.4 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.3 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.3 |
-| mpl_animators | 1.2.1 |
+| mpl_animators | 1.2.2 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.10.0 |
 | nest-asyncio | 1.6.0 |
 | netCDF4 | 1.7.2 |
-| networkx | 3.4.2 |
+| networkx | 3.5 |
 | numcodecs | 0.16.1 |
 | numexpr | 2.10.2 |
 | numpy | 1.26.4 |
@@ -184,7 +184,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.20 |
+| pyspedas | 1.7.21 |
 | pytest | 8.3.5 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
