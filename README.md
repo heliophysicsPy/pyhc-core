@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.4 |
+| aiohttp | 3.12.6 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.1.0 |
 | ipykernel | 6.29.5 |
-| ipython | 9.2.0 |
+| ipython | 9.3.0 |
 | ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.7 |
 | isodate | 0.7.2 |
