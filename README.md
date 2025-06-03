@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.6 |
+| aiohttp | 3.12.7 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.5.26.0.37.21 |
+| astropy-iers-data | 0.2025.6.2.0.38.23 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.3 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.3 |
-| mpl_animators | 1.2.2 |
+| mpl_animators | 1.2.3 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
@@ -169,7 +169,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | plotly | 6.1.2 |
 | pluggy | 1.6.0 |
 | portalocker | 3.1.1 |
-| prometheus_client | 0.22.0 |
+| prometheus_client | 0.22.1 |
 | prompt_toolkit | 3.0.51 |
 | propcache | 0.3.1 |
 | psutil | 7.0.0 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.22 |
-| pytest | 8.3.5 |
+| pytest | 8.4.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
@@ -219,14 +219,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.5.26 |
+| tifffile | 2025.6.1 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.5.1 |
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20250516 |
-| typing_extensions | 4.13.2 |
+| typing_extensions | 4.14.0 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
 | uri-template | 1.3.0 |
