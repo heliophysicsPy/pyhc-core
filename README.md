@@ -44,7 +44,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
 | anyio | 4.9.0 |
-| argon2-cffi | 23.1.0 |
+| argon2-cffi | 25.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
 | asdf | 4.2.0 |
@@ -91,7 +91,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.58.1 |
 | fqdn | 1.5.1 |
-| frozenlist | 1.6.0 |
+| frozenlist | 1.6.2 |
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
