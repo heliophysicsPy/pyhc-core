@@ -156,7 +156,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | opencv-python | 4.11.0.86 |
 | overrides | 7.7.0 |
 | packaging | 25.0 |
-| pandas | 2.2.3 |
+| pandas | 2.3.0 |
 | pandocfilters | 1.5.1 |
 | parfive | 2.2.0 |
 | parso | 0.8.4 |
