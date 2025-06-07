@@ -89,14 +89,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.0 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.58.1 |
+| fonttools | 4.58.2 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.6.2 |
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
 | h5netcdf | 1.6.1 |
-| h5py | 3.13.0 |
+| h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
 | idna | 3.10 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
-| narwhals | 1.41.0 |
+| narwhals | 1.41.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
