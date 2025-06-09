@@ -245,4 +245,4 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | yarl | 1.20.0 |
 | zarr | 3.0.8 |
 | zeep | 4.3.1 |
-| zipp | 3.22.0 |
+| zipp | 3.23.0 |
