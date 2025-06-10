@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.6.2.0.38.23 |
+| astropy-iers-data | 0.2025.6.9.14.9.37 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.3 |
+| cryptography | 45.0.4 |
 | cycler | 0.12.1 |
 | dask | 2025.5.1 |
 | debugpy | 1.8.14 |
@@ -91,7 +91,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.58.2 |
 | fqdn | 1.5.1 |
-| frozenlist | 1.6.2 |
+| frozenlist | 1.7.0 |
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.1.post1 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
-| narwhals | 1.41.1 |
+| narwhals | 1.42.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -150,7 +150,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
 | numcodecs | 0.16.1 |
-| numexpr | 2.10.2 |
+| numexpr | 2.11.0 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
@@ -171,7 +171,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.1.1 |
 | prometheus_client | 0.22.1 |
 | prompt_toolkit | 3.0.51 |
-| propcache | 0.3.1 |
+| propcache | 0.3.2 |
 | psutil | 7.0.0 |
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
@@ -196,7 +196,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyzmq | 26.4.0 |
 | referencing | 0.36.2 |
 | reproject | 0.14.1 |
-| requests | 2.32.3 |
+| requests | 2.32.4 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
