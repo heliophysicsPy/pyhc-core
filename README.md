@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.25.1 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.11 |
+| aiohttp | 3.12.12 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.3.2 |
 | aniso8601 | 10.0.1 |
@@ -241,8 +241,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.14 |
 | wrapt | 1.17.2 |
-| xarray | 2025.4.0 |
-| yarl | 1.20.0 |
+| xarray | 2025.6.0 |
+| yarl | 1.20.1 |
 | zarr | 3.0.8 |
 | zeep | 4.3.1 |
 | zipp | 3.23.0 |
