@@ -13,7 +13,7 @@ authors = [
 ]
 dependencies = [
     "hapiclient",
-    'kamodo; python_version < "3.12"',
+    'kamodo; python_version < "3.13"',
     "plasmapy",
     "pysat",
     "pyspedas",
