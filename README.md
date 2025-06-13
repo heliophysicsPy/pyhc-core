@@ -94,7 +94,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.7.0 |
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
-| Glymur | 0.14.1.post1 |
+| Glymur | 0.14.3 |
 | h5netcdf | 1.6.1 |
 | h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.0 |
 | multidict | 6.4.4 |
-| narwhals | 1.42.0 |
+| narwhals | 1.42.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -219,7 +219,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
-| tifffile | 2025.6.1 |
+| tifffile | 2025.6.11 |
 | tinycss2 | 1.4.0 |
 | toolz | 1.0.0 |
 | tornado | 6.5.1 |
@@ -241,7 +241,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | widgetsnbextension | 4.0.14 |
 | wrapt | 1.17.2 |
-| xarray | 2025.6.0 |
+| xarray | 2025.6.1 |
 | yarl | 1.20.1 |
 | zarr | 3.0.8 |
 | zeep | 4.3.1 |
