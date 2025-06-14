@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 14.3.0 |
 | aiobotocore | 2.22.0 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.25.1 |
+| aioftp | 0.25.2 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.12.12 |
 | aioitertools | 0.12.0 |
@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.3.4 |
+| blosc2 | 3.4.0 |
 | boto3 | 1.37.3 |
 | botocore | 1.37.3 |
 | cdasws | 1.8.11 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.58.2 |
+| fonttools | 4.58.4 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.5.1 |
@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mistune | 3.1.3 |
 | mpl_animators | 1.2.3 |
 | mpmath | 1.3.0 |
-| msgpack | 1.1.0 |
+| msgpack | 1.1.1 |
 | multidict | 6.4.4 |
 | narwhals | 1.42.1 |
 | nbclient | 0.10.2 |
@@ -184,16 +184,16 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.22 |
+| pyspedas | 1.7.23 |
 | pytest | 8.4.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.73 |
+| pytplot-mpl-temp | 2.2.75 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
-| pyzmq | 26.4.0 |
+| pyzmq | 27.0.0 |
 | referencing | 0.36.2 |
 | reproject | 0.14.1 |
 | requests | 2.32.4 |
