@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.5.0 |
-| narwhals | 1.43.0 |
+| narwhals | 1.42.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.23 |
-| pytest | 8.4.0 |
+| pytest | 8.4.1 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
@@ -215,7 +215,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.0 |
 | stack-data | 0.6.3 |
-| sunpy | 6.1.1 |
+| sunpy | 7.0.0 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
@@ -230,7 +230,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
 | uri-template | 1.3.0 |
-| urllib3 | 2.4.0 |
+| urllib3 | 2.5.0 |
 | viresclient | 0.13.0 |
 | voila | 0.5.8 |
 | wcwidth | 0.2.13 |
