@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.3 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.3 |
-| mpl_animators | 1.2.3 |
+| mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.5.0 |
