@@ -179,7 +179,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pycapnp | 2.0.0 |
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
-| Pygments | 2.19.1 |
+| Pygments | 2.19.2 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
