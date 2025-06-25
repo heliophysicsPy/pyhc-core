@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 14.3.0 |
 | aiobotocore | 2.22.0 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.25.2 |
+| aioftp | 0.26.1 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.12.13 |
 | aioitertools | 0.12.0 |
@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.4.0 |
+| blosc2 | 3.5.0 |
 | boto3 | 1.37.3 |
 | botocore | 1.37.3 |
 | cdasws | 1.8.11 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
-| multidict | 6.5.0 |
+| multidict | 6.5.1 |
 | narwhals | 1.44.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
