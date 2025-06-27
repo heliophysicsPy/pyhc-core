@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 14.3.0 |
-| aiobotocore | 2.22.0 |
+| aioboto3 | 15.0.0 |
+| aiobotocore | 2.23.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.26.1 |
 | aiohappyeyeballs | 2.6.1 |
@@ -62,8 +62,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
 | blosc2 | 3.5.0 |
-| boto3 | 1.37.3 |
-| botocore | 1.37.3 |
+| boto3 | 1.38.27 |
+| botocore | 1.38.27 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.4 |
 | certifi | 2025.6.15 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.3 |
-| h5netcdf | 1.6.1 |
+| h5netcdf | 1.6.2 |
 | h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy_loader | 0.4 |
 | lmfit | 1.3.3 |
 | locket | 1.0.0 |
-| lxml | 5.4.0 |
+| lxml | 6.0.0 |
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.3 |
 | matplotlib-inline | 0.1.7 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.8 |
-| plotly | 6.1.2 |
+| plotly | 6.2.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | prometheus_client | 0.22.1 |
@@ -203,7 +203,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.25.1 |
 | s3fs | 2025.5.1 |
-| s3transfer | 0.11.3 |
+| s3transfer | 0.13.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.0 |
 | semantic-version | 2.10.0 |
