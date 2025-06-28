@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 15.0.0 |
 | aiobotocore | 2.23.0 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.26.1 |
+| aioftp | 0.26.2 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.12.13 |
 | aioitertools | 0.12.0 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
-| multidict | 6.5.1 |
+| multidict | 6.6.0 |
 | narwhals | 1.44.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
