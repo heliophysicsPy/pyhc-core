@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
-| multidict | 6.6.0 |
+| multidict | 6.6.2 |
 | narwhals | 1.44.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
