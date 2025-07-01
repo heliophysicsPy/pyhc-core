@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.6.23.0.39.50 |
+| astropy-iers-data | 0.2025.6.30.0.39.40 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.5.1 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.3 |
-| h5netcdf | 1.6.2 |
+| h5netcdf | 1.6.3 |
 | h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
-| multidict | 6.6.2 |
+| multidict | 6.6.3 |
 | narwhals | 1.44.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
