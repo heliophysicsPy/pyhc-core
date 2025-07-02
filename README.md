@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | incremental | 24.7.2 |
 | iniconfig | 2.1.0 |
 | ipykernel | 6.29.5 |
-| ipython | 9.3.0 |
+| ipython | 9.4.0 |
 | ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.7 |
 | isodate | 0.7.2 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 1.44.0 |
+| narwhals | 1.45.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -162,7 +162,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parso | 0.8.4 |
 | partd | 1.4.2 |
 | pexpect | 4.9.0 |
-| pillow | 11.2.1 |
+| pillow | 11.3.0 |
 | pip | 25.1.1 |
 | plasmapy | 2024.10.0 |
 | platformdirs | 4.3.8 |
@@ -201,7 +201,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
-| rpds-py | 0.25.1 |
+| rpds-py | 0.26.0 |
 | s3fs | 2025.5.1 |
 | s3transfer | 0.13.0 |
 | scikit-image | 0.25.2 |
@@ -243,6 +243,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.6.1 |
 | yarl | 1.20.1 |
-| zarr | 3.0.8 |
+| zarr | 3.0.9 |
 | zeep | 4.3.1 |
 | zipp | 3.23.0 |
