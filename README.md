@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.5.0 |
+| blosc2 | 3.5.1 |
 | boto3 | 1.38.27 |
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.2 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.4 |
+| cryptography | 45.0.5 |
 | cycler | 0.12.1 |
 | dask | 2025.5.1 |
 | debugpy | 1.8.14 |
