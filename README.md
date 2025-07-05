@@ -226,7 +226,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.1 |
 | traitlets | 5.14.3 |
 | types-python-dateutil | 2.9.0.20250516 |
-| typing_extensions | 4.14.0 |
+| typing_extensions | 4.14.1 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
 | uri-template | 1.3.0 |
