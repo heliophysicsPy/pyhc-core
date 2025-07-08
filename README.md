@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.6.30.0.39.40 |
+| astropy-iers-data | 0.2025.7.7.0.39.39 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 1.45.0 |
+| narwhals | 1.46.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -156,7 +156,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | opencv-python | 4.11.0.86 |
 | overrides | 7.7.0 |
 | packaging | 25.0 |
-| pandas | 2.3.0 |
+| pandas | 2.3.1 |
 | pandocfilters | 1.5.1 |
 | parfive | 2.2.0 |
 | parso | 0.8.4 |
