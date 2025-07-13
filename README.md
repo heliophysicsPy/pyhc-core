@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sniffio | 1.3.1 |
 | soupsieve | 2.7 |
 | spacepy | 0.7.0 |
-| spiceypy | 6.0.0 |
+| spiceypy | 6.0.2 |
 | stack-data | 0.6.3 |
 | sunpy | 7.0.0 |
 | sympy | 1.5.1 |
