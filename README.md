@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.7.7.0.39.39 |
+| astropy-iers-data | 0.2025.7.14.0.40.29 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.4 |
-| certifi | 2025.7.9 |
+| certifi | 2025.7.14 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.2 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 45.0.5 |
 | cycler | 0.12.1 |
-| dask | 2025.5.1 |
+| dask | 2025.7.0 |
 | debugpy | 1.8.14 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 1.46.0 |
+| narwhals | 1.47.0 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -184,7 +184,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.26 |
+| pyspedas | 1.7.27 |
 | pytest | 8.4.1 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
