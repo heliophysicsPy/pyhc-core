@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 45.0.5 |
 | cycler | 0.12.1 |
 | dask | 2025.7.0 |
-| debugpy | 1.8.14 |
+| debugpy | 1.8.15 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.4.0 |
@@ -92,7 +92,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.58.5 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.7.0 |
-| fsspec | 2025.5.1 |
+| fsspec | 2025.7.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.3 |
 | h5netcdf | 1.6.3 |
@@ -202,7 +202,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
 | rpds-py | 0.26.0 |
-| s3fs | 2025.5.1 |
+| s3fs | 2025.7.0 |
 | s3transfer | 0.13.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.0 |
@@ -243,6 +243,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.7.1 |
 | yarl | 1.20.1 |
-| zarr | 3.0.10 |
+| zarr | 3.1.0 |
 | zeep | 4.3.1 |
 | zipp | 3.23.0 |
