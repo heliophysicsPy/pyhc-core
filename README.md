@@ -47,7 +47,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | argon2-cffi | 25.1.0 |
 | argon2-cffi-bindings | 21.2.0 |
 | arrow | 1.3.0 |
-| asdf | 4.2.0 |
+| asdf | 4.3.0 |
 | asdf-astropy | 0.8.0 |
 | asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.3.0 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.58.5 |
+| fonttools | 4.59.0 |
 | fqdn | 1.5.1 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.7.0 |
