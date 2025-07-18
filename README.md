@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | babel | 2.17.0 |
 | beautifulsoup4 | 4.13.4 |
 | bleach | 6.2.0 |
-| blosc2 | 3.5.1 |
+| blosc2 | 3.6.1 |
 | boto3 | 1.38.27 |
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | joblib | 1.5.1 |
 | json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
-| jsonschema | 4.24.0 |
+| jsonschema | 4.24.1 |
 | jsonschema-specifications | 2025.4.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.8.1 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 1.47.0 |
+| narwhals | 1.47.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -213,7 +213,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sniffio | 1.3.1 |
 | soupsieve | 2.7 |
 | spacepy | 0.7.0 |
-| spiceypy | 6.0.2 |
+| spiceypy | 6.0.3 |
 | stack-data | 0.6.3 |
 | sunpy | 7.0.0 |
 | sympy | 1.5.1 |
