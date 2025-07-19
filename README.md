@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | joblib | 1.5.1 |
 | json5 | 0.12.0 |
 | jsonpointer | 3.0.0 |
-| jsonschema | 4.24.1 |
+| jsonschema | 4.25.0 |
 | jsonschema-specifications | 2025.4.1 |
 | jupyter_client | 8.6.3 |
 | jupyter_core | 5.8.1 |
@@ -129,6 +129,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyterlab_widgets | 3.0.15 |
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.8 |
+| lark | 1.2.2 |
 | lazy_loader | 0.4 |
 | lmfit | 1.3.3 |
 | locket | 1.0.0 |
@@ -201,9 +202,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | rfc3339-validator | 0.1.4 |
 | rfc3986-validator | 0.1.1 |
+| rfc3987-syntax | 1.1.0 |
 | rpds-py | 0.26.0 |
 | s3fs | 2025.7.0 |
-| s3transfer | 0.13.0 |
+| s3transfer | 0.13.1 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.0 |
 | semantic-version | 2.10.0 |
