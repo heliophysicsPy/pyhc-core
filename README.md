@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | kiwisolver | 1.4.8 |
 | lark | 1.2.2 |
 | lazy_loader | 0.4 |
-| lmfit | 1.3.3 |
+| lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | lxml | 6.0.0 |
 | MarkupSafe | 3.0.2 |
