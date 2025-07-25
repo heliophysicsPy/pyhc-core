@@ -142,7 +142,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 1.48.0 |
+| narwhals | 1.48.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.1.0 |
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.27 |
+| pyspedas | 1.7.28 |
 | pytest | 8.4.1 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
