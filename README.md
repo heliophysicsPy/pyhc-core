@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | charset-normalizer | 3.4.2 |
 | click | 8.2.1 |
 | cloudpickle | 3.1.1 |
-| comm | 0.2.2 |
+| comm | 0.2.3 |
 | contourpy | 1.3.2 |
 | crc32c | 2.7.1 |
 | cryptography | 45.0.5 |
@@ -190,7 +190,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | python-json-logger | 3.3.0 |
-| pytplot-mpl-temp | 2.2.78 |
+| pytplot-mpl-temp | 2.2.79 |
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
