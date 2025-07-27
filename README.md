@@ -73,7 +73,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.2.1 |
 | cloudpickle | 3.1.1 |
 | comm | 0.2.3 |
-| contourpy | 1.3.2 |
+| contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
 | cryptography | 45.0.5 |
 | cycler | 0.12.1 |
