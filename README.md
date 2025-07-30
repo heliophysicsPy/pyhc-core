@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.26.2 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.14 |
+| aiohttp | 3.12.15 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
@@ -142,7 +142,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.3 |
-| narwhals | 2.0.0 |
+| narwhals | 2.0.1 |
 | nbclient | 0.10.2 |
 | nbconvert | 7.16.6 |
 | nbformat | 5.10.4 |
