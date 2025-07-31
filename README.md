@@ -45,7 +45,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | antlr4-python3-runtime | 4.7 |
 | anyio | 4.9.0 |
 | argon2-cffi | 25.1.0 |
-| argon2-cffi-bindings | 21.2.0 |
+| argon2-cffi-bindings | 25.1.0 |
 | arrow | 1.3.0 |
 | asdf | 4.3.0 |
 | asdf-astropy | 0.8.0 |
@@ -234,7 +234,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uri-template | 1.3.0 |
 | urllib3 | 2.5.0 |
 | viresclient | 0.13.0 |
-| voila | 0.5.8 |
+| voila | 0.5.9 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
@@ -245,6 +245,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.2 |
 | xarray | 2025.7.1 |
 | yarl | 1.20.1 |
-| zarr | 3.1.0 |
+| zarr | 3.1.1 |
 | zeep | 4.3.1 |
 | zipp | 3.23.0 |
