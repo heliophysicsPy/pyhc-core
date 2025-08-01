@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 6.0.0 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.10.3 |
+| matplotlib | 3.10.5 |
 | matplotlib-inline | 0.1.7 |
 | mistune | 3.1.3 |
 | mpl_animators | 1.2.4 |
@@ -217,7 +217,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.3 |
 | stack-data | 0.6.3 |
-| sunpy | 7.0.0 |
+| sunpy | 7.0.1 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | terminado | 0.18.1 |
