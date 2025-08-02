@@ -177,6 +177,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ptyprocess | 0.7.0 |
 | pure_eval | 0.2.3 |
 | py-cpuinfo | 9.0.0 |
+| PyAVM | 0.9.6 |
 | pycapnp | 2.0.0 |
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
@@ -196,7 +197,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyYAML | 6.0.2 |
 | pyzmq | 27.0.0 |
 | referencing | 0.36.2 |
-| reproject | 0.14.1 |
+| reproject | 0.15.0 |
 | requests | 2.32.4 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
@@ -234,7 +235,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uri-template | 1.3.0 |
 | urllib3 | 2.5.0 |
 | viresclient | 0.13.0 |
-| voila | 0.5.9 |
+| voila | 0.5.10 |
 | wcwidth | 0.2.13 |
 | webcolors | 24.11.1 |
 | webencodings | 0.5.1 |
