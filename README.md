@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.4 |
-| certifi | 2025.7.14 |
+| certifi | 2025.8.3 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.2 |
@@ -195,7 +195,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.2 |
 | PyWavelets | 1.8.0 |
 | PyYAML | 6.0.2 |
-| pyzmq | 27.0.0 |
+| pyzmq | 27.0.1 |
 | referencing | 0.36.2 |
 | reproject | 0.15.0 |
 | requests | 2.32.4 |
