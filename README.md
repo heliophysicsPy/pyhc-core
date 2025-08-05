@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| anyio | 4.9.0 |
+| anyio | 4.10.0 |
 | argon2-cffi | 25.1.0 |
 | argon2-cffi-bindings | 25.1.0 |
 | arrow | 1.3.0 |
@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.7.28.0.41.50 |
+| astropy-iers-data | 0.2025.8.4.0.42.59 |
 | asttokens | 3.0.0 |
 | attrs | 25.3.0 |
 | babel | 2.17.0 |
@@ -104,7 +104,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | importlib_metadata | 8.7.0 |
 | incremental | 24.7.2 |
 | iniconfig | 2.1.0 |
-| ipykernel | 6.30.0 |
+| ipykernel | 6.30.1 |
 | ipython | 9.4.0 |
 | ipython_pygments_lexers | 1.1.1 |
 | ipywidgets | 8.1.7 |
@@ -193,7 +193,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-json-logger | 3.3.0 |
 | pytplot-mpl-temp | 2.2.79 |
 | pytz | 2025.2 |
-| PyWavelets | 1.8.0 |
+| PyWavelets | 1.9.0 |
 | PyYAML | 6.0.2 |
 | pyzmq | 27.0.1 |
 | referencing | 0.36.2 |
