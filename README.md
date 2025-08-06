@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.38.27 |
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
-| cdflib | 1.3.4 |
+| cdflib | 1.3.6 |
 | certifi | 2025.8.3 |
 | cffi | 1.17.1 |
 | cftime | 1.6.4.post1 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | comm | 0.2.3 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.5 |
+| cryptography | 45.0.6 |
 | cycler | 0.12.1 |
 | dask | 2025.7.0 |
 | debugpy | 1.8.15 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.7.0 |
 | geopack | 1.0.11 |
 | Glymur | 0.14.3 |
-| h5netcdf | 1.6.3 |
+| h5netcdf | 1.6.4 |
 | h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
