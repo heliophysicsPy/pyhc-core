@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 45.0.6 |
 | cycler | 0.12.1 |
 | dask | 2025.7.0 |
-| debugpy | 1.8.15 |
+| debugpy | 1.8.16 |
 | decorator | 5.2.1 |
 | defusedxml | 0.7.1 |
 | dill | 0.4.0 |
