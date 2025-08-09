@@ -122,7 +122,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 11.3.0 |
-| pip | 25.1.1 |
+| pip | 25.2 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.3.8 |
 | plotly | 6.2.0 |
