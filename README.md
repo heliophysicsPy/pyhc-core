@@ -97,7 +97,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jmespath | 1.0.1 |
 | joblib | 1.5.1 |
 | kamodo | 23.3.0 |
-| kiwisolver | 1.4.8 |
+| kiwisolver | 1.4.9 |
 | lazy_loader | 0.4 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
