@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.8.11.0.41.9 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.4 |
-| blosc2 | 3.6.1 |
+| blosc2 | 3.7.0 |
 | boto3 | 1.38.27 |
 | botocore | 1.38.27 |
 | cdasws | 1.8.11 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.4 |
-| narwhals | 2.1.0 |
+| narwhals | 2.1.1 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
@@ -125,7 +125,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.2 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.3.8 |
-| plotly | 6.2.0 |
+| plotly | 6.3.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.3.2 |
@@ -173,7 +173,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | urllib3 | 2.5.0 |
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
-| wrapt | 1.17.2 |
+| wrapt | 1.17.3 |
 | xarray | 2025.7.1 |
 | yarl | 1.20.1 |
 | zarr | 3.1.1 |
