@@ -112,7 +112,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
-| numcodecs | 0.16.1 |
+| numcodecs | 0.16.2 |
 | numexpr | 2.11.0 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
