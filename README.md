@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 15.0.0 |
-| aiobotocore | 2.23.0 |
+| aioboto3 | 15.1.0 |
+| aiobotocore | 2.24.0 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.26.2 |
 | aiohappyeyeballs | 2.6.1 |
@@ -55,8 +55,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.4 |
 | blosc2 | 3.7.0 |
-| boto3 | 1.38.27 |
-| botocore | 1.38.27 |
+| boto3 | 1.39.11 |
+| botocore | 1.39.11 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
 | certifi | 2025.8.3 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.59.0 |
+| fonttools | 4.59.1 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.7.0 |
 | geopack | 1.0.11 |
@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.7.1 |
+| xarray | 2025.8.0 |
 | yarl | 1.20.1 |
 | zarr | 3.1.1 |
 | zeep | 4.3.1 |
