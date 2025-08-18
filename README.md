@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.8.11.0.41.9 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.4 |
-| blosc2 | 3.7.0 |
+| blosc2 | 3.7.1 |
 | boto3 | 1.39.11 |
 | botocore | 1.39.11 |
 | cdasws | 1.8.11 |
