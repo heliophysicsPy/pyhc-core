@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| asdf | 4.3.0 |
+| asdf | 4.4.0 |
 | asdf-astropy | 0.8.0 |
 | asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.3.0 |
@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.8.11.0.41.9 |
+| astropy-iers-data | 0.2025.8.18.0.40.14 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.4 |
 | blosc2 | 3.7.1 |
@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.2 |
 | reproject | 0.15.0 |
-| requests | 2.32.4 |
+| requests | 2.32.5 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2025.7.0 |
