@@ -118,7 +118,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
 | packaging | 25.0 |
-| pandas | 2.3.1 |
+| pandas | 2.3.2 |
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 11.3.0 |
