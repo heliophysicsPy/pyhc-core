@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy_loader | 0.4 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
-| lxml | 6.0.0 |
+| lxml | 6.0.1 |
 | MarkupSafe | 3.0.2 |
 | matplotlib | 3.10.5 |
 | mpl_animators | 1.2.4 |
