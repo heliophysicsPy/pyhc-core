@@ -53,7 +53,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy_healpix | 1.1.2 |
 | astropy-iers-data | 0.2025.8.18.0.40.14 |
 | attrs | 25.3.0 |
-| beautifulsoup4 | 4.13.4 |
+| beautifulsoup4 | 4.13.5 |
 | blosc2 | 3.7.2 |
 | boto3 | 1.39.11 |
 | botocore | 1.39.11 |
