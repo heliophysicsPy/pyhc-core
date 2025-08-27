@@ -124,7 +124,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 11.3.0 |
 | pip | 25.2 |
 | plasmapy | 2025.8.0 |
-| platformdirs | 4.3.8 |
+| platformdirs | 4.4.0 |
 | plotly | 6.3.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
