@@ -46,7 +46,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf | 4.4.0 |
 | asdf-astropy | 0.8.0 |
 | asdf_coordinates_schemas | 0.4.0 |
-| asdf_standard | 1.3.0 |
+| asdf_standard | 1.4.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.59.1 |
+| fonttools | 4.59.2 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.7.0 |
 | geopack | 1.0.11 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
 | jmespath | 1.0.1 |
-| joblib | 1.5.1 |
+| joblib | 1.5.2 |
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.9 |
 | lazy_loader | 0.4 |
@@ -158,13 +158,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | semantic-version | 2.10.0 |
 | setuptools | 80.9.0 |
 | six | 1.17.0 |
-| soupsieve | 2.7 |
+| soupsieve | 2.8 |
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.3 |
 | sunpy | 7.0.1 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tifffile | 2025.6.11 |
+| tifffile | 2025.8.28 |
 | toolz | 1.0.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
