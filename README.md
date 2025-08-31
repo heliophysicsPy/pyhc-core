@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 6.0.1 |
 | MarkupSafe | 3.0.2 |
-| matplotlib | 3.10.5 |
+| matplotlib | 3.10.6 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
