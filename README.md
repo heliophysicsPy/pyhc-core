@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.8.25.0.36.58 |
+| astropy-iers-data | 0.2025.9.1.0.42.11 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.5 |
 | blosc2 | 3.7.2 |
@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.6 |
+| cryptography | 45.0.7 |
 | cycler | 0.12.1 |
 | dask | 2025.7.0 |
 | decorator | 5.2.1 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.4 |
-| narwhals | 2.2.0 |
+| narwhals | 2.3.0 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
