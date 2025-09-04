@@ -80,7 +80,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.59.2 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.9.0 |
-| geopack | 1.0.11 |
+| geopack | 1.0.12 |
 | Glymur | 0.14.3 |
 | h5netcdf | 1.6.4 |
 | h5py | 3.14.0 |
