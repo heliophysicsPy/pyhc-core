@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| asdf | 4.4.0 |
+| asdf | 4.5.0 |
 | asdf-astropy | 0.8.0 |
 | asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.4.0 |
@@ -140,7 +140,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.3 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.28 |
-| pytest | 8.4.1 |
+| pytest | 8.4.2 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | pytplot-mpl-temp | 2.2.79 |
@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.8.0 |
+| xarray | 2025.9.0 |
 | yarl | 1.20.1 |
 | zarr | 3.1.2 |
 | zeep | 4.3.1 |
