@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | propcache | 0.3.2 |
 | py-cpuinfo | 9.0.0 |
 | PyAVM | 0.9.6 |
-| pycapnp | 2.0.0 |
+| pycapnp | 2.1.0 |
 | pycparser | 2.22 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
