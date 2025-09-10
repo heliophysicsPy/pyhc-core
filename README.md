@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | py-cpuinfo | 9.0.0 |
 | PyAVM | 0.9.6 |
 | pycapnp | 2.1.0 |
-| pycparser | 2.22 |
+| pycparser | 2.23 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
 | pyhc-core | 0.0.6 |
@@ -164,7 +164,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.0.1 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tifffile | 2025.8.28 |
+| tifffile | 2025.9.9 |
 | toolz | 1.0.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
