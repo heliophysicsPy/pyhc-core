@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
-| asdf | 4.5.0 |
+| asdf | 5.0.0 |
 | asdf-astropy | 0.8.0 |
 | asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.4.0 |
@@ -69,7 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 45.0.7 |
 | cycler | 0.12.1 |
-| dask | 2025.7.0 |
+| dask | 2025.9.0 |
 | decorator | 5.2.1 |
 | dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
 | numcodecs | 0.16.2 |
-| numexpr | 2.11.0 |
+| numexpr | 2.12.0 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
