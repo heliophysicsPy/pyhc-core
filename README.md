@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.9.8.0.36.17 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.13.5 |
-| blosc2 | 3.7.2 |
+| blosc2 | 3.8.0 |
 | boto3 | 1.39.11 |
 | botocore | 1.39.11 |
 | cdasws | 1.8.11 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
 | numcodecs | 0.16.2 |
-| numexpr | 2.12.0 |
+| numexpr | 2.12.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
@@ -154,7 +154,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2025.9.0 |
 | s3transfer | 0.13.1 |
 | scikit-image | 0.25.2 |
-| scipy | 1.16.1 |
+| scipy | 1.16.2 |
 | semantic-version | 2.10.0 |
 | setuptools | 80.9.0 |
 | six | 1.17.0 |
