@@ -69,7 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | crc32c | 2.7.1 |
 | cryptography | 45.0.7 |
 | cycler | 0.12.1 |
-| dask | 2025.9.0 |
+| dask | 2025.9.1 |
 | decorator | 5.2.1 |
 | dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
