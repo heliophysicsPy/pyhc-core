@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
-| cryptography | 45.0.7 |
+| cryptography | 46.0.1 |
 | cycler | 0.12.1 |
 | dask | 2025.9.1 |
 | decorator | 5.2.1 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.59.2 |
+| fonttools | 4.60.0 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
@@ -136,7 +136,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
 | pyhc-core | 0.0.6 |
-| pyOpenSSL | 25.2.0 |
+| pyOpenSSL | 25.3.0 |
 | pyparsing | 3.2.4 |
 | pysat | 3.2.2 |
 | pyspedas | 1.7.28 |
