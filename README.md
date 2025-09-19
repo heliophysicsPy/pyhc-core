@@ -63,7 +63,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cffi | 2.0.0 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.3 |
-| click | 8.2.1 |
+| click | 8.3.0 |
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
@@ -112,7 +112,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
-| numcodecs | 0.16.2 |
+| numcodecs | 0.16.3 |
 | numexpr | 2.12.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -176,6 +176,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.3 |
 | xarray | 2025.9.0 |
 | yarl | 1.20.1 |
-| zarr | 3.1.2 |
+| zarr | 3.1.3 |
 | zeep | 4.3.2 |
 | zipp | 3.23.0 |
