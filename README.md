@@ -161,7 +161,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | soupsieve | 2.8 |
 | spacepy | 0.7.0 |
 | spiceypy | 6.0.3 |
-| sunpy | 7.0.1 |
+| sunpy | 7.0.2 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | tifffile | 2025.9.9 |
