@@ -164,7 +164,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.0.2 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tifffile | 2025.9.9 |
+| tifffile | 2025.9.20 |
 | toolz | 1.0.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
