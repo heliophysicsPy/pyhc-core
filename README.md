@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 15.1.0 |
 | aiobotocore | 2.24.0 |
 | aiofiles | 24.1.0 |
-| aioftp | 0.26.2 |
+| aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.12.15 |
 | aioitertools | 0.12.0 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
 | numcodecs | 0.16.3 |
-| numexpr | 2.12.1 |
+| numexpr | 2.13.0 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
