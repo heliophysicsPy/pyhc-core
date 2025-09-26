@@ -146,7 +146,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytplot-mpl-temp | 2.2.79 |
 | pytz | 2025.2 |
 | PyWavelets | 1.9.0 |
-| PyYAML | 6.0.2 |
+| PyYAML | 6.0.3 |
 | reproject | 0.15.0 |
 | requests | 2.32.5 |
 | requests-file | 2.1.0 |
