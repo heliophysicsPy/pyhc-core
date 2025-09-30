@@ -51,9 +51,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.9.22.0.37.25 |
+| astropy-iers-data | 0.2025.9.29.0.35.48 |
 | attrs | 25.3.0 |
-| beautifulsoup4 | 4.14.0 |
+| beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.9.0 |
 | boto3 | 1.39.11 |
 | botocore | 1.39.11 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.60.0 |
+| fonttools | 4.60.1 |
 | frozenlist | 1.7.0 |
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
 | multidict | 6.6.4 |
-| narwhals | 2.5.0 |
+| narwhals | 2.6.0 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
@@ -118,7 +118,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
 | packaging | 25.0 |
-| pandas | 2.3.2 |
+| pandas | 2.3.3 |
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 11.3.0 |
@@ -164,7 +164,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.0.2 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tifffile | 2025.9.20 |
+| tifffile | 2025.9.30 |
 | toolz | 1.0.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
