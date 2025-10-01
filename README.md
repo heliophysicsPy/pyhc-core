@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
 | numcodecs | 0.16.3 |
-| numexpr | 2.13.0 |
+| numexpr | 2.13.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
@@ -147,7 +147,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
-| reproject | 0.15.0 |
+| reproject | 0.16.0 |
 | requests | 2.32.5 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.9.0 |
+| xarray | 2025.9.1 |
 | yarl | 1.20.1 |
 | zarr | 3.1.3 |
 | zeep | 4.3.2 |
