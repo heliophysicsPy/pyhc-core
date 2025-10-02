@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.9.29.0.35.48 |
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.14.2 |
-| blosc2 | 3.9.0 |
+| blosc2 | 3.9.1 |
 | boto3 | 1.39.11 |
 | botocore | 1.39.11 |
 | cdasws | 1.8.11 |
@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1 |
-| cryptography | 46.0.1 |
+| cryptography | 46.0.2 |
 | cycler | 0.12.1 |
 | dask | 2025.9.1 |
 | decorator | 5.2.1 |
