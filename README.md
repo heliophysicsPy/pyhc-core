@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 15.1.0 |
-| aiobotocore | 2.24.0 |
+| aioboto3 | 15.2.0 |
+| aiobotocore | 2.24.2 |
 | aiofiles | 24.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
@@ -55,8 +55,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | attrs | 25.3.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.9.1 |
-| boto3 | 1.39.11 |
-| botocore | 1.39.11 |
+| boto3 | 1.40.18 |
+| botocore | 1.40.18 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
 | certifi | 2025.8.3 |
@@ -128,7 +128,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | plotly | 6.3.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
-| propcache | 0.3.2 |
+| propcache | 0.4.0 |
 | py-cpuinfo | 9.0.0 |
 | PyAVM | 0.9.6 |
 | pycapnp | 2.2.0 |
