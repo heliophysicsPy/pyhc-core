@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.18 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
-| certifi | 2025.8.3 |
+| certifi | 2025.10.5 |
 | cffi | 2.0.0 |
 | cftime | 1.6.4.post1 |
 | charset-normalizer | 3.4.3 |
@@ -175,7 +175,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
 | xarray | 2025.9.1 |
-| yarl | 1.20.1 |
+| yarl | 1.21.0 |
 | zarr | 3.1.3 |
 | zeep | 4.3.2 |
 | zipp | 3.23.0 |
