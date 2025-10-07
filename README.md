@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 24.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.12.15 |
+| aiohttp | 3.13.0 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
@@ -51,8 +51,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.9.29.0.35.48 |
-| attrs | 25.3.0 |
+| astropy-iers-data | 0.2025.10.6.0.35.25 |
+| attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.9.1 |
 | boto3 | 1.40.18 |
@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.60.1 |
-| frozenlist | 1.7.0 |
+| frozenlist | 1.8.0 |
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.3 |
@@ -107,8 +107,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.1 |
-| multidict | 6.6.4 |
-| narwhals | 2.6.0 |
+| multidict | 6.7.0 |
+| narwhals | 2.7.0 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.2 |
 | networkx | 3.5 |
@@ -164,7 +164,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.0.2 |
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
-| tifffile | 2025.9.30 |
+| tifffile | 2025.10.4 |
 | toolz | 1.0.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
@@ -174,8 +174,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.9.1 |
-| yarl | 1.21.0 |
+| xarray | 2025.10.0 |
+| yarl | 1.22.0 |
 | zarr | 3.1.3 |
 | zeep | 4.3.2 |
 | zipp | 3.23.0 |
