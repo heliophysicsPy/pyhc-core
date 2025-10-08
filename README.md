@@ -174,7 +174,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.10.0 |
+| xarray | 2025.10.1 |
 | yarl | 1.22.0 |
 | zarr | 3.1.3 |
 | zeep | 4.3.2 |
