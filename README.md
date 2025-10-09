@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.10.6.0.35.25 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
-| blosc2 | 3.9.1 |
+| blosc2 | 3.10.0 |
 | boto3 | 1.40.18 |
 | botocore | 1.40.18 |
 | cdasws | 1.8.11 |
@@ -81,7 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.8.0 |
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
-| Glymur | 0.14.3 |
+| Glymur | 0.14.4 |
 | h5netcdf | 1.6.4 |
 | h5py | 3.14.0 |
 | hapiclient | 0.2.6 |
@@ -106,7 +106,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.6 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
-| msgpack | 1.1.1 |
+| msgpack | 1.1.2 |
 | multidict | 6.7.0 |
 | narwhals | 2.7.0 |
 | ndindex | 1.10.0 |
@@ -124,11 +124,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 11.3.0 |
 | pip | 25.2 |
 | plasmapy | 2025.8.0 |
-| platformdirs | 4.4.0 |
+| platformdirs | 4.5.0 |
 | plotly | 6.3.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
-| propcache | 0.4.0 |
+| propcache | 0.4.1 |
 | py-cpuinfo | 9.0.0 |
 | PyAVM | 0.9.6 |
 | pycapnp | 2.2.0 |
