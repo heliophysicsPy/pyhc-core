@@ -35,7 +35,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 |---------|---------|
 | aioboto3 | 15.2.0 |
 | aiobotocore | 2.24.2 |
-| aiofiles | 24.1.0 |
+| aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
 | aiohttp | 3.13.0 |
@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | locket | 1.0.0 |
 | lxml | 6.0.2 |
 | MarkupSafe | 3.0.3 |
-| matplotlib | 3.10.6 |
+| matplotlib | 3.10.7 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgpack | 1.1.2 |
@@ -147,7 +147,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
-| reproject | 0.16.0 |
+| reproject | 0.17.0 |
 | requests | 2.32.5 |
 | requests-file | 2.1.0 |
 | requests-toolbelt | 1.0.0 |
