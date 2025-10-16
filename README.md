@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.10.13.0.37.17 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
-| blosc2 | 3.10.1 |
+| blosc2 | 3.10.2 |
 | boto3 | 1.40.18 |
 | botocore | 1.40.18 |
 | cdasws | 1.8.11 |
@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
 | crc32c | 2.7.1.post0 |
-| cryptography | 46.0.2 |
+| cryptography | 46.0.3 |
 | cycler | 0.12.1 |
 | dask | 2025.10.0 |
 | decorator | 5.2.1 |
@@ -82,7 +82,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
-| h5netcdf | 1.6.4 |
+| h5netcdf | 1.7.0 |
 | h5py | 3.15.0 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -121,7 +121,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pandas | 2.3.3 |
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
-| pillow | 11.3.0 |
+| pillow | 12.0.0 |
 | pip | 25.2 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.0 |
