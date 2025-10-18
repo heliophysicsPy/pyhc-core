@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.13.0 |
+| aiohttp | 3.13.1 |
 | aioitertools | 0.12.0 |
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.3.0 |
 | cloudpickle | 3.1.1 |
 | contourpy | 1.3.3 |
-| crc32c | 2.7.1.post0 |
+| crc32c | 2.8 |
 | cryptography | 46.0.3 |
 | cycler | 0.12.1 |
 | dask | 2025.10.0 |
@@ -82,7 +82,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
-| h5netcdf | 1.7.1 |
+| h5netcdf | 1.7.2 |
 | h5py | 3.15.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
@@ -165,7 +165,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.5.1 |
 | tables | 3.10.2 |
 | tifffile | 2025.10.16 |
-| toolz | 1.0.0 |
+| toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
 | tzdata | 2025.2 |
