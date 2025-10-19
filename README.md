@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 15.2.0 |
-| aiobotocore | 2.24.2 |
+| aioboto3 | 15.4.0 |
+| aiobotocore | 2.25.0 |
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
@@ -55,8 +55,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.10.2 |
-| boto3 | 1.40.18 |
-| botocore | 1.40.18 |
+| boto3 | 1.40.49 |
+| botocore | 1.40.49 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
 | certifi | 2025.10.5 |
@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | imageio | 2.37.0 |
 | importlib_metadata | 8.7.0 |
 | incremental | 24.7.2 |
-| iniconfig | 2.1.0 |
+| iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
@@ -152,7 +152,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-file | 3.0.0 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2025.9.0 |
-| s3transfer | 0.13.1 |
+| s3transfer | 0.14.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.2 |
 | semantic-version | 2.10.0 |
