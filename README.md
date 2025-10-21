@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.10.13.0.37.17 |
+| astropy-iers-data | 0.2025.10.20.0.39.8 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.10.2 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.2 |
 | multidict | 6.7.0 |
-| narwhals | 2.8.0 |
+| narwhals | 2.9.0 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
@@ -149,14 +149,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyYAML | 6.0.3 |
 | reproject | 0.18.0 |
 | requests | 2.32.5 |
-| requests-file | 3.0.0 |
+| requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2025.9.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.2 |
 | semantic-version | 2.10.0 |
-| setuptools | 79.0.1 |
+| setuptools | 80.9.0 |
 | six | 1.17.0 |
 | soupsieve | 2.8 |
 | spacepy | 0.7.0 |
