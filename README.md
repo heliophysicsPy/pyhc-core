@@ -82,7 +82,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.9.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
-| h5netcdf | 1.7.2 |
+| h5netcdf | 1.7.3 |
 | h5py | 3.15.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
