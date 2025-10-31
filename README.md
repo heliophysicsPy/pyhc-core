@@ -33,8 +33,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 
 | Package | Version |
 |---------|---------|
-| aioboto3 | 15.4.0 |
-| aiobotocore | 2.25.0 |
+| aioboto3 | 15.5.0 |
+| aiobotocore | 2.25.1 |
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
@@ -55,8 +55,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.11.0 |
-| boto3 | 1.40.49 |
-| botocore | 1.40.49 |
+| boto3 | 1.40.61 |
+| botocore | 1.40.61 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
 | certifi | 2025.10.5 |
@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.60.1 |
 | frozenlist | 1.8.0 |
-| fsspec | 2025.9.0 |
+| fsspec | 2025.10.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
 | h5netcdf | 1.7.3 |
@@ -130,7 +130,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
 | py-cpuinfo | 9.0.0 |
-| PyAVM | 0.9.6 |
+| PyAVM | 0.9.7 |
 | pycapnp | 2.2.1 |
 | pycparser | 2.23 |
 | pyerfa | 2.0.1.5 |
@@ -151,7 +151,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.32.5 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| s3fs | 2025.9.0 |
+| s3fs | 2025.10.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.3 |
