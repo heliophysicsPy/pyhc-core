@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.2 |
 | multidict | 6.7.0 |
-| narwhals | 2.10.0 |
+| narwhals | 2.10.1 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
@@ -122,7 +122,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 12.0.0 |
-| pip | 25.2 |
+| pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.0 |
 | plotly | 6.3.1 |
@@ -156,7 +156,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | scikit-image | 0.25.2 |
 | scipy | 1.16.3 |
 | semantic-version | 2.10.0 |
-| setuptools | 80.9.0 |
+| setuptools | 79.0.1 |
 | six | 1.17.0 |
 | soupsieve | 2.8 |
 | spacepy | 0.7.0 |
