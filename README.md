@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.6 |
 | astropy | 7.1.1 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.10.27.0.39.10 |
+| astropy-iers-data | 0.2025.11.3.0.38.37 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
 | blosc2 | 3.11.0 |
@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.4 |
 | click | 8.3.0 |
-| cloudpickle | 3.1.1 |
+| cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | crc32c | 2.8 |
 | cryptography | 46.0.3 |
