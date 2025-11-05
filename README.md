@@ -87,7 +87,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
 | idna | 3.11 |
-| imageio | 2.37.0 |
+| ImageIO | 2.37.2 |
 | importlib_metadata | 8.7.0 |
 | incremental | 24.7.2 |
 | iniconfig | 2.3.0 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgpack | 1.1.2 |
 | multidict | 6.7.0 |
-| narwhals | 2.10.1 |
+| narwhals | 2.10.2 |
 | ndindex | 1.10.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
@@ -125,7 +125,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.0 |
-| plotly | 6.3.1 |
+| plotly | 6.4.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
