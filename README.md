@@ -54,7 +54,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy-iers-data | 0.2025.11.3.0.38.37 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.2 |
-| blosc2 | 3.11.0 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
 | cdasws | 1.8.11 |
@@ -106,14 +105,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.7 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
-| msgpack | 1.1.2 |
 | multidict | 6.7.0 |
 | narwhals | 2.10.2 |
-| ndindex | 1.10.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
 | numcodecs | 0.16.3 |
-| numexpr | 2.14.1 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
@@ -129,7 +125,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
-| py-cpuinfo | 9.0.0 |
 | PyAVM | 0.9.7 |
 | pycapnp | 2.2.1 |
 | pycparser | 2.23 |
@@ -139,11 +134,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.3.0 |
 | pyparsing | 3.2.5 |
 | pysat | 3.2.2 |
-| pyspedas | 1.7.28 |
+| pyspedas | 2.0.5 |
 | pytest | 8.4.2 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| pytplot-mpl-temp | 2.2.79 |
 | pytz | 2025.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
@@ -163,7 +157,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.0.0 |
 | sunpy | 7.0.3 |
 | sympy | 1.5.1 |
-| tables | 3.10.2 |
 | tifffile | 2025.10.16 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
@@ -171,7 +164,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.5.0 |
-| viresclient | 0.13.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
 | xarray | 2025.10.1 |
