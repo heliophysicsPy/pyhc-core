@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.5 |
 | pysat | 3.2.2 |
 | pyspedas | 2.0.5 |
-| pytest | 8.4.2 |
+| pytest | 9.0.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | pytz | 2025.2 |
