@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.11 |
 | cdflib | 1.3.6 |
-| certifi | 2025.10.5 |
+| certifi | 2025.11.12 |
 | cffi | 2.0.0 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.4 |
@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.2.5 |
 | pysat | 3.2.2 |
 | pyspedas | 2.0.5 |
-| pytest | 9.0.0 |
+| pytest | 9.0.1 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
 | pytz | 2025.2 |
