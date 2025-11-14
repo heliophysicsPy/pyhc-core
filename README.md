@@ -125,7 +125,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
-| PyAVM | 0.9.7 |
+| PyAVM | 0.9.8 |
 | pycapnp | 2.2.1 |
 | pycparser | 2.23 |
 | pyerfa | 2.0.1.5 |
