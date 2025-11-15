@@ -69,6 +69,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cryptography | 46.0.3 |
 | cycler | 0.12.1 |
 | dask | 2025.11.0 |
+| dask-image | 2025.11.0 |
 | decorator | 5.2.1 |
 | dill | 0.4.0 |
 | donfig | 0.8.1.post1 |
@@ -118,6 +119,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 12.0.0 |
+| PIMS | 0.7 |
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.0 |
@@ -125,6 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
+| pyarrow | 22.0.0 |
 | PyAVM | 0.9.8 |
 | pycapnp | 2.2.1 |
 | pycparser | 2.23 |
@@ -141,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2025.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
-| reproject | 0.18.0 |
+| reproject | 0.19.0 |
 | requests | 2.32.5 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
@@ -152,6 +155,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | semantic-version | 2.10.0 |
 | setuptools | 79.0.1 |
 | six | 1.17.0 |
+| slicerator | 1.1.0 |
 | soupsieve | 2.8 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.0.0 |
