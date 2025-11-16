@@ -62,7 +62,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cffi | 2.0.0 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.4 |
-| click | 8.3.0 |
+| click | 8.3.1 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | crc32c | 2.8 |
