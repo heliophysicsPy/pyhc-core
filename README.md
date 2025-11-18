@@ -44,7 +44,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.7 |
 | asdf | 5.1.0 |
-| asdf-astropy | 0.8.0 |
+| asdf-astropy | 0.9.0 |
 | asdf_coordinates_schemas | 0.4.0 |
 | asdf_standard | 1.4.0 |
 | asdf_transform_schemas | 0.6.0 |
@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | multidict | 6.7.0 |
-| narwhals | 2.11.0 |
+| narwhals | 2.12.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
 | numcodecs | 0.16.3 |
@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.0 |
-| plotly | 6.4.0 |
+| plotly | 6.5.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
@@ -170,7 +170,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | urllib3 | 2.5.0 |
 | Werkzeug | 3.1.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.10.1 |
+| xarray | 2025.11.0 |
 | yarl | 1.22.0 |
 | zarr | 3.1.3 |
 | zeep | 4.3.2 |
