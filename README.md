@@ -81,6 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.10.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
+| google-crc32c | 1.7.1 |
 | h5netcdf | 1.7.3 |
 | h5py | 3.15.1 |
 | hapiclient | 0.2.6 |
@@ -109,7 +110,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | narwhals | 2.12.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.5 |
-| numcodecs | 0.16.4 |
+| numcodecs | 0.16.5 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
@@ -171,6 +172,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.3 |
 | xarray | 2025.11.0 |
 | yarl | 1.22.0 |
-| zarr | 3.1.3 |
+| zarr | 3.1.5 |
 | zeep | 4.3.2 |
 | zipp | 3.23.0 |
