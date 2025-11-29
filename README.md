@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 1.1.2 |
 | flask-cors | 6.0.1 |
 | Flask-RESTful | 0.3.8 |
-| fonttools | 4.60.1 |
+| fonttools | 4.61.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2025.10.0 |
 | geopack | 1.0.12 |
@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | idna | 3.11 |
 | ImageIO | 2.37.2 |
 | importlib_metadata | 8.7.0 |
-| incremental | 24.7.2 |
+| Incremental | 24.11.0 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
 | itsdangerous | 2.2.0 |
