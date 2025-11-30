@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.5.0 |
-| Werkzeug | 3.1.3 |
+| Werkzeug | 3.1.4 |
 | wrapt | 1.17.3 |
 | xarray | 2025.11.0 |
 | yarl | 1.22.0 |
