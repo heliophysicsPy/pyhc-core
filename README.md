@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.61.0 |
 | frozenlist | 1.8.0 |
-| fsspec | 2025.10.0 |
+| fsspec | 2025.12.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
 | google-crc32c | 1.7.1 |
@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.32.5 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| s3fs | 2025.10.0 |
+| s3fs | 2025.12.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.25.2 |
 | scipy | 1.16.3 |
