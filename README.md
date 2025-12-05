@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | soupsieve | 2.8 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.0.0 |
-| sunpy | 7.0.3 |
+| sunpy | 7.0.4 |
 | sympy | 1.5.1 |
 | tifffile | 2025.10.16 |
 | toolz | 1.1.0 |
