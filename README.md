@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.7 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.12.1.0.45.12 |
+| astropy-iers-data | 0.2025.12.8.0.38.44 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -109,7 +109,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | multidict | 6.7.0 |
 | narwhals | 2.13.0 |
 | netCDF4 | 1.7.3 |
-| networkx | 3.6 |
+| networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
@@ -167,7 +167,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | typing_extensions | 4.15.0 |
 | tzdata | 2025.2 |
 | uncertainties | 3.2.3 |
-| urllib3 | 2.6.0 |
+| urllib3 | 2.6.1 |
 | Werkzeug | 3.1.4 |
 | wrapt | 1.17.3 |
 | xarray | 2025.12.0 |
