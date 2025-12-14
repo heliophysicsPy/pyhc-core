@@ -161,11 +161,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.0.0 |
 | sunpy | 7.0.4 |
 | sympy | 1.5.1 |
-| tifffile | 2025.10.16 |
+| tifffile | 2025.12.12 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
-| tzdata | 2025.2 |
+| tzdata | 2025.3 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.2 |
 | Werkzeug | 3.1.4 |
