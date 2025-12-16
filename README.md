@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.7 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.12.8.0.38.44 |
+| astropy-iers-data | 0.2025.12.15.0.40.51 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
 | jmespath | 1.0.1 |
-| joblib | 1.5.2 |
+| joblib | 1.5.3 |
 | kamodo | 23.3.0 |
 | kiwisolver | 1.4.9 |
 | lazy_loader | 0.4 |
