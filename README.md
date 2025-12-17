@@ -81,7 +81,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2025.12.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
-| google-crc32c | 1.7.1 |
+| google-crc32c | 1.8.0 |
 | h5netcdf | 1.7.3 |
 | h5py | 3.15.1 |
 | hapiclient | 0.2.6 |
@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | multidict | 6.7.0 |
-| narwhals | 2.13.0 |
+| narwhals | 2.14.0 |
 | netCDF4 | 1.7.3 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
