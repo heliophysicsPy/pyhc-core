@@ -150,7 +150,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2025.12.0 |
 | s3transfer | 0.14.0 |
-| scikit-image | 0.25.2 |
+| scikit-image | 0.26.0 |
 | scipy | 1.16.3 |
 | semantic-version | 2.10.0 |
 | setuptools | 79.0.1 |
