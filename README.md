@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hydra-core | 0.11.3 |
 | idna | 3.11 |
 | ImageIO | 2.37.2 |
-| importlib_metadata | 8.7.0 |
+| importlib_metadata | 8.7.1 |
 | Incremental | 24.11.0 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
@@ -161,7 +161,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.0.0 |
 | sunpy | 7.0.4 |
 | sympy | 1.5.1 |
-| tifffile | 2025.12.12 |
+| tifffile | 2025.12.20 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
