@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.12.15.0.40.51 |
+| astropy-iers-data | 0.2025.12.22.0.40.30 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Pygments | 2.19.2 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 25.3.0 |
-| pyparsing | 3.2.5 |
+| pyparsing | 3.3.0 |
 | pysat | 3.2.2 |
 | pyspedas | 2.0.5 |
 | pytest | 9.0.2 |
