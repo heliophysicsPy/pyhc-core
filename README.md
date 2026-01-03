@@ -118,7 +118,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pandas | 2.3.3 |
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
-| pillow | 12.0.0 |
+| pillow | 12.1.0 |
 | PIMS | 0.7 |
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
