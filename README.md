@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | multidict | 6.7.0 |
-| narwhals | 2.14.0 |
+| narwhals | 2.15.0 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
