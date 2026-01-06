@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2025.12.29.0.42.34 |
+| astropy-iers-data | 0.2026.1.5.0.43.43 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | multidict | 6.7.0 |
 | narwhals | 2.14.0 |
-| netCDF4 | 1.7.3 |
+| netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
 | numpy | 1.26.4 |
