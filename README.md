@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.1 |
-| plotly | 6.5.0 |
+| plotly | 6.5.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
@@ -167,7 +167,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | typing_extensions | 4.15.0 |
 | tzdata | 2025.3 |
 | uncertainties | 3.2.3 |
-| urllib3 | 2.6.2 |
+| urllib3 | 2.6.3 |
 | Werkzeug | 3.1.4 |
 | wrapt | 1.17.3 |
 | xarray | 2025.12.0 |
