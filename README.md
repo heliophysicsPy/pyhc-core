@@ -158,7 +158,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | slicerator | 1.1.0 |
 | soupsieve | 2.8.1 |
 | spacepy | 0.7.0 |
-| spiceypy | 8.0.0 |
+| spiceypy | 8.0.1 |
 | sunpy | 7.0.4 |
 | sympy | 1.5.1 |
 | tifffile | 2025.12.20 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tzdata | 2025.3 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
-| Werkzeug | 3.1.4 |
+| Werkzeug | 3.1.5 |
 | wrapt | 1.17.3 |
 | xarray | 2025.12.0 |
 | yarl | 1.22.0 |
