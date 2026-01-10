@@ -57,7 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
 | cdasws | 1.8.12 |
-| cdflib | 1.3.7 |
+| cdflib | 1.3.8 |
 | certifi | 2026.1.4 |
 | cffi | 2.0.0 |
 | cftime | 1.6.5 |
@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.8 |
 | fonttools | 4.61.1 |
 | frozenlist | 1.8.0 |
-| fsspec | 2025.12.0 |
+| fsspec | 2026.1.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
 | google-crc32c | 1.8.0 |
@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.32.5 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| s3fs | 2025.12.0 |
+| s3fs | 2026.1.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
 | scipy | 1.16.3 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
 | tzdata | 2025.3 |
-| uncertainties | 3.2.3 |
+| uncertainties | 3.2.4 |
 | urllib3 | 2.6.3 |
 | Werkzeug | 3.1.5 |
 | wrapt | 1.17.3 |
