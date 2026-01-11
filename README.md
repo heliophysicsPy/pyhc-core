@@ -151,7 +151,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2026.1.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
-| scipy | 1.16.3 |
+| scipy | 1.17.0 |
 | semantic-version | 2.10.0 |
 | setuptools | 79.0.1 |
 | six | 1.17.0 |
