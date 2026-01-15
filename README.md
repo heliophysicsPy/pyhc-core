@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 25.3 |
 | plasmapy | 2025.8.0 |
 | platformdirs | 4.5.1 |
-| plotly | 6.5.1 |
+| plotly | 6.5.2 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyOpenSSL | 25.3.0 |
 | pyparsing | 3.3.1 |
 | pysat | 3.2.2 |
-| pyspedas | 2.0.5 |
+| pyspedas | 2.0.6 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
@@ -161,7 +161,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.0.1 |
 | sunpy | 7.0.4 |
 | sympy | 1.5.1 |
-| tifffile | 2025.12.20 |
+| tifffile | 2026.1.14 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
