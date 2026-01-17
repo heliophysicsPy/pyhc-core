@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.3 |
 | cryptography | 46.0.3 |
 | cycler | 0.12.1 |
-| dask | 2025.12.0 |
+| dask | 2026.1.1 |
 | dask-image | 2025.11.0 |
 | decorator | 5.2.1 |
 | dill | 0.4.0 |
@@ -82,7 +82,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | geopack | 1.0.12 |
 | Glymur | 0.14.4 |
 | google-crc32c | 1.8.0 |
-| h5netcdf | 1.7.3 |
+| h5netcdf | 1.8.0 |
 | h5py | 3.15.1 |
 | hapiclient | 0.2.6 |
 | hydra-core | 0.11.3 |
