@@ -50,8 +50,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
-| astropy_healpix | 1.1.2 |
-| astropy-iers-data | 0.2026.1.12.0.42.13 |
+| astropy_healpix | 1.1.3 |
+| astropy-iers-data | 0.2026.1.19.0.42.31 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -70,7 +70,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dask | 2026.1.1 |
 | dask-image | 2025.11.0 |
 | decorator | 5.2.1 |
-| dill | 0.4.0 |
+| dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
 | Flask | 1.1.2 |
