@@ -114,8 +114,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 1.26.4 |
 | omegaconf | 1.4.1 |
 | opencv-python | 4.11.0.86 |
-| packaging | 25.0 |
-| pandas | 2.3.3 |
+| packaging | 26.0 |
+| pandas | 3.0.0 |
 | parfive | 2.2.0 |
 | partd | 1.4.2 |
 | pillow | 12.1.0 |
@@ -129,13 +129,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | propcache | 0.4.1 |
 | pyarrow | 23.0.0 |
 | PyAVM | 0.9.8 |
-| pycapnp | 2.2.1 |
-| pycparser | 2.23 |
+| pycapnp | 2.2.2 |
+| pycparser | 3.0 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
 | pyhc-core | 0.0.6 |
 | pyOpenSSL | 25.3.0 |
-| pyparsing | 3.3.1 |
+| pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
 | pyspedas | 2.0.6 |
 | pytest | 9.0.2 |
@@ -165,7 +165,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
-| tzdata | 2025.3 |
 | uncertainties | 3.2.4 |
 | urllib3 | 2.6.3 |
 | Werkzeug | 3.1.5 |
