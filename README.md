@@ -21,7 +21,7 @@ pip install --upgrade pyhc-core
 
 The following packages are included:
 - hapiclient
-- kamodo
+- ~~kamodo~~ (temporarily excluded until it supports Python>=3.12)
 - plasmapy
 - pysat
 - pyspedas
@@ -88,15 +88,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hydra-core | 0.11.3 |
 | idna | 3.11 |
 | ImageIO | 2.37.2 |
-| importlib_metadata | 8.7.1 |
 | Incremental | 24.11.0 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
-| jmespath | 1.0.1 |
+| jmespath | 1.1.0 |
 | joblib | 1.5.3 |
-| kamodo | 23.3.0 |
 | kiwisolver | 1.4.9 |
 | lazy_loader | 0.4 |
 | lmfit | 1.3.4 |
@@ -121,7 +119,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pillow | 12.1.0 |
 | PIMS | 0.7 |
 | pip | 25.3 |
-| plasmapy | 2025.8.0 |
+| plasmapy | 2025.10.0 |
 | platformdirs | 4.5.1 |
 | plotly | 6.5.2 |
 | pluggy | 1.6.0 |
@@ -153,19 +151,18 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | scikit-image | 0.26.0 |
 | scipy | 1.17.0 |
 | semantic-version | 2.10.0 |
-| setuptools | 79.0.1 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
 | soupsieve | 2.8.3 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.0.1 |
-| sunpy | 7.0.4 |
+| sunpy | 7.1.0 |
 | sympy | 1.5.1 |
 | tifffile | 2026.1.14 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.1 |
 | typing_extensions | 4.15.0 |
-| uncertainties | 3.2.4 |
+| uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
 | Werkzeug | 3.1.5 |
 | wrapt | 1.17.3 |
@@ -173,4 +170,3 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | yarl | 1.22.0 |
 | zarr | 3.1.5 |
 | zeep | 4.3.2 |
-| zipp | 3.23.0 |
