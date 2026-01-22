@@ -21,7 +21,7 @@ pip install --upgrade pyhc-core
 
 The following packages are included:
 - hapiclient
-- kamodo
+- ~~kamodo~~ (temporarily excluded until it supports Python>=3.12)
 - plasmapy
 - pysat
 - pyspedas
