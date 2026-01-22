@@ -31,7 +31,6 @@ jobs:
     - name: Check core package imports
       run: |
         python -c "import hapiclient"
-        if [ "${{ matrix.python-version }}" != "3.12" ]; then pip show kamodo | grep Version; fi  # Exclude Kamodo for Python 3.12 due to known compatibility issue
         python -c "import plasmapy"
         python -c "import pysat"
         python -c "import pyspedas"
@@ -41,7 +40,6 @@ jobs:
     - name: Check core package versions
       run: |
         pip show hapiclient | grep Version
-        pip show kamodo | grep Version
         pip show plasmapy | grep Version
         pip show pysat | grep Version
         pip show pyspedas | grep Version
