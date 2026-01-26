@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.8.0 |
 | fsspec | 2026.1.0 |
 | geopack | 1.0.12 |
-| Glymur | 0.14.4 |
+| Glymur | 0.14.5 |
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.15.1 |
