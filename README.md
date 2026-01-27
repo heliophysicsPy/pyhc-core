@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.1.19.0.42.31 |
+| astropy-iers-data | 0.2026.1.26.0.43.56 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.8.0 |
 | fsspec | 2026.1.0 |
 | geopack | 1.0.12 |
-| Glymur | 0.14.5 |
+| Glymur | 0.14.6 |
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.15.1 |
@@ -91,7 +91,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.10.8 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
-| multidict | 6.7.0 |
+| multidict | 6.7.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | opencv-python | 4.13.0.90 |
 | packaging | 26.0 |
 | pandas | 3.0.0 |
-| parfive | 2.2.0 |
+| parfive | 2.3.0 |
 | partd | 1.4.2 |
 | pillow | 12.1.0 |
 | PIMS | 0.7 |
