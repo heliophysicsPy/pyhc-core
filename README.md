@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | opencv-python | 4.13.0.90 |
 | packaging | 26.0 |
 | pandas | 3.0.0 |
-| parfive | 2.3.0 |
+| parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.1.0 |
 | PIMS | 0.7 |
