@@ -144,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
 | wrapt | 1.17.3 |
-| xarray | 2025.12.0 |
+| xarray | 2026.1.0 |
 | yarl | 1.22.0 |
 | zarr | 3.1.5 |
 | zeep | 4.3.2 |
