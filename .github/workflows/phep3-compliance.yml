@@ -1,0 +1,20 @@
+name: PHEP 3 Compliance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # TODO: Change to @v1 after pyhc-actions v1.0.0 release
+      - name: Check PHEP 3 Compliance
+        uses: heliophysicsPy/pyhc-actions/phep3-compliance@main
+        with:
+          fail-on-warning: false
+          check-adoption: true
