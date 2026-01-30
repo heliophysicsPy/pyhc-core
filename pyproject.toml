@@ -23,8 +23,7 @@ dependencies = [
     "pysat",
     "pyspedas",
     "spacepy",
-    "sunpy[all]",
-    "numpy<2"
+    "sunpy[all]"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
