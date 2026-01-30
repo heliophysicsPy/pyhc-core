@@ -11,6 +11,12 @@ license = { file = "LICENSE" }
 authors = [
     { name = "Shawn Polson", email = "pyhc-confidential@lasp.colorado.edu" }
 ]
+
+# SPEC 0 recommends that projects drop support for Python versions 3
+# years after their initial release. See:
+# https://scientific-python.org/specs/spec-0000
+requires-python = ">=3.11"
+
 dependencies = [
     "hapiclient",
     "plasmapy",
