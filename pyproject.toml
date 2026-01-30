@@ -24,7 +24,7 @@ dependencies = [
     "pyspedas",
     "spacepy",
     "sunpy[all]",
-    "numpy<2"
+    "numpy<3"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
