@@ -5,6 +5,10 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    # Run quarterly: Jan 1, Apr 1, Jul 1, Oct 1 at 3pm UTC (8am Mountain Time)
+    - cron: '0 15 1 1,4,7,10 *'
+  workflow_dispatch:
 
 jobs:
   check:
@@ -12,9 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # TODO: Change to @v1 after pyhc-actions v1.0.0 release 
       - name: Check PHEP 3 Compliance
-        uses: heliophysicsPy/pyhc-actions/phep3-compliance@main
+        uses: heliophysicsPy/pyhc-actions/phep3-compliance@v1
         with:
           fail-on-warning: false
           check-adoption: true
