@@ -18,6 +18,3 @@ jobs:
 
       - name: Check PHEP 3 Compliance
         uses: heliophysicsPy/pyhc-actions/phep3-compliance@v1
-        with:
-          fail-on-warning: false
-          check-adoption: true
