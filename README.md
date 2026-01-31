@@ -63,7 +63,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
-| dask | 2026.1.1 |
+| dask | 2026.1.2 |
 | dask-image | 2025.11.0 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.7 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.0.6 |
+| pyspedas | 2.0.7 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2025.2 |
@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.1.0 |
 | tifffile | 2026.1.28 |
 | toolz | 1.1.0 |
-| tqdm | 4.67.1 |
+| tqdm | 4.67.2 |
 | typing_extensions | 4.15.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
