@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
-| cdasws | 1.8.13 |
+| cdasws | 1.8.15 |
 | cdflib | 1.3.8 |
 | certifi | 2026.1.4 |
 | cftime | 1.6.5 |
