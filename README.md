@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | asdf | 5.1.0 |
 | asdf-astropy | 0.9.0 |
-| asdf_coordinates_schemas | 0.4.0 |
+| asdf_coordinates_schemas | 0.5.0 |
 | asdf_standard | 1.4.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.8 |
@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.1.0 |
 | tifffile | 2026.1.28 |
 | toolz | 1.1.0 |
-| tqdm | 4.67.2 |
+| tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
