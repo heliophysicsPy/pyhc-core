@@ -43,8 +43,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | asdf | 5.1.0 |
 | asdf-astropy | 0.9.0 |
-| asdf_coordinates_schemas | 0.5.0 |
-| asdf_standard | 1.4.0 |
+| asdf_coordinates_schemas | 0.5.1 |
+| asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
@@ -70,7 +70,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | drms | 0.9.0 |
 | fonttools | 4.61.1 |
 | frozenlist | 1.8.0 |
-| fsspec | 2026.1.0 |
+| fsspec | 2026.2.0 |
 | geopack | 1.0.12 |
 | Glymur | 0.14.7 |
 | google-crc32c | 1.8.0 |
@@ -96,14 +96,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
 | numpy | 2.4.2 |
-| opencv-python | 4.13.0.90 |
+| opencv-python | 4.13.0.92 |
 | packaging | 26.0 |
 | pandas | 3.0.0 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.1.0 |
 | PIMS | 0.7 |
-| pip | 25.3 |
+| pip | 26.0 |
 | plasmapy | 2025.10.0 |
 | platformdirs | 4.5.1 |
 | pluggy | 1.6.0 |
@@ -126,7 +126,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.32.5 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| s3fs | 2026.1.0 |
+| s3fs | 2026.2.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
 | scipy | 1.17.0 |
