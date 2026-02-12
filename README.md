@@ -103,9 +103,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.1.1 |
 | PIMS | 0.7 |
-| pip | 26.0 |
+| pip | 26.0.1 |
 | plasmapy | 2025.10.0 |
-| platformdirs | 4.5.1 |
+| platformdirs | 4.6.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.7 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.0.7 |
+| pyspedas | 2.0.8 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2025.2 |
@@ -131,6 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | scikit-image | 0.26.0 |
 | scipy | 1.17.0 |
 | semantic-version | 2.10.0 |
+| setuptools | 81.0.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
 | soupsieve | 2.8.3 |
