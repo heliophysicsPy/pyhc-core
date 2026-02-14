@@ -42,7 +42,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | asdf | 5.1.0 |
-| asdf-astropy | 0.9.0 |
+| asdf-astropy | 0.10.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.0.1 |
 | plasmapy | 2025.10.0 |
-| platformdirs | 4.7.0 |
+| platformdirs | 4.7.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
@@ -145,7 +145,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.3 |
 | urllib3 | 2.6.3 |
 | wrapt | 1.17.3 |
-| xarray | 2026.1.0 |
+| xarray | 2026.2.0 |
 | yarl | 1.22.0 |
 | zarr | 3.1.5 |
 | zeep | 4.3.2 |
