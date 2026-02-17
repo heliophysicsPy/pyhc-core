@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.2.9.0.50.33 |
+| astropy-iers-data | 0.2026.2.16.0.48.25 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -105,11 +105,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.0.1 |
 | plasmapy | 2025.10.0 |
-| platformdirs | 4.9.1 |
+| platformdirs | 4.9.2 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
-| pyarrow | 23.0.0 |
+| pyarrow | 23.0.1 |
 | PyAVM | 0.9.8 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
