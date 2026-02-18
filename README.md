@@ -98,7 +98,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.4.2 |
 | opencv-python | 4.13.0.92 |
 | packaging | 26.0 |
-| pandas | 3.0.0 |
+| pandas | 3.0.1 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.1.1 |
@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.7 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.0.9 |
+| pyspedas | 2.0.10 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2025.2 |
@@ -136,9 +136,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | slicerator | 1.1.0 |
 | soupsieve | 2.8.3 |
 | spacepy | 0.7.0 |
-| spiceypy | 8.0.1 |
+| spiceypy | 8.0.2 |
 | sunpy | 7.1.0 |
-| tifffile | 2026.2.15 |
+| tifffile | 2026.2.16 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
