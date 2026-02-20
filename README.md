@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.1.1 |
 | PIMS | 0.7 |
-| pip | 26.0.1 |
+| pip | 26.0 |
 | plasmapy | 2025.10.0 |
 | platformdirs | 4.9.2 |
 | pluggy | 1.6.0 |
