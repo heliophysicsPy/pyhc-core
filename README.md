@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.2.16.0.48.25 |
+| astropy-iers-data | 0.2026.2.23.0.48.33 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lxml | 6.0.2 |
 | matplotlib | 3.10.8 |
 | mpl_animators | 1.2.4 |
-| mpmath | 1.3.0 |
+| mpmath | 1.4.0 |
 | multidict | 6.7.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
@@ -129,7 +129,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2026.2.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
-| scipy | 1.17.0 |
+| scipy | 1.17.1 |
 | semantic-version | 2.10.0 |
 | setuptools | 81.0.0 |
 | six | 1.17.0 |
