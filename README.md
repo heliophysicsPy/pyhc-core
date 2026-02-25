@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.7 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.0.10 |
+| pyspedas | 2.1.0 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2025.2 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.0.2 |
 | sunpy | 7.1.0 |
-| tifffile | 2026.2.20 |
+| tifffile | 2026.2.24 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
