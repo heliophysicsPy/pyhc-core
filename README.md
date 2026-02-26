@@ -56,7 +56,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.15 |
 | cdflib | 1.3.8 |
-| certifi | 2026.1.4 |
+| certifi | 2026.2.25 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.4 |
 | click | 8.3.1 |
@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.1.1 |
 | PIMS | 0.7 |
-| pip | 26.0 |
+| pip | 26.0.1 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.9.2 |
 | pluggy | 1.6.0 |
