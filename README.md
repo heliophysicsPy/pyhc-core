@@ -119,7 +119,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyspedas | 2.1.0 |
 | pytest | 9.0.2 |
 | python-dateutil | 2.9.0.post0 |
-| pytz | 2025.2 |
+| pytz | 2026.1.post1 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.19.0 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.0.2 |
 | sunpy | 7.1.0 |
-| tifffile | 2026.2.24 |
+| tifffile | 2026.3.3 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
