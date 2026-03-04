@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyhc-core"
-version = "0.0.7"
+version = "0.0.8"
 description = "A package to install the core PyHC packages (except Kamodo)."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -37,7 +37,14 @@ Source = "https://github.com/heliophysicsPy/pyhc-core"
 [project.optional-dependencies]
 tests = [
   "sunpy[tests]",
-  "plasmapy[tests]",
+  # PlasmaPy moved test deps from extras to dependency groups.
+  "hypothesis>=6.150",
+  "pytest>=9.0.2",
+  "pytest-cov>=7",
+  "pytest-filter-subpackage>=0.2",
+  "pytest-regressions>=2.9.1",
+  "pytest-rerunfailures>=16.1",
+  "pytest-xdist>=3.8",
   "pysat[test]",
   "deepdiff",
   "mth5",
