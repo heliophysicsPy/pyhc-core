@@ -56,6 +56,15 @@ jobs:
         git clone --branch "v$plasmapy_version_tag" "https://github.com/PlasmaPy/PlasmaPy.git"
         cd PlasmaPy
 
+        # Install PlasmaPy test dependencies across packaging styles:
+        # - modern releases use PEP 735 dependency groups
+        # - older releases expose a tests extra
+        if grep -q '^\[dependency-groups\]' pyproject.toml; then
+          python -m pip install --group test
+        else
+          python -m pip install ".[tests]"
+        fi
+
         # Run the tests (ignoring tests that require GH_TOKEN)
         python -m pytest \
           --junitxml=test-results.xml \
