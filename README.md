@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyAVM | 0.9.8 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
-| pyhc-core | 0.0.7 |
+| pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
 | pyspedas | 2.1.0 |
