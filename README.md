@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.0.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.9.2 |
+| platformdirs | 4.9.4 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
