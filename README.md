@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.8 |
 | certifi | 2026.2.25 |
 | cftime | 1.6.5 |
-| charset-normalizer | 3.4.4 |
+| charset-normalizer | 3.4.5 |
 | click | 8.3.1 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Glymur | 0.14.7 |
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
-| h5py | 3.15.1 |
+| h5py | 3.16.0 |
 | hapiclient | 0.2.6 |
 | idna | 3.11 |
 | ImageIO | 2.37.2 |
@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jmespath | 1.1.0 |
 | joblib | 1.5.3 |
 | kiwisolver | 1.4.9 |
-| lazy_loader | 0.4 |
+| lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | lxml | 6.0.2 |
