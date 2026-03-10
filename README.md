@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.3.2.0.47.4 |
+| astropy-iers-data | 0.2026.3.9.0.47.45 |
 | attrs | 25.4.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -68,7 +68,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
-| fonttools | 4.61.1 |
+| fonttools | 4.62.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.2.0 |
 | geopack | 1.0.12 |
@@ -78,12 +78,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5py | 3.16.0 |
 | hapiclient | 0.2.6 |
 | idna | 3.11 |
-| ImageIO | 2.37.2 |
+| ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
 | jmespath | 1.1.0 |
 | joblib | 1.5.3 |
-| kiwisolver | 1.4.9 |
+| kiwisolver | 1.5.0 |
 | lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
-| numpy | 2.4.2 |
+| numpy | 2.4.3 |
 | opencv-python | 4.13.0.92 |
 | packaging | 26.0 |
 | pandas | 3.0.1 |
