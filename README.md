@@ -110,7 +110,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
 | pyarrow | 23.0.1 |
-| PyAVM | 0.9.8 |
+| PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.19.2 |
 | pyhc-core | 0.0.8 |
