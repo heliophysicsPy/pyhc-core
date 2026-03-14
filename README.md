@@ -68,7 +68,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
-| fonttools | 4.62.0 |
+| fonttools | 4.62.1 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.2.0 |
 | geopack | 1.0.12 |
