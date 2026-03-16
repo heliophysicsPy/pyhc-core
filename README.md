@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.8 |
 | certifi | 2026.2.25 |
 | cftime | 1.6.5 |
-| charset-normalizer | 3.4.5 |
+| charset-normalizer | 3.4.6 |
 | click | 8.3.1 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lxml | 6.0.2 |
 | matplotlib | 3.10.8 |
 | mpl_animators | 1.2.4 |
-| mpmath | 1.4.0 |
+| mpmath | 1.4.1 |
 | multidict | 6.7.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
