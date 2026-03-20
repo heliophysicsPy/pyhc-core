@@ -41,7 +41,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiohttp | 3.13.3 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
-| asdf | 5.1.0 |
+| asdf | 5.2.0 |
 | asdf-astropy | 0.10.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
@@ -50,7 +50,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
 | astropy-iers-data | 0.2026.3.16.0.53.33 |
-| attrs | 25.4.0 |
+| attrs | 26.1.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
