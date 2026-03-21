@@ -42,7 +42,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | asdf | 5.2.0 |
-| asdf-astropy | 0.10.0 |
+| asdf-astropy | 0.10.1 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
