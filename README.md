@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.3.16.0.53.33 |
+| astropy-iers-data | 0.2026.3.23.0.51.38 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -147,5 +147,5 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.3 |
 | xarray | 2026.2.0 |
 | yarl | 1.23.0 |
-| zarr | 3.1.5 |
+| zarr | 3.1.6 |
 | zeep | 4.3.2 |
