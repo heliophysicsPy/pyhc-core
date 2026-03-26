@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.19.0 |
-| requests | 2.32.5 |
+| requests | 2.33.0 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2026.2.0 |
