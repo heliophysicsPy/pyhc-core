@@ -95,7 +95,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
-| numpy | 2.4.3 |
+| numpy | 2.4.4 |
 | opencv-python | 4.13.0.92 |
 | packaging | 26.0 |
 | pandas | 3.0.1 |
@@ -112,7 +112,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyarrow | 23.0.1 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
-| Pygments | 2.19.2 |
+| Pygments | 2.20.0 |
 | pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
