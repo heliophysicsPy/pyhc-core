@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.3.23.0.51.38 |
+| astropy-iers-data | 0.2026.3.30.0.54.34 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.19.0 |
-| requests | 2.33.0 |
+| requests | 2.33.1 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2026.3.0 |
