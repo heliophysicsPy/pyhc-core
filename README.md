@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.6.1 |
-| aiohttp | 3.13.4 |
+| aiohttp | 3.13.5 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | asdf | 5.2.0 |
@@ -98,7 +98,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.4.4 |
 | opencv-python | 4.13.0.92 |
 | packaging | 26.0 |
-| pandas | 3.0.1 |
+| pandas | 3.0.2 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.1.1 |
