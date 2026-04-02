@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.3.30.0.54.34 |
+| astropy-iers-data | 0.2026.4.1.15.5.49 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pandas | 3.0.2 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
-| pillow | 12.1.1 |
+| pillow | 12.2.0 |
 | PIMS | 0.7 |
 | pip | 26.0.1 |
 | plasmapy | 2026.2.0 |
