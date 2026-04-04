@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | certifi | 2026.2.25 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
-| click | 8.3.1 |
+| click | 8.3.2 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
