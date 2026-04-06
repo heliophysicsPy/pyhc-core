@@ -136,7 +136,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | slicerator | 1.1.0 |
 | soupsieve | 2.8.3 |
 | spacepy | 0.7.0 |
-| spiceypy | 8.0.2 |
+| spiceypy | 8.1.0 |
 | sunpy | 7.1.1 |
 | tifffile | 2026.3.3 |
 | toolz | 1.1.0 |
