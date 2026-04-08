@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
 | pyspedas | 2.1.0 |
-| pytest | 9.0.2 |
+| pytest | 9.0.3 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2026.1.post1 |
 | PyWavelets | 1.9.0 |
