@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
 | cdasws | 1.8.15 |
-| cdflib | 1.3.8 |
+| cdflib | 1.3.9 |
 | certifi | 2026.2.25 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
@@ -87,7 +87,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
-| lxml | 6.0.2 |
+| lxml | 6.0.3 |
 | matplotlib | 3.10.8 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
