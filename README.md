@@ -87,7 +87,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
-| lxml | 6.0.3 |
+| lxml | 6.0.4 |
 | matplotlib | 3.10.8 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.1.0 |
 | sunpy | 7.1.1 |
-| tifffile | 2026.3.3 |
+| tifffile | 2026.4.11 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
