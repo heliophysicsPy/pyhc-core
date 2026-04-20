@@ -95,8 +95,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
 | numcodecs | 0.16.5 |
-| numpy | 2.4.4 |
-| opencv-python | 4.13.0.92 |
+| numpy | 2.2.6 |
+| opencv-python | 4.12.0.88 |
 | packaging | 26.1 |
 | pandas | 3.0.2 |
 | parfive | 2.3.1 |
@@ -137,7 +137,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | soupsieve | 2.8.3 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.1.0 |
-| sunpy | 7.1.1 |
+| sunpy | 7.1.2 |
 | tifffile | 2026.4.11 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
