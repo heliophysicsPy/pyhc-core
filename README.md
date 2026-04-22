@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.2.6 |
-| idna | 3.11 |
+| idna | 3.12 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
@@ -109,7 +109,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.4.1 |
-| pyarrow | 23.0.1 |
+| pyarrow | 24.0.0 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.20.0 |
