@@ -56,10 +56,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.15 |
 | cdflib | 1.3.9 |
-| certifi | 2026.2.25 |
+| certifi | 2026.4.22 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
-| click | 8.3.2 |
+| click | 8.3.3 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.2.6 |
-| idna | 3.12 |
+| idna | 3.13 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
