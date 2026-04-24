@@ -41,7 +41,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiohttp | 3.13.5 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
-| asdf | 5.2.0 |
+| asdf | 5.3.0 |
 | asdf-astropy | 0.11.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | lxml | 6.1.0 |
-| matplotlib | 3.10.8 |
+| matplotlib | 3.10.9 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
 | multidict | 6.7.1 |
