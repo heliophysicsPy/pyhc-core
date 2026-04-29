@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
 | cdasws | 1.8.15 |
-| cdflib | 1.3.9 |
+| cdflib | 1.3.10 |
 | certifi | 2026.4.22 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
