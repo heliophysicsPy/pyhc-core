@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.2.6 |
+| hapiclient | 0.2.7 |
 | idna | 3.13 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.1.0 |
 | sunpy | 7.1.2 |
-| tifffile | 2026.4.11 |
+| tifffile | 2026.5.2 |
 | toolz | 1.1.0 |
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
