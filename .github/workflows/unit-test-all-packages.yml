@@ -234,7 +234,7 @@ jobs:
       run: |
         # Read the version from package metadata rather than `import pysat`, because
         # importing pysat prints startup output to stdout that breaks the $GITHUB_ENV file.
-        echo "PYSAT_VERSION=$(python -c 'from importlib.metadata import version; print(version(\"pysat\"))')" >> $GITHUB_ENV
+        echo "PYSAT_VERSION=$(python -c 'from importlib.metadata import version; print(version("pysat"))')" >> $GITHUB_ENV
 
     # TODO: Remove this skip-guard (the "Notice" step and the `if:` on "Test pysat" below)
     # once pysat ships a release newer than 3.2.2. Background: pysat 3.2.2 has a known bug
