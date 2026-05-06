@@ -31,8 +31,22 @@ jobs:
         python -m pip install --upgrade pip
         pip install .[tests]  # include optional test dependencies
 
+    - name: Get pysat version
+      id: pysat_version
+      run: |
+        echo "PYSAT_VERSION=$(python -c 'import pysat; print(pysat.__version__)')" >> $GITHUB_ENV
+
+    # TODO: Remove this skip-guard (the "Notice" step and the `if:` on "Test pysat" below)
+    # once pysat ships a release newer than 3.2.2. Background: pysat 3.2.2 has a known bug
+    # that drives its test suite under the pass-rate threshold. Fix: https://github.com/pysat/pysat/pull/1222.
+    - name: Notice — pysat tests skipped
+      if: env.PYSAT_VERSION == '3.2.2'
+      run: |
+        echo "::warning::Skipping pysat tests: installed version is 3.2.2, which has a known test-suite bug. Tests will resume automatically once a newer release is published on PyPI. See https://github.com/pysat/pysat/pull/1222."
+
     # Mark tests as successful if 98%+ pass
     - name: Test pysat
+      if: env.PYSAT_VERSION != '3.2.2'  # TODO: drop this guard once pysat > 3.2.2 is on PyPI
       continue-on-error: false
       shell: bash
       run: |
