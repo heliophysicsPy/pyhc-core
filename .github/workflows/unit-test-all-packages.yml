@@ -59,10 +59,16 @@ jobs:
         git clone --branch "v$hapiclient_version_tag" "https://github.com/hapi-server/client-python.git"
         cd client-python
     
+        # hapiclient v0.2.7 moved tests from hapiclient/test/ to top-level test/.
+        if [ ! -d test ]; then
+            echo "Expected hapiclient tests in top-level test/."
+            exit 1
+        fi
+
         # Run the tests
-        # --deselect hapiclient/test/test_hapitime_reformat.py::test_hapitime_reformat \
+        # --deselect test/test_hapitime_reformat.py::test_hapitime_reformat \
         python -m pytest \
-          -v hapiclient/test/ \
+          -v -m "not long" test/ \
           --junitxml=test-results.xml \
           || true
     
