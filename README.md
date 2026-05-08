@@ -54,7 +54,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
-| cdasws | 1.8.15 |
+| cdasws | 1.8.16 |
 | cdflib | 1.3.10 |
 | certifi | 2026.4.22 |
 | cftime | 1.6.5 |
@@ -143,7 +143,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tqdm | 4.67.3 |
 | typing_extensions | 4.15.0 |
 | uncertainties | 3.2.3 |
-| urllib3 | 2.6.3 |
+| urllib3 | 2.7.0 |
 | wrapt | 1.17.3 |
 | xarray | 2026.4.0 |
 | yarl | 1.23.0 |
