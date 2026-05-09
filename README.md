@@ -108,7 +108,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | platformdirs | 4.9.6 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
-| propcache | 0.4.1 |
+| propcache | 0.5.2 |
 | pyarrow | 24.0.0 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
