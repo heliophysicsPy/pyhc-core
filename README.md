@@ -71,13 +71,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fonttools | 4.62.1 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.4.0 |
-| geopack | 1.0.12 |
+| geopack | 1.0.13 |
 | Glymur | 0.14.7 |
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.2.7 |
-| idna | 3.14 |
+| idna | 3.15 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
