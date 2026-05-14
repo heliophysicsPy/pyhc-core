@@ -72,7 +72,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | frozenlist | 1.8.0 |
 | fsspec | 2026.4.0 |
 | geopack | 1.0.13 |
-| Glymur | 0.14.7 |
+| Glymur | 0.14.8 |
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
@@ -116,14 +116,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.1.0 |
+| pyspedas | 2.1.1 |
 | pytest | 9.0.3 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2026.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.19.0 |
-| requests | 2.34.0 |
+| requests | 2.34.1 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2026.4.0 |
