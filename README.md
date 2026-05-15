@@ -68,7 +68,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
-| fonttools | 4.62.1 |
+| fonttools | 4.63.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.4.0 |
 | geopack | 1.0.13 |
@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.2.0 |
 | PIMS | 0.7 |
-| pip | 26.0.1 |
+| pip | 26.1.1 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.9.6 |
 | pluggy | 1.6.0 |
@@ -123,7 +123,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.19.0 |
-| requests | 2.34.1 |
+| requests | 2.34.2 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | s3fs | 2026.4.0 |
