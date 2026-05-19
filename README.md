@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.5.11.1.8.52 |
+| astropy-iers-data | 0.2026.5.18.1.11.28 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.14.3 |
 | boto3 | 1.40.61 |
@@ -87,7 +87,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
-| lxml | 6.1.0 |
+| lxml | 6.1.1 |
 | matplotlib | 3.10.9 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
