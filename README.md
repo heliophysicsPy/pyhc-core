@@ -146,6 +146,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | urllib3 | 2.7.0 |
 | wrapt | 1.17.3 |
 | xarray | 2026.4.0 |
-| yarl | 1.23.0 |
+| yarl | 1.24.2 |
 | zarr | 3.2.1 |
 | zeep | 4.3.2 |
