@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiobotocore | 2.25.1 |
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
-| aiohappyeyeballs | 2.6.1 |
+| aiohappyeyeballs | 2.6.2 |
 | aiohttp | 3.13.5 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
@@ -56,7 +56,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.16 |
 | cdflib | 1.3.10 |
-| certifi | 2026.4.22 |
+| certifi | 2026.5.20 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
 | click | 8.4.0 |
