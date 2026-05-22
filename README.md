@@ -55,7 +55,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
 | cdasws | 1.8.16 |
-| cdflib | 1.3.10 |
+| cdflib | 1.3.11 |
 | certifi | 2026.5.20 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.2.7 |
-| idna | 3.15 |
+| idna | 3.16 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
