@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
 | dask | 2026.3.0 |
-| dask-image | 2025.11.0 |
+| dask-image | 2026.5.0 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.0 |
@@ -109,7 +109,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.5.2 |
-| pyarrow | 24.0.0 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.20.0 |
