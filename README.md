@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.2.7 |
-| idna | 3.16 |
+| idna | 3.17 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.1.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.9.6 |
+| platformdirs | 4.10.0 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.5.2 |
