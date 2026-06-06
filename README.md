@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.1.2 |
 | tifffile | 2026.6.1 |
 | toolz | 1.1.0 |
-| tqdm | 4.67.3 |
+| tqdm | 4.68.1 |
 | typing_extensions | 4.15.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.7.0 |
