@@ -41,7 +41,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiohttp | 3.14.1 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
-| asdf | 5.3.0 |
+| asdf | 5.3.1 |
 | asdf-astropy | 0.11.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.8 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.6.1.17.39.59 |
+| astropy-iers-data | 0.2026.6.8.17.49.5 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.2.8 |
+| hapiclient | 0.2.9 |
 | idna | 3.18 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
@@ -115,7 +115,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.1.1 |
+| pyspedas | 2.1.2 |
 | pytest | 9.0.3 |
 | python-dateutil | 2.9.0.post0 |
 | pytz | 2026.2 |
