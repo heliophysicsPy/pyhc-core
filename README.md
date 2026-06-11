@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dask-image | 2026.5.0 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
-| drms | 0.9.0 |
+| drms | 0.9.1 |
 | fonttools | 4.63.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.4.0 |
