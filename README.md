@@ -46,7 +46,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
-| asteval | 1.0.8 |
+| asteval | 1.0.9 |
 | astropy | 7.2.0 |
 | astropy_healpix | 1.1.3 |
 | astropy-iers-data | 0.2026.6.8.17.49.5 |
@@ -63,7 +63,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
-| dask | 2026.3.0 |
+| dask | 2026.6.0 |
 | dask-image | 2026.5.0 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.2.0 |
 | PIMS | 0.7 |
-| pip | 26.1.1 |
+| pip | 26.1.2 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.10.0 |
 | pluggy | 1.6.0 |
@@ -121,7 +121,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2026.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
-| reproject | 0.19.0 |
+| reproject | 0.20.0 |
 | requests | 2.34.2 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
