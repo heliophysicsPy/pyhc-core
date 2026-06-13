@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | lxml | 6.1.1 |
-| matplotlib | 3.10.9 |
+| matplotlib | 3.11.0 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
 | multidict | 6.7.1 |
