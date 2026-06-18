@@ -56,7 +56,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.16 |
 | cdflib | 1.3.12 |
-| certifi | 2026.5.20 |
+| certifi | 2026.6.17 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.7 |
 | click | 8.4.1 |
@@ -139,7 +139,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 7.1.2 |
 | tifffile | 2026.6.1 |
 | toolz | 1.1.0 |
-| tqdm | 4.68.2 |
+| tqdm | 4.68.3 |
 | typing_extensions | 4.15.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.7.0 |
