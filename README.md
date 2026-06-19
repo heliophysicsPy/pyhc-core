@@ -118,7 +118,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyspedas | 2.1.2 |
 | pytest | 9.1.0 |
 | python-dateutil | 2.9.0.post0 |
-| pytz | 2026.2 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
 | reproject | 0.20.0 |
@@ -147,4 +146,4 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | xarray | 2026.4.0 |
 | yarl | 1.24.2 |
 | zarr | 3.2.1 |
-| zeep | 4.3.2 |
+| zeep | 4.3.3 |
