@@ -116,7 +116,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
 | pyspedas | 2.1.2 |
-| pytest | 9.1.0 |
+| pytest | 9.1.1 |
 | python-dateutil | 2.9.0.post0 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2026.6.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
-| scipy | 1.17.1 |
+| scipy | 1.18.0 |
 | semantic-version | 2.10.0 |
 | setuptools | 81.0.0 |
 | six | 1.17.0 |
