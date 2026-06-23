@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.9 |
 | astropy | 8.0.0 |
 | astropy_healpix | 1.1.3 |
-| astropy-iers-data | 0.2026.6.15.15.33.16 |
+| astropy-iers-data | 0.2026.6.22.1.23.34 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
