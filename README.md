@@ -115,12 +115,12 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.1.2 |
+| pyspedas | 2.1.3 |
 | pytest | 9.1.1 |
 | python-dateutil | 2.9.0.post0 |
 | PyWavelets | 1.9.0 |
 | PyYAML | 6.0.3 |
-| reproject | 0.20.0 |
+| reproject | 0.21.0 |
 | requests | 2.34.2 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
