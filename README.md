@@ -98,7 +98,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.2.6 |
 | opencv-python | 4.12.0.88 |
 | packaging | 26.2 |
-| pandas | 3.0.3 |
+| pandas | 3.0.4 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.2.0 |
