@@ -48,7 +48,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.9 |
 | astropy | 8.0.0 |
-| astropy_healpix | 1.1.3 |
+| astropy_healpix | 2.0.0 |
 | astropy-iers-data | 0.2026.6.22.1.23.34 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
@@ -98,7 +98,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.2.6 |
 | opencv-python | 4.12.0.88 |
 | packaging | 26.2 |
-| pandas | 3.0.4 |
+| pandas | 3.0.3 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.2.0 |
