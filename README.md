@@ -37,7 +37,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiobotocore | 2.25.1 |
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
-| aiohappyeyeballs | 2.6.2 |
+| aiohappyeyeballs | 2.7.1 |
 | aiohttp | 3.14.1 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pandas | 3.0.3 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
-| pillow | 12.2.0 |
+| pillow | 12.3.0 |
 | PIMS | 0.7 |
 | pip | 26.1.2 |
 | plasmapy | 2026.2.0 |
