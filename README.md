@@ -47,9 +47,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.9 |
-| astropy | 8.0.0 |
+| astropy | 8.0.1 |
 | astropy_healpix | 2.0.0 |
-| astropy-iers-data | 0.2026.6.22.1.23.34 |
+| astropy-iers-data | 0.2026.7.6.1.1.20 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
