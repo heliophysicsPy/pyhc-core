@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.12 |
 | certifi | 2026.6.17 |
 | cftime | 1.6.5 |
-| charset-normalizer | 3.4.8 |
+| charset-normalizer | 3.4.9 |
 | click | 8.4.2 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
@@ -138,7 +138,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 8.0.0 |
 | tifffile | 2026.6.1 |
 | toolz | 1.1.0 |
-| tqdm | 4.68.3 |
+| tqdm | 4.68.4 |
 | typing_extensions | 4.16.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.7.0 |
