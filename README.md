@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.2.9 |
+| hapiclient | 0.3.0 |
 | idna | 3.18 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
