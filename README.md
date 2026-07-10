@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.3.0 |
+| hapiclient | 0.3.1 |
 | idna | 3.18 |
 | ImageIO | 2.37.3 |
 | iniconfig | 2.3.0 |
@@ -143,7 +143,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | uncertainties | 3.2.3 |
 | urllib3 | 2.7.0 |
 | wrapt | 1.17.3 |
-| xarray | 2026.4.0 |
+| xarray | 2026.7.0 |
 | yarl | 1.24.2 |
 | zarr | 3.2.1 |
 | zeep | 4.3.3 |
