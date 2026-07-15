@@ -136,7 +136,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.1.2 |
 | sunpy | 8.0.0 |
-| tifffile | 2026.6.1 |
+| tifffile | 2026.7.14 |
 | toolz | 1.1.0 |
 | tqdm | 4.68.4 |
 | typing_extensions | 4.16.0 |
