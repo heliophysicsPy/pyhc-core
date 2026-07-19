@@ -88,7 +88,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | lxml | 6.1.1 |
-| matplotlib | 3.11.0 |
+| matplotlib | 3.11.1 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.4.1 |
 | multidict | 6.7.1 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.1.2 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.10.0 |
+| platformdirs | 4.10.1 |
 | pluggy | 1.6.0 |
 | portalocker | 3.2.0 |
 | propcache | 0.5.2 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | setuptools | 81.0.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 2.8.4 |
+| soupsieve | 2.9 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.1.2 |
 | sunpy | 8.0.0 |
