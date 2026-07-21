@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.7.1 |
-| aiohttp | 3.14.1 |
+| aiohttp | 3.14.2 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | asdf | 5.3.1 |
@@ -48,8 +48,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.9 |
 | astropy | 8.0.1 |
-| astropy_healpix | 2.0.0 |
-| astropy-iers-data | 0.2026.7.13.0.54.2 |
+| astropy_healpix | 2.0.1 |
+| astropy-iers-data | 0.2026.7.20.15.31.18 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5py | 3.16.0 |
 | hapiclient | 0.3.1 |
 | idna | 3.18 |
-| ImageIO | 2.37.3 |
+| ImageIO | 2.37.4 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
 | jmespath | 1.1.0 |
@@ -144,6 +144,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | urllib3 | 2.7.0 |
 | wrapt | 1.17.3 |
 | xarray | 2026.7.0 |
-| yarl | 1.24.2 |
+| yarl | 1.24.5 |
 | zarr | 3.2.1 |
 | zeep | 4.3.3 |
