@@ -56,7 +56,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.12 |
-| certifi | 2026.6.17 |
+| certifi | 2026.7.22 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.4.9 |
 | click | 8.4.2 |
@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.3.1 |
+| hapiclient | 0.3.2 |
 | idna | 3.18 |
 | ImageIO | 2.37.4 |
 | iniconfig | 2.3.0 |
@@ -98,7 +98,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.5.1 |
 | opencv-python | 5.0.0.93 |
 | packaging | 26.2 |
-| pandas | 3.0.3 |
+| pandas | 3.0.5 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 12.3.0 |
