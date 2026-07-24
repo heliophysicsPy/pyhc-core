@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 25.1.0 |
 | aioftp | 0.27.2 |
 | aiohappyeyeballs | 2.7.1 |
-| aiohttp | 3.14.2 |
+| aiohttp | 3.14.3 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | asdf | 5.3.1 |
