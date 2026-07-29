@@ -70,7 +70,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | drms | 0.9.1 |
 | fonttools | 4.63.0 |
 | frozenlist | 1.8.0 |
-| fsspec | 2026.6.0 |
+| fsspec | 2026.7.0 |
 | geopack | 1.0.13 |
 | Glymur | 0.14.8 |
 | google-crc32c | 1.8.0 |
@@ -124,7 +124,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.34.2 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| s3fs | 2026.6.0 |
+| s3fs | 2026.7.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
 | scipy | 1.18.0 |
