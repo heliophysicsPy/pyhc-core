@@ -145,5 +145,5 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | wrapt | 1.17.3 |
 | xarray | 2026.7.0 |
 | yarl | 1.24.5 |
-| zarr | 3.2.1 |
+| zarr | 3.3.0 |
 | zeep | 4.3.3 |
