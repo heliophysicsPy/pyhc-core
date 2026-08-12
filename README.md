@@ -76,7 +76,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | google-crc32c | 1.8.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
-| hapiclient | 0.3.2 |
+| hapiclient | 0.3.3 |
 | idna | 3.18 |
 | ImageIO | 2.37.4 |
 | iniconfig | 2.3.0 |
@@ -103,7 +103,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 12.3.0 |
 | PIMS | 0.7 |
-| pip | 26.1.2 |
+| pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.11.2 |
 | pluggy | 1.6.0 |
