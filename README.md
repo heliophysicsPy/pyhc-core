@@ -58,7 +58,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.12 |
 | certifi | 2026.7.22 |
 | cftime | 1.6.5 |
-| charset-normalizer | 3.4.9 |
+| charset-normalizer | 3.5.0 |
 | click | 8.4.2 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
