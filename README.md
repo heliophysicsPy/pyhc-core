@@ -111,7 +111,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | propcache | 0.5.2 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
-| Pygments | 2.20.0 |
+| Pygments | 2.21.0 |
 | pyhc-core | 0.0.8 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
