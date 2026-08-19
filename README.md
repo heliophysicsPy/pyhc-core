@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.9 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.8.10.0.32.39 |
+| astropy-iers-data | 0.2026.8.18.14.22.31 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
@@ -77,7 +77,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.3.3 |
-| idna | 3.18 |
+| idna | 3.19 |
 | ImageIO | 2.37.4 |
 | iniconfig | 2.3.0 |
 | isodate | 0.7.2 |
