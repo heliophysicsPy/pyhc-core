@@ -46,7 +46,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
-| asteval | 1.0.9 |
+| asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
 | astropy-iers-data | 0.2026.8.18.14.22.31 |
@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.11.3 |
 | pluggy | 1.6.0 |
-| portalocker | 4.1.0 |
+| portalocker | 4.2.0 |
 | propcache | 0.5.2 |
 | PyAVM | 0.9.9 |
 | pyerfa | 2.0.1.5 |
@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | s3fs | 2026.7.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
-| scipy | 1.18.0 |
+| scipy | 1.18.1 |
 | semantic-version | 2.10.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
