@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.8.18.14.22.31 |
+| astropy-iers-data | 0.2026.8.24.0.24.29 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | boto3 | 1.40.61 |
@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spacepy | 0.7.0 |
 | spiceypy | 8.2.0 |
 | sunpy | 8.0.0 |
-| tifffile | 2026.8.16 |
+| tifffile | 2026.8.23 |
 | toolz | 1.1.0 |
 | tqdm | 4.70.0 |
 | typing_extensions | 4.16.0 |
