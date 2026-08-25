@@ -63,7 +63,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
 | cycler | 0.12.1 |
-| dask | 2026.7.1 |
+| dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
@@ -105,7 +105,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.11.3 |
+| platformdirs | 4.11.4 |
 | pluggy | 1.6.0 |
 | portalocker | 4.2.0 |
 | propcache | 0.5.2 |
