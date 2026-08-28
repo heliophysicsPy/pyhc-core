@@ -83,7 +83,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | isodate | 0.7.2 |
 | jmespath | 1.1.0 |
 | joblib | 1.5.3 |
-| kiwisolver | 1.5.0 |
+| kiwisolver | 1.5.1 |
 | lazy-loader | 0.5 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
