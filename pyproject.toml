@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyhc-core"
-version = "0.0.8"
-description = "A package to install the core PyHC packages (except Kamodo)."
+version = "0.0.9"
+description = "A package to install the core PyHC packages."
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
@@ -19,6 +19,8 @@ requires-python = ">=3.11"
 
 dependencies = [
     "hapiclient",
+    "kamodo-ccmc>=26.8.7",
+    "aioboto3>=15.5.0",  # Keep pip on a boto3-compatible pySPEDAS dependency set
     "plasmapy",
     "pysat",
     "pyspedas",

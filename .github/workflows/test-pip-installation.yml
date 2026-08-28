@@ -26,11 +26,13 @@ jobs:
     - name: Install pyhc-core
       run: |
         python -m pip install --upgrade pip
-        pip install pyhc-core
+        pip install .
 
     - name: Check core package imports
       run: |
         python -c "import hapiclient"
+        python -c "import kamodo"
+        python -c "import kamodo_ccmc"
         python -c "import plasmapy"
         python -c "import pysat"
         python -c "import pyspedas"
@@ -40,6 +42,7 @@ jobs:
     - name: Check core package versions
       run: |
         pip show hapiclient | grep Version
+        pip show kamodo-ccmc | grep Version
         pip show plasmapy | grep Version
         pip show pysat | grep Version
         pip show pyspedas | grep Version
