@@ -66,7 +66,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.3.3 |
-| coverage | 7.15.4 |
+| coverage | 7.16.0 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
