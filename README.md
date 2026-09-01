@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.63.0 |
+| fonttools | 4.64.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.7.0 |
 | geopack | 1.0.13 |
@@ -94,11 +94,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
 | jmespath | 1.1.0 |
-| joblib | 1.5.3 |
+| joblib | 1.6.0 |
 | jsonschema | 4.26.0 |
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
-| kaleido | 1.3.0 |
+| kaleido | 1.4.0 |
 | kamodo_ccmc | 26.8.7 |
 | kamodo-core-official | 26.8.7 |
 | kiwisolver | 1.5.1 |
