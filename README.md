@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.11.1 |
-| asdf | 5.3.1 |
+| asdf | 5.4.0 |
 | asdf-astropy | 0.11.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
