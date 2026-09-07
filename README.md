@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.8.31.0.57.9 |
+| astropy-iers-data | 0.2026.9.7.0.56.14 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -119,7 +119,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | networkx | 3.6.1 |
 | numba | 0.67.0 |
 | numcodecs | 0.16.5 |
-| numpy | 2.5.2 |
+| numpy | 2.5.3 |
 | opencv-python | 5.0.0.93 |
 | orjson | 3.12.0 |
 | packaging | 26.3 |
