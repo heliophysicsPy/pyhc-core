@@ -149,7 +149,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | python-forge | 18.6.0 |
 | pytz | 2026.3.post1 |
 | pyverbplt | 24.9 |
-| PyWavelets | 1.9.0 |
+| PyWavelets | 1.10.0 |
 | PyYAML | 6.0.3 |
 | rbamlib | 26.2 |
 | referencing | 0.37.0 |
