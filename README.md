@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.4.0 |
-| kamodo_ccmc | 26.8.7 |
+| kamodo_ccmc | 26.9.1 |
 | kamodo-core-official | 26.8.7 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.5 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | multidict | 6.7.1 |
-| narwhals | 2.25.0 |
+| narwhals | 2.26.0 |
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.6.1 |
@@ -130,7 +130,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.11.7 |
+| platformdirs | 4.11.8 |
 | plotly | 7.0.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.3.0 |
@@ -172,7 +172,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.2.0 |
 | sunpy | 8.0.0 |
 | sympy | 1.14.0 |
-| tifffile | 2026.8.23 |
+| tifffile | 2026.9.9 |
 | toolz | 1.1.0 |
 | tqdm | 4.70.0 |
 | traitlets | 5.16.1 |
