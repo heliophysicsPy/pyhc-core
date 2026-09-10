@@ -112,7 +112,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.11.1 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
-| multidict | 6.7.1 |
+| multidict | 6.8.0 |
 | narwhals | 2.26.0 |
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.4 |
