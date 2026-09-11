@@ -78,7 +78,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.64.0 |
+| fonttools | 4.65.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.7.0 |
 | geopack | 1.0.13 |
@@ -142,7 +142,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.9 |
 | pyparsing | 3.3.2 |
 | pysat | 3.2.2 |
-| pyspedas | 2.1.4 |
+| pyspedas | 2.1.5 |
 | pytest | 9.1.1 |
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
@@ -173,6 +173,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 8.0.0 |
 | sympy | 1.14.0 |
 | tifffile | 2026.9.9 |
+| tomli | 2.4.1 |
 | toolz | 1.1.0 |
 | tqdm | 4.70.0 |
 | traitlets | 5.16.1 |
