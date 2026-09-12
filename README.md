@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | choreographer | 1.3.0 |
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
-| contourpy | 1.3.3 |
+| contourpy | 1.4.0 |
 | coverage | 7.16.0 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
@@ -109,7 +109,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | logistro | 2.0.1 |
 | lxml | 6.1.3 |
 | MarkupSafe | 3.0.3 |
-| matplotlib | 3.11.1 |
+| matplotlib | 3.11.2 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | multidict | 6.8.0 |
@@ -175,7 +175,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | tifffile | 2026.9.9 |
 | tomli | 2.4.1 |
 | toolz | 1.1.0 |
-| tqdm | 4.70.0 |
+| tqdm | 4.70.1 |
 | traitlets | 5.16.1 |
 | typing_extensions | 4.16.0 |
 | uncertainties | 3.2.3 |
