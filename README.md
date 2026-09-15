@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.4.0 |
-| kamodo_ccmc | 26.9.1 |
+| kamodo_ccmc | 26.9.2 |
 | kamodo-core-official | 26.8.7 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.5 |
