@@ -80,7 +80,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask-RESTful | 0.3.10 |
 | fonttools | 4.65.0 |
 | frozenlist | 1.8.0 |
-| fsspec | 2026.7.0 |
+| fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
 | Glymur | 0.14.8 |
 | google-crc32c | 1.8.0 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
 | msgspec | 0.21.1 |
-| multidict | 6.8.0 |
+| multidict | 6.9.0 |
 | narwhals | 2.26.0 |
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.4 |
@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.11.10 |
+| platformdirs | 4.11.11 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.3.2 |
@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
 | rpds-py | 2026.6.3 |
-| s3fs | 2026.7.0 |
+| s3fs | 2026.9.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
 | scipy | 1.18.1 |
