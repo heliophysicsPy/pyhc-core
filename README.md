@@ -36,7 +36,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aioboto3 | 15.5.0 |
 | aiobotocore | 2.25.1 |
 | aiofiles | 25.1.0 |
-| aioftp | 0.28.0 |
+| aioftp | 0.28.3 |
 | aiohappyeyeballs | 2.7.1 |
 | aiohttp | 3.14.3 |
 | aioitertools | 0.13.0 |
@@ -134,7 +134,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | platformdirs | 4.11.11 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
-| portalocker | 4.3.2 |
+| portalocker | 4.4.0 |
 | propcache | 0.5.4 |
 | psutil | 7.2.2 |
 | PyAVM | 0.9.9 |
