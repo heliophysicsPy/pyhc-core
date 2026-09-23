@@ -57,6 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | blinker | 1.9.0 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
+| Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.12 |
 | certifi | 2026.7.22 |
@@ -143,7 +144,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.9 |
 | pyparsing | 3.3.3 |
 | pysat | 3.2.2 |
-| pyspedas | 2.1.5 |
+| pyspedas | 2.2.0 |
 | pytest | 9.1.1 |
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
@@ -175,6 +176,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.14.0 |
 | tifffile | 2026.9.20 |
 | tomli | 2.4.1 |
+| tomlkit | 0.15.1 |
 | toolz | 1.1.0 |
 | tqdm | 4.70.1 |
 | traitlets | 5.16.1 |
