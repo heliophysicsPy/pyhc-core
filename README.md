@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.65.0 |
+| fonttools | 4.66.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
