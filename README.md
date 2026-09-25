@@ -84,7 +84,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
 | Glymur | 0.14.8 |
-| google-crc32c | 1.8.0 |
+| google-crc32c | 1.9.0 |
 | h5netcdf | 1.8.1 |
 | h5py | 3.16.0 |
 | hapiclient | 0.3.3 |
@@ -149,7 +149,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| pytz | 2026.3.post1 |
+| pytz | 2026.4 |
 | pyverbplt | 24.9 |
 | PyWavelets | 1.10.0 |
 | PyYAML | 6.0.3 |
@@ -169,7 +169,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.1.2 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 2.9.2 |
+| soupsieve | 2.10 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.2.0 |
 | sunpy | 8.0.0 |
