@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
-| cdflib | 1.3.12 |
+| cdflib | 1.3.14 |
 | certifi | 2026.7.22 |
 | cftime | 1.6.5 |
 | charset-normalizer | 3.5.1 |
@@ -101,7 +101,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jupyter_core | 5.9.1 |
 | kaleido | 1.4.0 |
 | kamodo_ccmc | 26.9.2 |
-| kamodo-core-official | 26.8.7 |
+| kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
 | llvmlite | 0.49.0 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.11.12 |
+| platformdirs | 4.11.15 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.4.0 |
