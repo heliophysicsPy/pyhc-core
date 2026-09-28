@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.9.21.0.56.25 |
+| astropy-iers-data | 0.2026.9.28.0.59.37 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
-| coverage | 7.16.1 |
+| coverage | 7.16.2 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -183,7 +183,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | typing_extensions | 4.16.0 |
 | uncertainties | 3.2.3 |
 | urllib3 | 2.8.0 |
-| Werkzeug | 3.1.8 |
+| Werkzeug | 3.1.9 |
 | wrapt | 1.17.3 |
 | xarray | 2026.7.0 |
 | yarl | 1.25.1 |
