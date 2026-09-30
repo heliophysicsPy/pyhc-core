@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.66.0 |
+| fonttools | 4.66.1 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
@@ -113,7 +113,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | matplotlib | 3.11.2 |
 | mpl_animators | 1.2.4 |
 | mpmath | 1.3.0 |
-| msgspec | 0.21.1 |
+| msgspec | 0.22.0 |
 | multidict | 6.9.1 |
 | narwhals | 2.26.0 |
 | nbformat | 5.11.1 |
@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.12.1 |
+| platformdirs | 4.12.2 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.4.0 |
@@ -185,7 +185,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | urllib3 | 2.8.0 |
 | Werkzeug | 3.1.9 |
 | wrapt | 1.17.3 |
-| xarray | 2026.7.0 |
+| xarray | 2026.9.0 |
 | yarl | 1.25.1 |
 | zarr | 3.4.0 |
 | zeep | 4.3.3 |
