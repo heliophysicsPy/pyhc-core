@@ -62,7 +62,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdflib | 1.3.14 |
 | certifi | 2026.7.22 |
 | cftime | 1.6.6 |
-| charset-normalizer | 3.5.1 |
+| charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
@@ -100,11 +100,11 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.4.0 |
-| kamodo_ccmc | 26.9.2 |
+| kamodo_ccmc | 26.9.3 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
-| llvmlite | 0.49.0 |
+| llvmlite | 0.50.0 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | logistro | 2.0.1 |
@@ -119,7 +119,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.7 |
-| numba | 0.67.0 |
+| numba | 0.68.0 |
 | numcodecs | 0.17.0 |
 | numpy | 2.5.3 |
 | opencv-python | 5.0.0.93 |
