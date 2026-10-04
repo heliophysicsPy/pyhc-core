@@ -132,7 +132,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.12.2 |
+| platformdirs | 4.12.3 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.4.0 |
@@ -149,7 +149,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| pytz | 2026.4 |
+| pytz | 2026.5 |
 | pyverbplt | 24.9 |
 | PyWavelets | 1.10.0 |
 | PyYAML | 6.0.3 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | scipy | 1.18.1 |
 | semantic-version | 2.10.0 |
 | sgp4 | 2.27 |
-| simplejson | 4.1.2 |
+| simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
 | soupsieve | 2.10 |
