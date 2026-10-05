@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.9.28.0.59.37 |
+| astropy-iers-data | 0.2026.10.5.1.0.7 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -159,7 +159,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | requests | 2.34.2 |
 | requests-file | 3.0.1 |
 | requests-toolbelt | 1.0.0 |
-| rpds-py | 2026.6.3 |
+| rpds-py | 2026.9.1 |
 | s3fs | 2026.9.0 |
 | s3transfer | 0.14.0 |
 | scikit-image | 0.26.0 |
