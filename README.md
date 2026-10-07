@@ -90,7 +90,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | hapiclient | 0.3.3 |
 | idna | 3.20 |
 | ImageIO | 2.38.0 |
-| iniconfig | 2.3.0 |
+| iniconfig | 2.3.1 |
 | isodate | 0.7.2 |
 | itsdangerous | 2.2.0 |
 | Jinja2 | 3.1.6 |
@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema | 4.26.0 |
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
-| kaleido | 1.4.0 |
+| kaleido | 1.5.0 |
 | kamodo_ccmc | 26.9.3 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
@@ -123,7 +123,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numcodecs | 0.17.0 |
 | numpy | 2.5.3 |
 | opencv-python | 5.0.0.93 |
-| orjson | 3.12.0 |
 | packaging | 26.3 |
 | pandas | 3.0.6 |
 | parfive | 2.3.1 |
