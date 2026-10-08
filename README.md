@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.12.3 |
+| platformdirs | 4.12.4 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.4.0 |
@@ -174,9 +174,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sunpy | 8.0.0 |
 | sympy | 1.14.0 |
 | tifffile | 2026.9.20 |
-| tomli | 2.4.1 |
+| tomli | 2.5.0 |
 | tomlkit | 0.15.1 |
-| toolz | 1.1.0 |
+| toolz | 1.2.0 |
 | tqdm | 4.70.1 |
 | traitlets | 5.16.1 |
 | typing_extensions | 4.16.0 |
