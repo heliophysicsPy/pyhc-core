@@ -38,7 +38,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiofiles | 25.1.0 |
 | aioftp | 0.28.3 |
 | aiohappyeyeballs | 2.7.1 |
-| aiohttp | 3.14.4 |
+| aiohttp | 3.14.5 |
 | aioitertools | 0.13.0 |
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
@@ -115,13 +115,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgspec | 0.22.0 |
 | multidict | 6.9.1 |
-| narwhals | 2.26.0 |
+| narwhals | 2.27.1 |
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.4 |
 | networkx | 3.7 |
 | numba | 0.68.0 |
 | numcodecs | 0.17.0 |
-| numpy | 2.5.3 |
+| numpy | 2.5.4 |
 | opencv-python | 5.0.0.93 |
 | packaging | 26.3 |
 | pandas | 3.0.6 |
@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.12.4 |
+| platformdirs | 4.13.0 |
 | plotly | 7.1.0 |
 | pluggy | 1.6.0 |
 | portalocker | 4.4.0 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 2.10 |
+| soupsieve | 3.0.1 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.2.0 |
 | sunpy | 8.0.1 |
