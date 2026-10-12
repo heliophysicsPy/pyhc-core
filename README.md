@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.1 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.10.5.1.0.7 |
+| astropy-iers-data | 0.2026.10.12.1.3.27 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -168,9 +168,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 3.0.1 |
+| soupsieve | 3.0.2 |
 | spacepy | 0.7.0 |
-| spiceypy | 8.2.0 |
+| spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
 | tifffile | 2026.9.20 |
