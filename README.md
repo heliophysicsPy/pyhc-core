@@ -61,7 +61,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cdasws | 1.8.18 |
 | cdflib | 1.3.14 |
 | certifi | 2026.7.22 |
-| cftime | 1.6.6 |
+| cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
 | click | 8.5.0 |
@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.66.1 |
+| fonttools | 4.67.0 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
