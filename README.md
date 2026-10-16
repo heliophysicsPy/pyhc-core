@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.10 |
-| astropy | 8.0.1 |
+| astropy | 8.0.2 |
 | astropy_healpix | 2.0.1 |
 | astropy-iers-data | 0.2026.10.12.1.3.27 |
 | attrs | 26.1.0 |
@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | multidict | 6.9.1 |
 | narwhals | 2.27.1 |
 | nbformat | 5.11.1 |
-| netCDF4 | 1.7.4 |
+| netCDF4 | 1.7.5 |
 | networkx | 3.7 |
 | numba | 0.68.0 |
 | numcodecs | 0.17.0 |
@@ -131,9 +131,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.13.0 |
+| platformdirs | 4.13.3 |
 | plotly | 7.1.0 |
-| pluggy | 1.6.0 |
+| pluggy | 1.7.0 |
 | portalocker | 4.4.0 |
 | propcache | 0.5.4 |
 | psutil | 7.2.2 |
@@ -173,7 +173,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
-| tifffile | 2026.9.20 |
+| tifffile | 2026.10.15 |
 | tomli | 2.5.0 |
 | tomlkit | 0.15.1 |
 | toolz | 1.2.0 |
