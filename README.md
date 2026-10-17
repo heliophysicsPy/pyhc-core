@@ -127,14 +127,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pandas | 3.0.6 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
-| pillow | 12.3.0 |
+| pillow | 13.0.0 |
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.13.3 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
-| portalocker | 4.4.0 |
+| portalocker | 4.4.1 |
 | propcache | 0.5.4 |
 | psutil | 7.2.2 |
 | PyAVM | 0.9.9 |
@@ -175,7 +175,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.14.0 |
 | tifffile | 2026.10.15 |
 | tomli | 2.5.0 |
-| tomlkit | 0.15.1 |
+| tomlkit | 0.15.2 |
 | toolz | 1.2.0 |
 | tqdm | 4.70.1 |
 | traitlets | 5.16.1 |
