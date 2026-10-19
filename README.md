@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.2 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.10.12.1.3.27 |
+| astropy-iers-data | 0.2026.10.19.0.52.1 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -60,7 +60,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.14 |
-| certifi | 2026.7.22 |
+| certifi | 2026.10.18 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.1 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.13.4 |
+| platformdirs | 4.13.5 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.1 |
