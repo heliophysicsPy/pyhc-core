@@ -43,7 +43,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | aiosignal | 1.4.0 |
 | aniso8601 | 10.0.1 |
 | antlr4-python3-runtime | 4.11.1 |
-| asdf | 5.4.0 |
+| asdf | 6.0.0 |
 | asdf-astropy | 0.11.0 |
 | asdf_coordinates_schemas | 0.5.1 |
 | asdf_standard | 1.5.0 |
@@ -60,7 +60,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.14 |
-| certifi | 2026.10.18 |
+| certifi | 2026.7.22 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
@@ -143,7 +143,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.9 |
 | pyparsing | 3.3.3 |
 | pysat | 3.2.2 |
-| pyspedas | 2.2.0 |
+| pyspedas | 2.2.1 |
 | pytest | 9.1.1 |
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
