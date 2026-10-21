@@ -59,7 +59,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
-| cdflib | 1.3.14 |
+| cdflib | 1.3.15 |
 | certifi | 2026.7.22 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
@@ -120,7 +120,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | netCDF4 | 1.7.5 |
 | networkx | 3.7 |
 | numba | 0.68.0 |
-| numcodecs | 0.17.0 |
+| numcodecs | 0.17.1 |
 | numpy | 2.5.4 |
 | opencv-python | 5.0.0.93 |
 | packaging | 26.3 |
