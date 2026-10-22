@@ -59,8 +59,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | botocore | 1.40.61 |
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
-| cdflib | 1.3.15 |
-| certifi | 2026.7.22 |
+| cdflib | 1.3.16 |
+| certifi | 2026.10.19 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
@@ -143,7 +143,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.9 |
 | pyparsing | 3.3.3 |
 | pysat | 3.2.2 |
-| pyspedas | 2.2.1 |
+| pyspedas | 2.2.2 |
 | pytest | 9.1.1 |
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 3.0.3 |
+| soupsieve | 3.0.4 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
