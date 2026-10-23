@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
-| coverage | 7.16.2 |
+| coverage | 7.17.0 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -100,7 +100,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.5.0 |
-| kamodo_ccmc | 26.9.3 |
+| kamodo_ccmc | 26.10.1 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
@@ -124,7 +124,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.5.4 |
 | opencv-python | 5.0.0.93 |
 | packaging | 26.3 |
-| pandas | 3.0.6 |
+| pandas | 3.1.0 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 13.0.0 |
