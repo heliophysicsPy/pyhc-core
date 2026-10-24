@@ -60,7 +60,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Bottleneck | 1.6.0 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.16 |
-| certifi | 2026.10.19 |
+| certifi | 2026.10.23 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
@@ -117,7 +117,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | multidict | 6.9.1 |
 | narwhals | 2.27.1 |
 | nbformat | 5.11.1 |
-| netCDF4 | 1.7.5 |
+| netCDF4 | 1.7.5.1.post1 |
 | networkx | 3.7 |
 | numba | 0.68.0 |
 | numcodecs | 0.17.1 |
