@@ -148,7 +148,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
 | python-forge | 18.6.0 |
-| pytz | 2026.5 |
+| pytz | 2026.6 |
 | pyverbplt | 24.9 |
 | PyWavelets | 1.10.0 |
 | PyYAML | 6.0.3 |
