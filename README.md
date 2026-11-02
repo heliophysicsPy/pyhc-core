@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.2 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.10.19.0.52.1 |
+| astropy-iers-data | 0.2026.11.2.0.34.55 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -75,7 +75,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.1 |
-| fastjsonschema | 2.22.2 |
+| fastjsonschema | 2.22.3 |
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
@@ -131,7 +131,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.2.2 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.14.2 |
+| platformdirs | 4.14.3 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
