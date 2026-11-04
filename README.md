@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
-| coverage | 7.17.0 |
+| coverage | 7.17.1 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 3.0.4 |
+| soupsieve | 4.0 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
