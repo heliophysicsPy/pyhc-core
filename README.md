@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.0 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
-| coverage | 7.17.1 |
+| coverage | 7.17.2 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -124,14 +124,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numpy | 2.5.4 |
 | opencv-python | 5.0.0.93 |
 | packaging | 26.3 |
-| pandas | 3.1.0 |
+| pandas | 3.1.1 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
 | pillow | 13.0.0 |
 | PIMS | 0.7 |
 | pip | 26.2.2 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.14.3 |
+| platformdirs | 4.14.5 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.2.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 4.0 |
+| soupsieve | 4.0.1 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
