@@ -100,11 +100,10 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.5.0 |
-| kamodo_ccmc | 26.10.1 |
+| kamodo_ccmc | 26.11.1 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
-| llvmlite | 0.50.0 |
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | logistro | 2.0.1 |
@@ -119,7 +118,6 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.5.1.post1 |
 | networkx | 3.7 |
-| numba | 0.68.1 |
 | numcodecs | 0.17.1 |
 | numpy | 2.5.4 |
 | opencv-python | 5.0.0.93 |
