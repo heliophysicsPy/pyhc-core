@@ -64,7 +64,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
-| click | 8.5.0 |
+| click | 8.5.1 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
 | coverage | 7.17.2 |
