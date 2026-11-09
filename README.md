@@ -51,7 +51,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asteval | 1.0.10 |
 | astropy | 8.0.2 |
 | astropy_healpix | 2.0.1 |
-| astropy-iers-data | 0.2026.11.2.0.34.55 |
+| astropy-iers-data | 0.2026.11.9.0.35.9 |
 | attrs | 26.1.0 |
 | beautifulsoup4 | 4.15.0 |
 | blinker | 1.9.0 |
@@ -171,7 +171,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.3.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
-| tifffile | 2026.10.15 |
+| tifffile | 2026.11.8 |
 | tomli | 2.5.0 |
 | tomlkit | 0.15.2 |
 | toolz | 1.2.0 |
