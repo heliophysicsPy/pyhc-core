@@ -163,7 +163,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | scipy | 1.18.1 |
 | semantic-version | 2.10.0 |
 | sgp4 | 2.27 |
-| simplejson | 4.2.0 |
+| simplejson | 4.3.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
 | soupsieve | 4.1 |
