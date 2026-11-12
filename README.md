@@ -85,7 +85,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | geopack | 1.0.13 |
 | Glymur | 0.14.8 |
 | google-crc32c | 1.9.0 |
-| h5netcdf | 1.8.2 |
+| h5netcdf | 1.8.3 |
 | h5py | 3.16.0 |
 | hapiclient | 0.3.3 |
 | idna | 3.20 |
@@ -168,7 +168,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | slicerator | 1.1.0 |
 | soupsieve | 4.1 |
 | spacepy | 0.7.0 |
-| spiceypy | 8.3.0 |
+| spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
 | tifffile | 2026.11.8 |
