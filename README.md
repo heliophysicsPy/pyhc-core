@@ -57,7 +57,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | blinker | 1.9.0 |
 | boto3 | 1.40.61 |
 | botocore | 1.40.61 |
-| Bottleneck | 1.6.0 |
+| Bottleneck | 1.6.1 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.16 |
 | certifi | 2026.10.23 |
@@ -67,7 +67,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.1 |
 | cloudpickle | 3.1.2 |
 | contourpy | 1.4.0 |
-| coverage | 7.17.2 |
+| coverage | 7.17.3 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -99,8 +99,8 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema | 4.26.0 |
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
-| kaleido | 1.5.0 |
-| kamodo_ccmc | 26.11.1 |
+| kaleido | 1.5.1 |
+| kamodo_ccmc | 26.11.3 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
@@ -171,7 +171,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
-| tifffile | 2026.11.8 |
+| tifffile | 2026.11.12 |
 | tomli | 2.5.0 |
 | tomlkit | 0.15.2 |
 | toolz | 1.2.0 |
