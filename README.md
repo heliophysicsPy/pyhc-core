@@ -127,7 +127,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | partd | 1.4.2 |
 | pillow | 13.0.0 |
 | PIMS | 0.7 |
-| pip | 26.2.2 |
+| pip | 26.3 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.14.5 |
 | plotly | 7.1.0 |
