@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.3.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 4.1 |
+| soupsieve | 4.1.1 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
