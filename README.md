@@ -89,7 +89,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | h5py | 3.16.0 |
 | hapiclient | 0.3.3 |
 | idna | 3.20 |
-| ImageIO | 2.38.1 |
+| ImageIO | 2.38.2 |
 | iniconfig | 2.3.1 |
 | isodate | 0.7.2 |
 | itsdangerous | 2.2.0 |
@@ -171,7 +171,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
-| tifffile | 2026.11.12 |
+| tifffile | 2026.11.16 |
 | tomli | 2.5.0 |
 | tomlkit | 0.15.2 |
 | toolz | 1.2.0 |
