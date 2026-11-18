@@ -49,7 +49,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | asdf_standard | 1.5.0 |
 | asdf_transform_schemas | 0.6.0 |
 | asteval | 1.0.10 |
-| astropy | 8.0.2 |
+| astropy | 8.0.3 |
 | astropy_healpix | 2.0.1 |
 | astropy-iers-data | 0.2026.11.16.0.37.44 |
 | attrs | 26.1.0 |
@@ -100,7 +100,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
 | kaleido | 1.5.1 |
-| kamodo_ccmc | 26.11.3 |
+| kamodo_ccmc | 26.11.4 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
 | lazy-loader | 0.6 |
@@ -114,13 +114,13 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | mpmath | 1.3.0 |
 | msgspec | 0.22.0 |
 | multidict | 6.9.1 |
-| narwhals | 2.28.0 |
+| narwhals | 2.29.0 |
 | nbformat | 5.11.1 |
 | netCDF4 | 1.7.5.1.post1 |
 | networkx | 3.7 |
 | numcodecs | 0.17.1 |
 | numpy | 2.5.5 |
-| opencv-python | 5.0.0.93 |
+| opencv-python | 5.1.0.95 |
 | packaging | 26.3 |
 | pandas | 3.1.1 |
 | parfive | 2.3.1 |
@@ -129,7 +129,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.3 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.14.5 |
+| platformdirs | 4.14.7 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
