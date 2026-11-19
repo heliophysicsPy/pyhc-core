@@ -65,7 +65,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
 | click | 8.5.1 |
-| cloudpickle | 3.1.2 |
+| cloudpickle | 3.1.3 |
 | contourpy | 1.4.0 |
 | coverage | 7.17.3 |
 | cycler | 0.12.1 |
@@ -99,7 +99,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | jsonschema | 4.26.0 |
 | jsonschema-specifications | 2025.9.1 |
 | jupyter_core | 5.9.1 |
-| kaleido | 1.5.1 |
+| kaleido | 1.5.2 |
 | kamodo_ccmc | 26.11.4 |
 | kamodo-core-official | 26.9.1 |
 | kiwisolver | 1.5.1 |
@@ -135,7 +135,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | portalocker | 4.4.2 |
 | propcache | 0.5.4 |
 | psutil | 7.2.2 |
-| PyAVM | 0.9.9 |
+| PyAVM | 0.9.10 |
 | pyerfa | 2.0.1.5 |
 | Pygments | 2.21.0 |
 | pyhc-core | 0.0.9 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.3.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 4.1.1 |
+| soupsieve | 4.1.2 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
