@@ -60,14 +60,14 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Bottleneck | 1.6.1 |
 | cdasws | 1.8.18 |
 | cdflib | 1.3.16 |
-| certifi | 2026.10.23 |
+| certifi | 2026.11.20 |
 | cftime | 1.6.6.1 |
 | charset-normalizer | 3.5.2 |
 | choreographer | 1.4.0 |
 | click | 8.5.1 |
 | cloudpickle | 3.1.3 |
 | contourpy | 1.4.0 |
-| coverage | 7.17.3 |
+| coverage | 7.17.4 |
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
@@ -129,7 +129,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.3 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.14.7 |
+| platformdirs | 4.14.8 |
 | plotly | 7.1.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
@@ -149,7 +149,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pytz | 2026.6 |
 | pyverbplt | 24.9 |
 | PyWavelets | 1.10.0 |
-| PyYAML | 6.0.3 |
+| PyYAML | 6.0.4 |
 | rbamlib | 26.2 |
 | referencing | 0.37.0 |
 | reproject | 0.21.0 |
@@ -166,7 +166,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | simplejson | 4.3.0 |
 | six | 1.17.0 |
 | slicerator | 1.1.0 |
-| soupsieve | 4.1.2 |
+| soupsieve | 4.1.3 |
 | spacepy | 0.7.0 |
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
