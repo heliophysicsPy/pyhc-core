@@ -71,7 +71,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | cycler | 0.12.1 |
 | dask | 2026.8.0 |
 | dask-image | 2026.5.0 |
-| decorator | 5.3.1 |
+| decorator | 5.3.2 |
 | dill | 0.4.1 |
 | donfig | 0.8.1.post1 |
 | drms | 0.9.1 |
