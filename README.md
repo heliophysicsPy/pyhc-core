@@ -67,9 +67,9 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | click | 8.5.1 |
 | cloudpickle | 3.1.3 |
 | contourpy | 1.4.0 |
-| coverage | 7.17.4 |
+| coverage | 7.17.5 |
 | cycler | 0.12.1 |
-| dask | 2026.8.0 |
+| dask | 2026.11.0 |
 | dask-image | 2026.5.0 |
 | decorator | 5.3.2 |
 | dill | 0.4.1 |
@@ -121,7 +121,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | numcodecs | 0.17.1 |
 | numpy | 2.5.5 |
 | opencv-python | 5.1.0.95 |
-| packaging | 26.3 |
+| packaging | 26.4 |
 | pandas | 3.1.1 |
 | parfive | 2.3.1 |
 | partd | 1.4.2 |
@@ -173,7 +173,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | sympy | 1.14.0 |
 | tifffile | 2026.11.16 |
 | tomli | 2.5.0 |
-| tomlkit | 0.15.2 |
+| tomlkit | 0.15.3 |
 | toolz | 1.2.0 |
 | tqdm | 4.70.1 |
 | traitlets | 5.16.1 |
