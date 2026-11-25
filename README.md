@@ -130,7 +130,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pip | 26.3 |
 | plasmapy | 2026.2.0 |
 | platformdirs | 4.14.8 |
-| plotly | 7.1.0 |
+| plotly | 7.2.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
 | propcache | 0.5.4 |
