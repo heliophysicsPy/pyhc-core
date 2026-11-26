@@ -79,7 +79,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | Flask | 3.1.3 |
 | flask-cors | 6.0.5 |
 | Flask-RESTful | 0.3.10 |
-| fonttools | 4.68.0 |
+| fonttools | 4.69.1 |
 | frozenlist | 1.8.0 |
 | fsspec | 2026.9.0 |
 | geopack | 1.0.13 |
@@ -141,7 +141,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | pyhc-core | 0.0.9 |
 | pyparsing | 3.3.3 |
 | pysat | 3.2.2 |
-| pyspedas | 2.2.2 |
+| pyspedas | 2.3.0 |
 | pytest | 9.2.0 |
 | pytest-cov | 7.1.0 |
 | python-dateutil | 2.9.0.post0 |
