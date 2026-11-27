@@ -171,7 +171,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | spiceypy | 8.4.0 |
 | sunpy | 8.0.1 |
 | sympy | 1.14.0 |
-| tifffile | 2026.11.16 |
+| tifffile | 2026.11.26 |
 | tomli | 2.5.0 |
 | tomlkit | 0.15.3 |
 | toolz | 1.2.0 |
