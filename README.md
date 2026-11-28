@@ -107,7 +107,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | lmfit | 1.3.4 |
 | locket | 1.0.0 |
 | logistro | 2.0.1 |
-| lxml | 6.1.3 |
+| lxml | 6.2.0 |
 | MarkupSafe | 3.0.4 |
 | matplotlib | 3.11.2 |
 | mpl_animators | 1.2.4 |
@@ -129,7 +129,7 @@ This table shows the output of running `pip list` after installing `pyhc-core` i
 | PIMS | 0.7 |
 | pip | 26.3 |
 | plasmapy | 2026.2.0 |
-| platformdirs | 4.14.8 |
+| platformdirs | 4.14.9 |
 | plotly | 7.2.0 |
 | pluggy | 1.7.0 |
 | portalocker | 4.4.2 |
